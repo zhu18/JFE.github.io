@@ -46,7 +46,7 @@ $(document).ready(function () {
             }
         }
     });
-    $("#passion_form").validate();
+    //$("#passion_form").validate();
 
     /*var a;
     a = new GMaps({
