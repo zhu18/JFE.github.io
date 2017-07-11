@@ -143,20 +143,22 @@ html[xmlns] .slides { display: block; }
 /* ==========================================================
                 services
 ============================================================= */
-.services, .about, .projects { background: #F2F2F2; border-bottom: 5px solid #FCFCFC; color: #666D89; padding: 80px 0; }
+.services, .about, .projects { background: #F2F2F2; border-bottom: 5px solid #FCFCFC; color: #666D89; padding: 80px 0 40px 0; }
 .ser_wrap_3 { border-bottom: 1px solid #EDEDED; margin: 0; overflow: hidden; padding: 20px 0; }
 .ser_wrap_3 ul { overflow: hidden; padding: 0; }
 .ser_wrap_3 ul li { margin-bottom: 0; overflow: hidden; padding: 5px; border:1px solid transparent;border-radius: 5px; transition: all 1s;margin-bottom: 10px;}
-.ser_wrap_3 ul li:hover{border:1px solid rgb(102, 109, 137); }
+.ser_wrap_border ul li:hover{border:1px solid rgb(102, 109, 137); }
 .ser_wrap_3 ul li a{color:rgb(102, 109, 137);}
 .ser_wrap_3 .icon_ser { border: 1px solid #666D89; -moz-border-radius: 045px 45px 45px 45px; -webkit-border-radius: 45px 45px 45px 45px; border-radius: 45px 45px 45px 45px; color: #666D89; float: left; font-size: 1.9em; height: 50px; line-height: 50px; text-align: center; vertical-align: middle; width: 50px; }
 .ser_wrap_3 .wrap { float: left; margin: 0 0 0 10px; width: 79%; }
 .ser_wrap_3.option2 ul li:hover .icon_ser { font-size:3.6em; }
 .ser_wrap_3 .wrap h3 { margin: 5px 0 }
 .ser_wrap_3.option3 ul li { text-align: center; }
-.ser_wrap_3.option3 .icon_ser { border: 2px solid; display: block; float: none; font-size: 3em; height: 75px; line-height:75px; margin: 0 auto 20px; width:75px }
+.ser_wrap_3.option3 .icon_ser { border: 2px solid; display: block; float: none; font-size: 3em; height: 75px; line-height:75px; margin: 0 auto 10px; width:75px }
 .ser_wrap_3.option3 .wrap { float: none; width: 100%; }
-
+.ser_wrap_3_tool a{display: inline-block;margin-right: 20px;margin-top: 20px; padding: 5px 10px; border: 1px solid rgb(102, 109, 137); border-radius: 5px;  transition: all 200ms;}
+.ser_wrap_3_tool a:hover{border-radius: 10px;}
+.ser_wrap_3_tool .wrap{margin:0px !important;}
 /* ==========================================================
                 portfolio
 ============================================================= */

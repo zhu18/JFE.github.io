@@ -21,8 +21,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="468" column="43" lean-forward="true" selection-start-line="468" selection-start-column="43" selection-end-line="468" selection-end-column="43" />
+            <state relative-caret-position="309">
+              <caret line="158" column="171" lean-forward="false" selection-start-line="158" selection-start-column="171" selection-end-line="158" selection-end-column="171" />
               <folding />
             </state>
           </provider>
@@ -31,14 +31,27 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="337" column="69" lean-forward="false" selection-start-line="337" selection-start-column="69" selection-end-line="337" selection-end-column="69" />
-              <folding />
+            <state relative-caret-position="334">
+              <caret line="158" column="99" lean-forward="true" selection-start-line="158" selection-start-column="99" selection-end-line="158" selection-end-column="99" />
+              <folding>
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.ser_wrap_3 .wrap</find>
+      <find>Tel</find>
+      <find>ser_wrap_3</find>
+      <find>.services, .about, .projects</find>
+      <find>ser_wrap_3</find>
+      <find>.ser_wrap_3.option3 .icon_ser</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,12 +136,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499764982018</updated>
-      <workItem from="1499764987276" duration="654000" />
+      <workItem from="1499764987276" duration="4388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="654000" />
+    <option name="totallyTimeSpent" value="4388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1918" height="1040" extended-state="0" />
@@ -165,17 +178,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="468" column="43" lean-forward="true" selection-start-line="468" selection-start-column="43" selection-end-line="468" selection-end-column="43" />
+        <state relative-caret-position="309">
+          <caret line="158" column="171" lean-forward="false" selection-start-line="158" selection-start-column="171" selection-end-line="158" selection-end-column="171" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="337" column="69" lean-forward="false" selection-start-line="337" selection-start-column="69" selection-end-line="337" selection-end-column="69" />
-          <folding />
+        <state relative-caret-position="334">
+          <caret line="158" column="99" lean-forward="true" selection-start-line="158" selection-start-column="99" selection-end-line="158" selection-end-column="99" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
