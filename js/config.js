@@ -15,7 +15,7 @@
     { name: '杨微', tel: '18519292486', email: 'yangwei@jusfoun.com', qq: '873483161', des: '不一样色儿的呲花', url: '/users/yangwei' ,group:'pro3'},
     { name: '商业庆', tel: '13121730259', email: 'shangyeqing@jusfoun.com', qq: '1246283740', des: '恐怖如斯', url: '/users/shangyeqing' ,group:'pro1'},
     { name: '魏阁', tel: '18310634607', email: 'wg@jusfoun.com', qq: '3129168699', des: '努力 拼搏', url: '/users/weige' ,group:'pro1'},
-    { name: '杨杰', tel: '17801129475', email: 'yangjie@jusfoun.com', qq: '624699461', des: '....', url: '/users/yangjie' ,group:'pro1'},
+    { name: '杨杰', tel: '17801129475', email: 'yangjie@jusfoun.com', qq: '624699461', des: '请叫我小胖', url: '/users/yangjie' ,group:'pro1'},
     { name: '李猛', tel: '18618133836', email: 'limeng@jusfoun.com', qq: '1526437167', des: '做好自己', url: '/users/limeng' ,group:'pub'},
     { name: '汝银娟', tel: '18611833241', email: 'ryj@jusfoun.com', qq: '1601450116', des: '90后女汉子', url: '/users/ruyinjuan'  ,group:'pub'},
     { name: '郭惠敏', tel: '15810169916', email: 'ghm@jusfoun.com', qq: '2777061859', des: '小萝莉', url: '/users/guohuimin'  ,group:'pub'},
