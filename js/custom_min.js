@@ -13,7 +13,6 @@ $(".ha-waypoint").each(function (b) {
 });
 
 $(document).ready(function () {
-
     new Ractive({
         el: '#filter_container',
         template: '#teamRTemp',
@@ -61,6 +60,11 @@ $(document).ready(function () {
      overviewMapControl: false
      })*/
 });
+
+function vaildateNet(){
+
+    $("#priInfo").attr({href:"",target:"_self"});
+}
 
 $(function () {
     var b = $("#filter_container");
