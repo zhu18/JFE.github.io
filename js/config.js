@@ -19,7 +19,7 @@
     { name: '李猛', tel: '18618133836', email: 'limeng@jusfoun.com', qq: '1526437167', des: '做好自己', url: '/users/limeng' ,group:'pub'},
     { name: '汝银娟', tel: '18611833241', email: 'ryj@jusfoun.com', qq: '1601450116', des: '90后女汉子', url: '/users/ruyinjuan'  ,group:'pub'},
     { name: '郭惠敏', tel: '15810169916', email: 'ghm@jusfoun.com', qq: '2777061859', des: '小萝莉', url: '/users/guohuimin'  ,group:'pub'},
-    { name: '冯彦文', tel: '15201565398', email: 'fyw@jusfoun.com', qq: '793268593', des: '....', url: '/users/fengyanwen'  ,group:'pub'},
+    { name: '冯彦文', tel: '15201565398', email: 'fyw@jusfoun.com', qq: '793268593', des: '我是冯老师', url: '/users/fengyanwen'  ,group:'pub'},
     { name: '任新杰', tel: '15611346676', email: 'rxj@jusfoun.com', qq: '346494891', des: '....', url: '/users/renxinjie' ,group:'pro4'},
     { name: '颜庭光', tel: '15201147857', email: 'ytg@jusfoun.com', qq: '522125842', des: '....', url: '/users/yantingguang'  ,group:'pro4'},
     { name: '韩凯波', tel: '18610815241', email: 'hkb@jusfoun.com', qq: '1342233762', des: '....', url: '/users/hankaibo'  ,group:'pro4'},
