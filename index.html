@@ -229,7 +229,7 @@
                         <h1>团队介绍</h1>
                     </header>
                 </div>
-                <p>前端团队分5个组，基本以组为单位对外提供项目支持，视项目情况组间成员可以相互借调。我们是一支能战斗的团队.....</p>
+                <p id="tramIntro">前端团队分5个组，基本以组为单位对外提供项目支持，视项目情况组间成员可以相互借调。我们是一支能战斗的团队.....</p>
             </div>
         </div>
     </div>
@@ -251,21 +251,13 @@
                 <script id="teamRTemp" type="text/ractive">
         {{#each teams:i}}
             <div class="element {{group}} copywriting" data-category="{{group}}">
-              <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="img/team/{{name}}.jpg" alt="filter" /> </a>
+              <div class="hexagon"> <a href="#"> <span class="mask"></span> <img class="scrollLoading" src="img/team/default.jpg" data-url="img/team/{{name}}.jpg" onerror="javascript:this.src='img/team/default.jpg'" alt="filter" /> </a>
                 <div class="portfolio-title">
                   <h4>{{name}}<span>{{des}}</span></h4>
                 </div>
               </div>
             </div>
         {{/each}}
-
-
-
-
-
-
-
-
                 </script>
             </div>
         </div>
@@ -287,8 +279,8 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-md-6 col-sm-12">
-                        <div class="jumbotron">
-                            <h3>前端工程师 </h3>
+                        <div class="jumbotron job-intro">
+                            <h3>前端工程师 </h3><a href="mailto:zry@jusfoun.com?subject=%20前端工程师%20" title="发送邮件"><i class="fa fa-envelope"></i></a>
                             <address class="job">
                                 <span>1. 3年以上相关工作经验，计算机相关专业，本科以上学历；</span>
                                 <span>2. 精通 JavaScript，HTML5，CSS3，熟悉常见跨浏览器问题，了解必要的计算机网络协议</span>
@@ -304,8 +296,8 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6 col-sm-12">
-                        <div class="jumbotron">
-                            <h3>前端工程师-H5方向 </h3>
+                        <div class="jumbotron job-intro">
+                            <h3>前端工程师-H5方向 </h3><a href="mailto:zry@jusfoun.com?subject=%20前端工程师-H5方向%20" title="发送邮件"><i class="fa fa-envelope"></i></a>
                             <address class="job">
                                 <span>1. 3年以上相关工作经验，计算机相关专业，本科以上学历；</span>
                                 <span>2. 熟悉HTML5、CSS3开发技术，了解JavaScript面向对象编程方法；</span>
@@ -322,8 +314,8 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-md-6 col-sm-12">
-                        <div class="jumbotron">
-                            <h3>前端工程师-可视化方向 </h3>
+                        <div class="jumbotron job-intro">
+                            <h3>前端工程师-可视化方向 </h3><a href="mailto:zry@jusfoun.com?subject=%20前端工程师-可视化方向%20" title="发送邮件"><i class="fa fa-envelope"></i></a>
                             <address class="job">
                                 <span>1. 3年以上相关工作经验，计算机相关专业，本科以上学历；</span>
                                 <span>2. 熟悉HTML5、CSS3开发技术，了解JavaScript面向对象编程方法；</span>
@@ -337,8 +329,8 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6 col-sm-12">
-                        <div class="jumbotron">
-                            <h3>全栈工程师 </h3>
+                        <div class="jumbotron job-intro">
+                            <h3>全栈工程师 </h3><a href="mailto:zry@jusfoun.com?subject=%20全栈工程师%20" title="发送邮件"><i class="fa fa-envelope"></i></a>
                             <address class="job">
                                 <span>1. 3年以上相关工作经验，计算机相关专业，本科以上学历；</span>
                                 <span>2. 精通JS,HTML5、CSS3；</span>
@@ -406,9 +398,10 @@
 <script src="js/pace.min.js"></script> <!--page load progress bar-->
 <script src="js/ractive.min.js"></script>
 <script src="js/config.js"></script>
+<script src="js/jquery.scrollLoading-min.js"></script>
 <script src="js/isotope.js"></script><!--Portfolio Filter-->
 <script src="js/flexslider.min.js"></script><!-- FlexSlider -->
 <script src="js/waypoints.min.js"></script><!--Header Effect-->
-<script src="js/custom_min.js"></script><!-- Custom JavaScript  -->
+<script src="js/custom_min.js?v=1.0.0"></script><!-- Custom JavaScript  -->
 </body>
 </html>
