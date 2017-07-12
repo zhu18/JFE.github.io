@@ -48,7 +48,7 @@ h1 small { font-size: 90% }
 ============================================================= */
 .header { background-color: #EB5055 }
 .logo { background: url("../img/logo.png") no-repeat scroll 0 0 transparent; background-size: 45px; height: 45px;  width: 220px; padding-left: 55px;color:#fff; }
-
+.logo:hover,.logo:active,.logo:focus{color:#fff !important;}
 /**bootstrap over style for menu**/
 .navbar-default{ background-color: #303441; border-bottom: 2px solid #4A4F5E; top: 0; left: 0; position: fixed; right: 0; z-index: 1030; margin-bottom: 20px; min-height: 50px; -webkit-transform: translateY(0%); -moz-transform: translateY(0%); transform: translateY(0%); -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0); color: #EB5055; }
@@ -146,8 +146,10 @@ html[xmlns] .slides { display: block; }
 .services, .about, .projects { background: #F2F2F2; border-bottom: 5px solid #FCFCFC; color: #666D89; padding: 80px 0 40px 0; }
 .ser_wrap_3 { border-bottom: 1px solid #EDEDED; margin: 0; overflow: hidden; padding: 20px 0; }
 .ser_wrap_3 ul { overflow: hidden; padding: 0; }
-.ser_wrap_3 ul li { margin-bottom: 0; overflow: hidden; padding: 5px; border:1px solid transparent;border-radius: 5px; transition: all 1s;margin-bottom: 10px;}
-.ser_wrap_border ul li:hover{border:1px solid rgb(102, 109, 137); }
+.ser_wrap_3 ul li { margin-bottom: 0; overflow: hidden; padding: 10px; border-radius: 5px; transition: all 1s;margin-bottom: 10px;}
+.ser_wrap_border ul li:hover{box-shadow: 1px 1px 20px rgb(102,109,137) inset; }
+.ser_wrap_border ul li:hover i{font-weight: bold;}
+.ser_wrap_border ul li:hover h3{font-weight: bold;}
 .ser_wrap_3 ul li a{color:rgb(102, 109, 137);}
 .ser_wrap_3 .icon_ser { border: 1px solid #666D89; -moz-border-radius: 045px 45px 45px 45px; -webkit-border-radius: 45px 45px 45px 45px; border-radius: 45px 45px 45px 45px; color: #666D89; float: left; font-size: 1.9em; height: 50px; line-height: 50px; text-align: center; vertical-align: middle; width: 50px; }
 .ser_wrap_3 .wrap { float: left; margin: 0 0 0 10px; width: 79%; }
