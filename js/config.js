@@ -8,7 +8,7 @@
     { name: '温兴月', tel: '', email: 'wxy@jusfoun.com', qq: '', des: '学无止境', url: '' ,group:'pro2'},
     { name: '褚甜甜', tel: '', email: 'ctt@jusfoun.com', qq: '', des: '人...人如其名', url: '' ,group:'pro2'},
     { name: '王帅', tel: '15313163637', email: 'ws@jusfoun.com', qq: '188009510', des: '胖纸', url: '/users/wangshuai' ,group:'pro1'},
-    { name: '邢玮', tel: '18301150703', email: 'xw@jusfoun.com', qq: '1065641709', des: '....', url: '/users/xingwei' ,group:'pro1'},
+    { name: '邢玮', tel: '18301150703', email: 'xw@jusfoun.com', qq: '1065641709', des: '随便看看', url: '/users/xingwei' ,group:'pro1'},
       { name: '任传真', tel: '', email: 'rcz@jusfoun.com', qq: '', des: '近朱者赤', url: '' ,group:'pro1'},
     { name: '杨勇冠', tel: '17600801597', email: 'yyg@jusfoun.com', qq: '1135137781', des: '自律者自强 ...', url: '/users/yangyongguan' ,group:'pro3'},
     { name: '王杰', tel: '15001316150', email: 'wangjie@jusfoun.com', qq: '   674947294', des: '程序员', url: '/users/wangjie' ,group:'pro3'},
