@@ -1,6 +1,6 @@
 ﻿var app = {
   teams: [
-    { name: '朱润亚', tel: '18610279719', email: 'zry@jusfoun.com', qq: '86427955', des: '猥琐大叔，嘿嘿', url: '/users/zhurunya',group:'*' },
+    { name: '朱润亚', tel: '18610279719', email: 'zry@jusfoun.com', qq: '86427955', des: '猥琐大叔嘿嘿', url: '/users/zhurunya',group:'*' },
     { name: '魏彬', tel: '13401095555', email: 'weibin@jusfoun.com', qq: '23004532', des: '懒而不惰~', url: '/users/weibin',group:'pro2' },
     { name: '邵金东', tel: '15378789898', email: 'sjd@jusfoun.com', qq: '81288819', des: '谱写精彩人生', url: '/users/shaojindong' ,group:'pro2'},
     { name: '柳杨', tel: '18601265717', email: 'ly@jusfoun.com', qq: '451870307', des: '没有强迫症的处女座', url: '/users/yangliu' ,group:'pro2'},
@@ -13,7 +13,7 @@
     { name: '杨勇冠', tel: '17600801597', email: 'yyg@jusfoun.com', qq: '1135137781', des: '自律者自强 ...', url: '/users/yangyongguan' ,group:'pro3'},
     { name: '王杰', tel: '15001316150', email: 'wangjie@jusfoun.com', qq: '   674947294', des: '程序员', url: '/users/wangjie' ,group:'pro3'},
     { name: '杨微', tel: '18519292486', email: 'yangwei@jusfoun.com', qq: '873483161', des: '不一样色儿的呲花', url: '/users/yangwei' ,group:'pro3'},
-    { name: '商业庆', tel: '13121730259', email: 'shangyeqing@jusfoun.com', qq: '1246283740', des: '....', url: '/users/shangyeqing' ,group:'pro1'},
+    { name: '商业庆', tel: '13121730259', email: 'shangyeqing@jusfoun.com', qq: '1246283740', des: '恐怖如斯', url: '/users/shangyeqing' ,group:'pro1'},
     { name: '魏阁', tel: '18310634607', email: 'wg@jusfoun.com', qq: '3129168699', des: '努力 拼搏', url: '/users/weige' ,group:'pro1'},
     { name: '杨杰', tel: '17801129475', email: 'yangjie@jusfoun.com', qq: '624699461', des: '....', url: '/users/yangjie' ,group:'pro1'},
     { name: '李猛', tel: '18618133836', email: 'limeng@jusfoun.com', qq: '1526437167', des: '做好自己', url: '/users/limeng' ,group:'pub'},
