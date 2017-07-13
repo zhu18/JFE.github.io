@@ -511,3 +511,4 @@ footer a { color: #EB5055 }
 }
 .container{position: relative;}
 .doc-edit-link{position: absolute;  right: 0px;  top: 0px;  font-size: 24px;  color: #bbb;line-height: normal;}
+.markdown-body{min-height: 600px;}
