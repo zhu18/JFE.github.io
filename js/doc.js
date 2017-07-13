@@ -9,7 +9,7 @@ $(document).ready(function () {
     var pagename = GetQueryString("page");
     if(!pagename) return;
     $.ajax({
-        url: "doc/"+pagename+".md",
+        url: "doc/"+pagename+".md?v="+Math.random(),
         success: function (data) {
             $(".markdown-body").html(marked(data));
         }
