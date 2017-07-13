@@ -78,6 +78,30 @@ h1 small { font-size: 90% }
 .ha-header-small .navbar-nav > li > a { padding-bottom: 10px; padding-top: 10px; }
 .ha-header-small .logo { background: url("../img/logo.png") no-repeat scroll 0 0 transparent; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; background-size: 45px;padding-left:55px;font-weight:bold;}
 /* ==========================================================
+                 banner
+============================================================= */
+.banner{
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50% 50%;
+ background-image: linear-gradient(135deg,#79f1a4,#0e5cad);
+ color: #fff;
+ overflow: hidden;
+ height:280px;
+}
+#txt{
+ font-size: 16px;
+
+ text-align: right;
+ padding-right: 100px;
+ position: absolute;
+ top:100px;
+}
+#txt i{
+ font-style: normal;
+}
+
+/* ==========================================================
                   jQuery FlexSlider v2.0
  * http://www.woothemes.com/flexslider/   in page 3
 ============================================================= */
