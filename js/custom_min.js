@@ -45,20 +45,12 @@ $(document).ready(function () {
             }
         }
     });
-    //$("#passion_form").validate();
-    $(".scrollLoading").scrollLoading();
-    /*var a;
-     a = new GMaps({
-     el: "#map",
-     lat: -12.043333,
-     lng: -77.028333,
-     zoomControl: true,
-     zoomControlOpt: {style: "SMALL", position: "TOP_LEFT"},
-     panControl: true,
-     streetViewControl: false,
-     mapTypeControl: true,
-     overviewMapControl: false
-     })*/
+
+    $(".scrollLoading").scrollLoading(
+        {callback:function () {
+            $(this).addClass("showloading");
+        }}
+    );
 });
 
 function vaildateNet(){

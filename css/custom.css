@@ -170,9 +170,11 @@ html[xmlns] .slides { display: block; }
 #portfolio .page-head, #projects .page-head { border-bottom: 1px solid #767E9E }
 .portfolio { background-color: #303441; border-bottom: 5px solid #4A4F5E; color: #767E9E; padding: 50px 0 }
 .portfolioFilter { margin: 25px 0 10px; padding: 10px 0; }
-.portfolioContainer .hexagon a span.mask { background: url("../img/hexagon_mask_2.png") no-repeat;  background-size: 175px;}
+.portfolioContainer .hexagon a span.mask { background: url("../img/hexagon_mask_2.png") no-repeat;  background-size: 150px;}
 .portfolioContainer .hexagon { margin:0 25px 25px 0 }
 .hexagon h4 { font-family: aller_lightregular; font-size: 15px; text-transform: uppercase; }
+.portfolioContainer .hexagon img.showloading{-webkit-animation: load_clo 2s linear forwards;-moz-animation: load_clo 2s linear forwards;animation: load_clo 2s linear forwards;}
+@keyframes load_clo {from {opacity: 0  } to {  opacity: 1  } }
 .isotope-item { z-index: 2; }
 .isotope-hidden.isotope-item { pointer-events: none; z-index: 1; }
 .isotope, .isotope .isotope-item { /* change duration value to whatever you like */ -webkit-transition-duration: 0.8s; -moz-transition-duration: 0.8s; transition-duration: 0.8s; }
@@ -202,11 +204,11 @@ html[xmlns] .slides { display: block; }
 .portfolio-title { position: relative; float: left; width: 100%; height: 20px; overflow: hidden; margin-top: 5px; }
 .portfolio-title h4 { position: relative; line-height: 20px; width: 100%; text-align: center; margin:0; }
 .portfolio-title h4 span { width: 100%; position: absolute; margin: 0 auto; left: 0; color: #A3A7B9; top: 20px; }
-.hexagon a { float: left; width: 100px; height: 125px; overflow: hidden; display: block; position: relative; }
-.hexagon a img { width:100px;height: 125px; position: absolute; left: 0; top: 0; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -o-filter: grayscale(100%); -ms-filter: grayscale(100%); filter: grayscale(100%); -webkit-transition: 300ms ease-out; -moz-transition: 300ms ease-out; -o-transition: 300ms ease-out; transition: 300ms ease-out; }
-.hexagon a img.hovering { left: 3px; -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%); -o-filter: grayscale(0%); -ms-filter: grayscale(0%); filter: grayscale(0%); }
-.hexagon a span.mask { width: 175px; height: 175px; position: absolute; top: -30px; left: -40px; z-index: 2; background: url("../img/hexagon_mask.png") no-repeat; -webkit-transition:-webkit-transform 300ms ease-out; -moz-transition:-moz-transform 300ms ease-out; -o-transition:-o-transform 300ms ease-out; transition:transform 300ms ease-out;  }
-.hexagon a span.mask:hover { -webkit-transform:rotate(60deg); -moz-transform:rotate(60deg); -ms-transform:rotate(60deg); -o-transform:rotate(60deg); transform:rotate(60deg); }
+.hexagon a { float: left; width: 100px; height: 100px; overflow: hidden; display: block; position: relative; }
+.hexagon a img { position: absolute; left: 0; top: 0; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -o-filter: grayscale(100%); -ms-filter: grayscale(100%); filter: grayscale(100%); -webkit-transition: 300ms ease-out; -moz-transition: 300ms ease-out; -o-transition: 300ms ease-out; transition: 300ms ease-out; }
+.hexagon a img.hovering { left: 2px; -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%); -o-filter: grayscale(0%); -ms-filter: grayscale(0%); filter: grayscale(0%); }
+.hexagon a span.mask { width: 150px; height: 150px; position: absolute; top: -25px; left: -25px; z-index: 2; background: url("../img/hexagon_mask.png") no-repeat; -webkit-transition:-webkit-transform 300ms ease-out; -moz-transition:-moz-transform 300ms ease-out; -o-transition:-o-transform 300ms ease-out; transition:transform 300ms ease-out;  }
+.hexagon a span.mask:hover { -webkit-transform:rotate(30deg); -moz-transform:rotate(30deg); -ms-transform:rotate(30deg); -o-transform:rotate(30deg); transform:rotate(30deg); }
 .about_wrap_one { margin-bottom: 45px; text-align: center; }
 .about_wrap_one p { margin-top:15px }
 .holder { overflow:hidden }
@@ -320,7 +322,7 @@ div.arrow { background: url("../img/arrow.png") no-repeat scroll 0 0 rgba(0, 0, 
 .contact_wrap { margin-top: 40px; }
 .contact_wrap > h3 { margin: 20px 0; }
 .contact .jumbotron { background-color: #DD4449; padding: 5px 15px; position: relative; }
-.contact .job-intro a{opacity: 0;position: absolute; top:8px; right: 0px; -webkit-transition: all 200ms; -moz-transition: all 200ms; -ms-transition: all 200ms; transition: all 200ms;}
+.contact .job-intro a{opacity: 0;position: absolute; top:8px; right: 0px; -webkit-transition: all .3s; -moz-transition: all .3s; -ms-transition: all .3s; transition: all .3s;}
 .contact .job-intro:hover a{opacity: 1;right: 20px;}
 .contact .jumbotron .job span{display:block;line-height: 26px; right: 30px;}
 .contact .contactus{padding-top: 20px;}
@@ -507,3 +509,5 @@ footer a { color: #EB5055 }
  line-height: 150px;
  text-align: center;
 }
+.container{position: relative;}
+.doc-edit-link{position: absolute;  right: 0px;  top: 0px;  font-size: 24px;  color: #bbb;line-height: normal;}
