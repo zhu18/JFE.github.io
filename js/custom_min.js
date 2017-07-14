@@ -21,6 +21,7 @@ $(document).ready(function () {
         }
     });
 
+
     $("html").niceScroll();
     /*$(".scroller").getNiceScroll().resize();
     $(".flexslider").flexslider({
@@ -46,11 +47,7 @@ $(document).ready(function () {
         }
     });
 
-    $(".scrollLoading").scrollLoading(
-        {callback:function () {
-            $(this).addClass("showloading");
-        }}
-    );
+    $(".scrollLoading").scrollLoading();
 });
 
 function vaildateNet(){
