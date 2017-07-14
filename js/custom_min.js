@@ -21,13 +21,14 @@ $(document).ready(function () {
         }
     });
 
-   // $("html").niceScroll();
-   // $(".scroller").getNiceScroll().resize();
+
+    $("html").niceScroll();
+    /*$(".scroller").getNiceScroll().resize();
     $(".flexslider").flexslider({
         animation: "fade", start: function (b) {
             $("body").removeClass("loading")
         }
-    });
+    });*/
     $("span.mask").hover(function () {
         $(this).siblings("a img").addClass("hovering");
         $(this).parent().siblings(".portfolio-title").children("h4").stop().animate({top: -20}, 350)
