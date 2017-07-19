@@ -76,7 +76,7 @@
 ### 五、   其他
 1. 关于员工工资明细在线查询说明
 
-      1 ) 根据公司邮件通知，员工工资明细可登陆http://www.bj.cmbchina.com/bjtransweb/tsyw_web/dfgz_main.jsp进行在线查询，点击网上工资单-员工（登陆）输入员工工资卡号及工资卡查询密码登录。
+      1 ) 根据公司邮件通知，员工工资明细可登陆 http://www.bj.cmbchina.com/bjtransweb/tsyw_web/dfgz_main.jsp 进行在线查询，点击网上工资单-员工（登陆）输入员工工资卡号及工资卡查询密码登录。
         
         
 2. 行政事务相关联系人
