@@ -31,14 +31,15 @@
     没有特殊要求，建议使用Webstorm
 
 ### 三、   前端小组
-1.  前端小组网站：https://jusfoun-fe.github.io/ 
+1.  前端小组网站
 
-    **需准备如下内容**
+    1 ) 网址：https://jusfoun-fe.github.io
+    
+    2 ) 申请github账号, 并抽时间在github上搭建个人博客，具体操作步骤请点击链接：
     
-    1 ) 申请github账号, 并抽时间在github上搭建个人博客，具体操作步骤请点击链接：
-    http://blog.csdn.net/gdutxiaoxu/article/details/53576018
+       http://blog.csdn.net/gdutxiaoxu/article/details/53576018
     
-    2 ) 提供下个人照片(size:200*250),用于小组网站，照片可以直接Q给李猛，也可以发邮箱 (limeng@jusfoun.com)
+    3 ) 用于小组网站，需提供下个人照片(size:200*250),照片可以直接Q给李猛，也可以发邮箱 (limeng@jusfoun.com)
 
 2.  每周四上午小组成员将周报交于组长
 
