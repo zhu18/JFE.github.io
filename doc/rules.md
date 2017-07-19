@@ -37,7 +37,7 @@
     
     2 ) 申请github账号, 并抽时间在github上搭建个人博客，具体操作步骤请点击链接：
     
-        http://blog.csdn.net/gdutxiaoxu/article/details/53576018
+       http://blog.csdn.net/gdutxiaoxu/article/details/53576018
     
     3 ) 用于小组网站，需提供下个人照片(size:200*250),照片可以直接Q给李猛，也可以发邮箱 (limeng@jusfoun.com)
 
