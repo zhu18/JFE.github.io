@@ -33,6 +33,8 @@
 ### 三、   前端小组
 1.  前端小组网站：https://jusfoun-fe.github.io/ 
 
+    **需准备如下内容**
+    
     1 ) 申请github账号, 并抽时间在github上搭建个人博客，具体操作步骤请点击链接：
     http://blog.csdn.net/gdutxiaoxu/article/details/53576018
     
