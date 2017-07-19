@@ -11,7 +11,7 @@
     { name: '邢玮', tel: '18301150703', email: 'xw@jusfoun.com', qq: '1065641709', des: '随便看看', url: 'https://xingwGitHub.github.io' ,group:'pro1'},
       { name: '任传真', tel: '', email: 'rcz@jusfoun.com', qq: '', des: '近朱者赤', url: 'https://grapetree.github.io' ,group:'pro1'},
     { name: '杨勇冠', tel: '17600801597', email: 'yyg@jusfoun.com', qq: '1135137781', des: '自律者自强 ...', url: 'https://yangyongguan.github.io' ,group:'pro3'},
-    { name: '王杰', tel: '15001316150', email: 'wangjie@jusfoun.com', qq: '   674947294', des: '程序员', url: 'https://674947294.github.io' ,group:'pro3'},
+    { name: '王杰', tel: '15001316150', email: 'wangjie@jusfoun.com', qq: '   674947294', des: '程序员', url: 'https://wangjie233.github.io/' ,group:'pro3'},
     { name: '杨微', tel: '18519292486', email: 'yangwei@jusfoun.com', qq: '873483161', des: '不一样色儿的呲花', url: 'https://vida77.github.io' ,group:'pro3'},
     { name: '商业庆', tel: '13121730259', email: 'shangyeqing@jusfoun.com', qq: '1246283740', des: '恐怖如斯', url: 'https://btsyq.github.io' ,group:'pro1'},
     { name: '魏阁', tel: '18310634607', email: 'wg@jusfoun.com', qq: '3129168699', des: '努力 拼搏', url: 'https://gezi666.github.io' ,group:'pro1'},
