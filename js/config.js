@@ -1,7 +1,7 @@
 ﻿var app = {
   teams: [
     { name: '朱润亚', tel: '18610279719', email: 'zry@jusfoun.com', qq: '86427955', des: '猥琐大叔嘿嘿', url: 'https://zhu18.github.io',group:'*' },
-    { name: '魏彬', tel: '13401095555', email: 'weibin@jusfoun.com', qq: '23004532', des: '懒而不惰~', url: 'https://weibsgz.github.io/LessOrMore/',group:'pro2' },
+    { name: '魏彬', tel: '13401095555', email: 'weibin@jusfoun.com', qq: '23004532', des: '懒而不惰~', url: 'https://weibsgz.github.io/',group:'pro2' },
     { name: '邵金东', tel: '15378789898', email: 'sjd@jusfoun.com', qq: '81288819', des: '谱写精彩人生', url: 'http://www.shaojindong.com/' ,group:'pro2'},
     { name: '柳杨', tel: '18601265717', email: 'ly@jusfoun.com', qq: '451870307', des: '没有强迫症的处女座', url: 'https://arsliuyang.github.io' ,group:'pro2'},
     { name: '陈胜', tel: '18602685946', email: 'chensheng@jusfoun.com', qq: '809966184', des: 'RUN FOR FREEDOM', url: 'https://halfmoonvic.github.io' ,group:'pro2'},
