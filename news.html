@@ -39,8 +39,8 @@
                 <li><a href="index.html#services ">前端规范</a></li>
                 <li><a href="index.html#portfolio ">团队介绍</a></li>
                 <li><a href="index.html#contact">加入我们</a></li>
-                <li><a href="news.html" title="" target="_blank">新闻周刊</a></li>
-                <li  class="active"><a href="doc.html?page=rules"  target="_blank" id="priInfo">内部资料</a></li>
+                <li class="active"><a href="news.html" title="" target="_blank">新闻周刊</a></li>
+                <li><a href="doc.html?page=rules"  target="_blank" id="priInfo">内部资料</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
@@ -49,9 +49,14 @@
 <!-- End Fixed navbar -->
 <div id="doc" class="doc ha-waypoint" data-animate-down="ha-header-small" data-animate-up="ha-header-large">
     <div class="container">
-        <div class="row">
-            <a href="https://github.com/jusfoun-FE/jusfoun-FE.github.io/edit/master/doc/rules.md" target="_blank" class="doc-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
-            <article class="markdown-body"></article>
+        <div class="col-lg-8">
+            <a href="" id="news-edit-link" target="_blank" class="doc-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
+            <article class="markdown-body markdown-content-body"></article>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-3">
+            <article class="markdown-list-body">
+            </article>
         </div>
     </div>
 </div>
@@ -73,12 +78,8 @@
 <!-- JavaScript -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<<<<<<< HEAD
-<script src="js/nicescroll.min.js"></script> <!--jquery nice scroll-->
-=======
 <script src="js/nicescroll.min.js"></script>
->>>>>>> e1fe6337cc5ec7da79a5ca531b63546844854651
 <script src="js/marked.min.js"></script>
-<script src="js/doc.js?v=1.0.0"></script>
+<script src="js/news.js?v=1.0.0"></script>
 </body>
 </html>

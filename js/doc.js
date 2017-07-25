@@ -4,7 +4,10 @@
 $(document).ready(function () {
 
     $("html").niceScroll();
+<<<<<<< HEAD
 
+=======
+>>>>>>> e1fe6337cc5ec7da79a5ca531b63546844854651
     marked.setOptions({
         gfm: true
     })
