@@ -3,13 +3,21 @@
  */
 $(document).ready(function () {
 
+    $("html").niceScroll();
+
     marked.setOptions({
         gfm: true
     })
     var pagename = GetQueryString("page");
     if(!pagename) return;
-    $.ajax({
+    /*$.ajax({
         url: "doc/"+pagename+".md?v="+Math.random(),
+        success: function (data) {
+            $(".markdown-body").html(marked(data));
+        }
+    })*/
+    $.ajax({
+        url: "news/20170724.md?v="+Math.random(),
         success: function (data) {
             $(".markdown-body").html(marked(data));
         }
