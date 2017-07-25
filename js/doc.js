@@ -9,14 +9,8 @@ $(document).ready(function () {
     })
     var pagename = GetQueryString("page");
     if(!pagename) return;
-    /*$.ajax({
-        url: "doc/"+pagename+".md?v="+Math.random(),
-        success: function (data) {
-            $(".markdown-body").html(marked(data));
-        }
-    })*/
     $.ajax({
-        url: "news/20170724.md?v="+Math.random(),
+        url: "doc/"+pagename+".md?v="+Math.random(),
         success: function (data) {
             $(".markdown-body").html(marked(data));
         }
