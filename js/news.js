@@ -7,13 +7,11 @@ $(document).ready(function () {
     marked.setOptions({
         gfm: true
     });
-    var pagename = "";
-    //var pagename = GetQueryString("page") ? GetQueryString("page") : "" ;
+    var pagename = GetQueryString("page") ? GetQueryString("page") : "" ;
     $.ajax({
         url: "news/newsList.md",
         success: function (data) {
             $(".markdown-list-body,.markdown-list-more-show").html(marked(data));
-            //$(".markdown-list-body a").attr("target","#markdown-content-body");
             $(".markdown-list-body a,.markdown-list-more-show a").click(function(){
                 pagename = $(this).attr("href").replace("#","");
                 $.ajax({
