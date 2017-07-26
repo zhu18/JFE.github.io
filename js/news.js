@@ -41,7 +41,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#news-edit-link").attr("href","https://github.com/jusfoun-FE/jusfoun-FE.github.io/blob/master/news/"+pagename+".md");
+    $("#news-edit-link").attr("href","https://github.com/jusfoun-FE/jusfoun-FE.github.io/edit/master/news/"+pagename+".md");
 
     $(".markdown-list-more-btn").click(function(){
         $(".markdown-list-more-body").removeClass("hide").addClass("show");
