@@ -554,4 +554,73 @@ footer a { color: #EB5055 }
 .container{position: relative;}
 .doc-edit-link{position: absolute;  right: 15px;  top: 0px;  font-size: 24px;  color: #bbb;line-height: normal;}
 .markdown-body{min-height: 600px;padding: 0px 15px;}
-.markdown-list-body a{color:#6a737d}
+.markdown-list-body.style{
+ height: 700px;
+ overflow: hidden;
+}
+
+.markdown-list-body h4,.markdown-list-more-show h4{
+ margin-bottom: 20px;
+}
+.markdown-list-body a{
+ color:#6a737d;
+ display:block;
+ height:40px;
+ line-height: 40px;
+ border-bottom: 1px solid #f9b5b7;
+ padding:0 10px;
+}
+.markdown-list-body a:hover{
+ color:#EB5055;
+}
+.markdown-list-body p em{
+ float:right;
+ font-size:12px;
+}
+.markdown-list-more-btn{
+ float:right;
+ color:#EB5055;
+ cursor:pointer;
+ margin-top: 10px;
+}
+
+.markdown-list-more-body{
+ position:fixed;
+ top:0;left:0;
+ width:100%;
+ height:100%;
+ background:rgba(0,0,0,0.6);
+}
+.markdown-list-more-body .fa-times-circle{
+ font-size: 50px;
+ color: rgba(102, 109, 137,0.6);
+ position: absolute;
+ right: 22%;
+ top: 21%;
+ z-index: 9999;
+ cursor:pointer;
+}
+.markdown-list-more-show{
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto;
+ background: #f2f2f2;
+ width: 60%;
+ height: 60%;
+ overflow: auto;
+ padding: 20px;
+ border-radius: 10px;
+}
+.markdown-list-more-show p{
+ display:inline-block;
+ margin:10px;
+}
+.markdown-list-more-show a{
+ display:block;
+ border-radius:5px;
+ background:#fff;
+ padding:10px;
+}
