@@ -11,7 +11,7 @@ $(document).ready(function () {
     $.ajax({
         url: "news/newsList.md",
         success: function (data) {
-            $(".markdown-list-body").html(marked(data));
+            $(".markdown-list-body,.markdown-list-more-show").html(marked(data));
         }
     });
 
@@ -27,6 +27,14 @@ $(document).ready(function () {
     });
 
     $("#news-edit-link").attr("href","https://github.com/jusfoun-FE/jusfoun-FE.github.io/blob/master/news/"+pagename+".md");
+
+    $(".markdown-list-more-btn").click(function(){
+        $(".markdown-list-more-body").removeClass("hide").addClass("show");
+    });
+
+    $(".markdown-list-more-close-btn").click(function(){
+        $(this).parent().removeClass("show").addClass("hide");
+    });
 });
 
 function GetQueryString(name)
