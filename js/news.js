@@ -36,6 +36,11 @@ $(document).ready(function () {
         success: function (data2) {
             $(".markdown-content-body").html(marked(data2));
             $(".markdown-content-body a").attr("target","_blank");
+
+            $(".markdown-body.markdown-content-body ul li").click(function(){
+                var href = $(this).find("a").attr("href");
+                window.open(href);
+            });
         }
     });
 
@@ -48,6 +53,7 @@ $(document).ready(function () {
     $(".markdown-list-more-close-btn").click(function(){
         $(this).parent().removeClass("show").addClass("hide");
     });
+
 });
 
 function GetQueryString(name)
