@@ -555,16 +555,70 @@ footer a { color: #EB5055 }
  text-align: center;
 }
 .container{position: relative;}
-.doc-edit-link{position: absolute;  right: 15px;  top: 0px;  font-size: 24px;  color: #bbb;line-height: normal;}
+.doc-edit-link{position: absolute;  right: 15px;  top: 10px;  font-size: 24px;  color: #bbb;line-height: normal;}
 .markdown-body{min-height: 600px;padding: 0px 15px;}
-@media (min-width: 992px) {
+
+@media (min-width: 1200px){
+ .markdown-list-warp{
+  padding:0;
+ }
+ .fixed-warp{
+  position:fixed;
+  width:285px;
+ }
  .markdown-list-body.style {
   height: 700px;
   overflow: hidden;
  }
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+ .markdown-list-warp{
+  padding:0;
+ }
+ .fixed-warp{
+  position:fixed;
+  width:235px;
+ }
+ .markdown-list-warp{
+  position:relative;
+ }
+
+ .markdown-list-body.style {
+  height: 700px;
+  overflow: hidden;
+ }
+}
+@media (max-width: 991px){
+ .markdown-content-warp{
+  padding-left:0;
+ }
+ .markdown-content-body{
+  padding:0;
+ }
+ .markdown-content-body ul{padding-left:0!important;}
+ .markdown-list-body.style{
+  height: 150px;
+  overflow: hidden;
+ }
+}
 .markdown-body.markdown-content-body{
  margin-top: 40px;
+}
+.markdown-body.markdown-content-body.active{
+ -webkit-animation: mlAnimation .8s;
+ -o-animation: mlAnimation .8s;
+ animation: mlAnimation .8s;
+}
+@keyframes mlAnimation
+{
+ from {
+  margin-left: -50px;
+  opacity: 0;
+ }
+ to {
+  margin-left: 0;
+  opacity: 1;
+ }
 }
 .markdown-body.markdown-content-body h4{
  margin-bottom: 10px;
@@ -583,25 +637,19 @@ footer a { color: #EB5055 }
  transition:all 1s;
  cursor: pointer;
  border-radius:3px;
+ border-left: 3px solid transparent;
 }
 .markdown-body.markdown-content-body ul li:hover{
  box-shadow: 0 0 10px 1px rgba(84, 84, 84, 0.3);
- transition:all .5s;
- }
+ transition:all .3s;
+ border-left: 3px solid #b31935;
+}
 .markdown-body.markdown-content-body a{
  color:#b31919;
 }
 .markdown-body.markdown-content-body a:hover{
  text-decoration: none;
- }
-@media (max-width: 991px){
- .markdown-content-body ul{padding-left:0!important;}
- .markdown-list-body.style{
-  height: 150px;
-  overflow: hidden;
- }
 }
-
 .markdown-list-body h4,.markdown-list-more-show h4{
  margin-bottom: 10px;
  line-height:30px;
@@ -612,7 +660,7 @@ footer a { color: #EB5055 }
  height:40px;
  line-height: 40px;
  border-bottom: 1px dashed rgba(202, 69, 73, 0.31);
- padding:0 10px;
+ padding:0 20px 0 10px;
 }
 .markdown-list-body a:hover,.markdown-list-more-show a:hover{
  color:#EB5055;
@@ -623,6 +671,7 @@ footer a { color: #EB5055 }
 }
 .markdown-list-more-btn{
  float:right;
+ font-size: 18px;
  color:#EB5055;
  cursor:pointer;
  margin: 10px 0 20px;

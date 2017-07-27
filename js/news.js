@@ -2,7 +2,6 @@
  * Created by Administrator on 2017/7/12.
  */
 $(document).ready(function () {
-
     $("html").niceScroll();
     marked.setOptions({
         gfm: true
@@ -11,14 +10,17 @@ $(document).ready(function () {
     $.ajax({
         url: "news/newsList.md",
         success: function (data) {
+            $(".markdown-content-body").addClass("active");
             $(".markdown-list-body,.markdown-list-more-show").html(marked(data));
             $(".markdown-list-body a,.markdown-list-more-show a").click(function(){
+                $(".markdown-content-body").removeClass("active");
                 pagename = $(this).attr("href").replace("#","");
                 $.ajax({
                     url: "news/"+pagename+".md",
                     success: function (data2) {
                         $(".markdown-content-body").html(marked(data2));
                         $(".markdown-content-body a").attr("target","_blank");
+                        $(".markdown-content-body").addClass("active");
                     }
                 });
             });
