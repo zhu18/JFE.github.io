@@ -14,6 +14,7 @@ $(document).ready(function () {
         success: function (data) {
             $(".markdown-body").html(marked(data));
             $(".markdown-body").addClass("active");
+            Pace.restart();
         }
     })
     $(".markdown-body").removeClass("active");
