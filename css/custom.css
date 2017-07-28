@@ -556,7 +556,13 @@ footer a { color: #EB5055 }
 }
 .container{position: relative;}
 .doc-edit-link{position: absolute;  right: 15px;  top: 10px;  font-size: 24px;  color: #bbb;line-height: normal;}
-.markdown-body{min-height: 600px;padding: 0px 15px;}
+.markdown-body{
+ min-height: 600px;padding: 0px 15px;
+ margin-top:40px;
+ -webkit-animation: mtAnimation .8s;
+ -o-animation: mtAnimation .8s;
+ animation: mtAnimation .8s;
+}
 
 @media (min-width: 1200px){
  .markdown-list-warp{
@@ -609,6 +615,13 @@ footer a { color: #EB5055 }
  -o-animation: mlAnimation .8s;
  animation: mlAnimation .8s;
 }
+@media (max-width: 991px){
+ .markdown-body.markdown-content-body.active{
+  -webkit-animation: mtAnimation .8s;
+  -o-animation: mtAnimation .8s;
+  animation: mtAnimation .8s;
+ }
+}
 @keyframes mlAnimation
 {
  from {
@@ -617,6 +630,17 @@ footer a { color: #EB5055 }
  }
  to {
   margin-left: 0;
+  opacity: 1;
+ }
+}
+@keyframes mtAnimation
+{
+ from {
+  margin-top: 0;
+  opacity: 0;
+ }
+ to {
+  margin-top: 40px;
   opacity: 1;
  }
 }
@@ -646,6 +670,7 @@ footer a { color: #EB5055 }
 }
 .markdown-body.markdown-content-body a{
  color:#b31919;
+ display: block;
 }
 .markdown-body.markdown-content-body a:hover{
  text-decoration: none;

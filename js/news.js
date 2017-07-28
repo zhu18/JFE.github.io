@@ -6,61 +6,74 @@ $(document).ready(function () {
     marked.setOptions({
         gfm: true
     });
-    var pagename = GetQueryString("page") ? GetQueryString("page") : "" ;
+    //获取url中的参数日期，初始化日期是写死的
+    var urlParam = getHrefDate() ;
+    //初始化加载周刊列表
+    getListData(urlParam);
+    //初始化加载最新一期周刊内容，
+    getContentData(urlParam);
+    //编辑周刊内容的icon链接
+    $("#news-edit-link").attr("href","https://github.com/jusfoun-FE/jusfoun-FE.github.io/edit/master/news/"+urlParam+".md");
+
+    //MORE按钮点击显示更多-弹窗
+    $(".markdown-list-more-btn").click(function(){
+        $(".markdown-list-more-body").removeClass("hide").addClass("show");
+    });
+    //关闭按钮隐藏弹窗
+    $(".markdown-list-more-close-btn").click(function(){
+        $(this).parent().removeClass("show").addClass("hide");
+    });
+});
+/**
+ * 获取链接中的参数日期
+ * @returns {*}
+ */
+function getHrefDate(){
+    var winHref = window.location.href;
+    if(winHref.indexOf("#")>=0){
+        return winHref.substring(winHref.indexOf("#")+1,winHref.length);
+    }else{
+        return "2017-02-09";
+    }
+}
+/**
+ * 获取周刊列表
+ * @param urlParam
+ */
+function getListData(urlParam){
     $.ajax({
         url: "news/newsList.md",
         success: function (data) {
             $(".markdown-content-body").addClass("active");
             $(".markdown-list-body,.markdown-list-more-show").html(marked(data));
             $(".markdown-list-body a,.markdown-list-more-show a").click(function(){
-                $(".markdown-content-body").removeClass("active");
-                pagename = $(this).attr("href").replace("#","");
-                $.ajax({
-                    url: "news/"+pagename+".md",
-                    success: function (data2) {
-                        $(".markdown-content-body").html(marked(data2));
-                        $(".markdown-content-body a").attr("target","_blank");
-                        $(".markdown-content-body").addClass("active");
-                    }
-                });
+                urlParam = $(this).attr("href").replace("#","");
+                getContentData(urlParam);
             });
             $(".markdown-list-more-show a").click(function(){
                 $(".markdown-list-more-body").removeClass("show").addClass("hide");
             });
         }
     });
-
-    if(!pagename){
-        pagename = "2017-02-09";
-    }
+}
+/**
+ * 获取周刊内容
+ * @param urlParam
+ */
+function getContentData(urlParam){
     $.ajax({
-        url: "news/"+pagename+".md",
-        success: function (data2) {
-            $(".markdown-content-body").html(marked(data2));
+        url: "news/"+urlParam+".md",
+        success: function (data) {
+            $(".markdown-content-body").html(marked(data));
             $(".markdown-content-body a").attr("target","_blank");
-
             $(".markdown-body.markdown-content-body ul li").click(function(){
                 var href = $(this).find("a").attr("href");
                 window.open(href);
             });
+            $(".markdown-content-body").addClass("active");
         }
     });
+    $(".markdown-content-body").removeClass("active");
 
-    $("#news-edit-link").attr("href","https://github.com/jusfoun-FE/jusfoun-FE.github.io/edit/master/news/"+pagename+".md");
-
-    $(".markdown-list-more-btn").click(function(){
-        $(".markdown-list-more-body").removeClass("hide").addClass("show");
-    });
-
-    $(".markdown-list-more-close-btn").click(function(){
-        $(this).parent().removeClass("show").addClass("hide");
-    });
-
-});
-
-function GetQueryString(name)
-{
-    var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
-    var r = window.location.search.substr(1).match(reg);
-    if(r!=null)return  unescape(r[2]); return null;
+    Pace.restart();
 }
