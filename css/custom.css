@@ -559,11 +559,12 @@ footer a { color: #EB5055 }
 .markdown-body{
  min-height: 600px;padding: 0px 15px;
  margin-top:40px;
+}
+.markdown-body.active{
  -webkit-animation: mtAnimation .8s;
  -o-animation: mtAnimation .8s;
  animation: mtAnimation .8s;
 }
-
 @media (min-width: 1200px){
  .markdown-list-warp{
   padding:0;
@@ -614,13 +615,6 @@ footer a { color: #EB5055 }
  -webkit-animation: mlAnimation .8s;
  -o-animation: mlAnimation .8s;
  animation: mlAnimation .8s;
-}
-@media (max-width: 991px){
- .markdown-body.markdown-content-body.active{
-  -webkit-animation: mtAnimation .8s;
-  -o-animation: mtAnimation .8s;
-  animation: mtAnimation .8s;
- }
 }
 @keyframes mlAnimation
 {

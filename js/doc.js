@@ -13,8 +13,10 @@ $(document).ready(function () {
         url: "doc/"+pagename+".md?v="+Math.random(),
         success: function (data) {
             $(".markdown-body").html(marked(data));
+            $(".markdown-body").addClass("active");
         }
     })
+    $(".markdown-body").removeClass("active");
 });
 
 function GetQueryString(name)
