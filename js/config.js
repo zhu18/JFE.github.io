@@ -26,7 +26,7 @@
     { name: '胡杰', tel: '', email: 'hujie@jusfoun.com', qq: '', des: ' 认真生活', url: ''  ,group:'pub'},
     { name: '任新杰', tel: '15611346676', email: 'rxj@jusfoun.com', qq: '346494891', des: '做个特别的人', url: 'https://musishui.github.io' ,group:'pro4'},
     { name: '颜庭光', tel: '15201147857', email: 'ytg@jusfoun.com', qq: '522125842', des: '网易云音乐', url: 'https://MrGuang123.github.io'  ,group:'pro4'},
-    { name: '韩凯波', tel: '18610815241', email: 'hkb@jusfoun.com', qq: '1342233762', des: '代码搬运工', url: 'https://hankaibo.github.io'  ,group:'pro4'},
+    { name: '韩凯波', tel: '18610815241', email: 'hkb@jusfoun.com', qq: '1342233762', des: '搬砖的', url: 'https://hankaibo.github.io'  ,group:'pro4'},
     { name: '吕颖萍', tel: '15201147857', email: 'lvyingping@jusfoun.com', qq: '383418784', des: '她倚在栏杆上', url: 'https://liquan007.github.io'  ,group:'pro4'},
     { name: '李妮', tel: '', email: 'lini@jusfoun.com', qq: '', des: '相信自己', url: ''  ,group:'pro4'},
     { name: '刘继文', tel: '', email: 'ljw@jusfoun.com', qq: '', des: '重量级码农', url: 'https://abcbac.github.io/'  ,group:'*'}
