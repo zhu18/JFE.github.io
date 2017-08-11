@@ -6,26 +6,26 @@ $(document).ready(function () {
     marked.setOptions({
         gfm: true
     });
-    //»ñÈ¡urlÖĞµÄ²ÎÊıÈÕÆÚ£¬³õÊ¼»¯ÈÕÆÚÊÇĞ´ËÀµÄ
+    //è·å–urlä¸­çš„å‚æ•°æ—¥æœŸï¼Œåˆå§‹åŒ–æ—¥æœŸæ˜¯å†™æ­»çš„
     var urlParam = getHrefDate() ;
-    //³õÊ¼»¯¼ÓÔØÖÜ¿¯ÁĞ±í
+    //åˆå§‹åŒ–åŠ è½½å‘¨åˆŠåˆ—è¡¨
     getListData(urlParam);
-    //³õÊ¼»¯¼ÓÔØ×îĞÂÒ»ÆÚÖÜ¿¯ÄÚÈİ£¬
+    //åˆå§‹åŒ–åŠ è½½æœ€æ–°ä¸€æœŸå‘¨åˆŠå†…å®¹ï¼Œ
     getContentData(urlParam);
-    //±à¼­ÖÜ¿¯ÄÚÈİµÄiconÁ´½Ó
+    //ç¼–è¾‘å‘¨åˆŠå†…å®¹çš„iconé“¾æ¥
     $("#news-edit-link").attr("href","https://github.com/jusfoun-FE/jusfoun-FE.github.io/edit/master/news/"+urlParam+".md");
 
-    //MORE°´Å¥µã»÷ÏÔÊ¾¸ü¶à-µ¯´°
+    //MOREæŒ‰é’®ç‚¹å‡»æ˜¾ç¤ºæ›´å¤š-å¼¹çª—
     $(".markdown-list-more-btn").click(function(){
         $(".markdown-list-more-body").removeClass("hide").addClass("show");
     });
-    //¹Ø±Õ°´Å¥Òş²Øµ¯´°
+    //å…³é—­æŒ‰é’®éšè—å¼¹çª—
     $(".markdown-list-more-close-btn").click(function(){
         $(this).parent().removeClass("show").addClass("hide");
     });
 });
 /**
- * »ñÈ¡Á´½ÓÖĞµÄ²ÎÊıÈÕÆÚ
+ * è·å–é“¾æ¥ä¸­çš„å‚æ•°æ—¥æœŸ
  * @returns {*}
  */
 function getHrefDate(){
@@ -37,7 +37,7 @@ function getHrefDate(){
     }
 }
 /**
- * »ñÈ¡ÖÜ¿¯ÁĞ±í
+ * è·å–å‘¨åˆŠåˆ—è¡¨
  * @param urlParam
  */
 function getListData(urlParam){
@@ -57,12 +57,12 @@ function getListData(urlParam){
     });
 }
 /**
- * »ñÈ¡ÖÜ¿¯ÄÚÈİ
+ * è·å–å‘¨åˆŠå†…å®¹
  * @param urlParam
  */
 function getContentData(urlParam){
     $.ajax({
-        url: "news/"+urlParam+".md",
+        url: "news/"+urlParam+".md?v="+Math.random(),
         success: function (data) {
             $(".markdown-content-body").html(marked(data));
             $(".markdown-content-body a").attr("target","_blank");
