@@ -558,7 +558,7 @@ footer a { color: #EB5055 }
 .doc-edit-link{position: absolute;  right: 15px;  top: 10px;  font-size: 24px;  color: #bbb;line-height: normal;}
 .markdown-body{
  min-height: 600px;padding: 0px 15px;
- margin-top:40px;
+ margin-top:10px;
 }
 .markdown-body.active{
  -webkit-animation: mtAnimation .8s;
@@ -608,8 +608,11 @@ footer a { color: #EB5055 }
   overflow: hidden;
  }
 }
-.markdown-body.markdown-content-body{
- margin-top: 40px;
+.markdown-body.markdown-content-body h2{
+ margin-left: 20px;
+ font-weight: 500;
+ font-size: 22px;
+ color: #6a737d;
 }
 .markdown-body.markdown-content-body.active{
  -webkit-animation: mlAnimation .8s;
