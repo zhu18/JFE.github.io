@@ -12,6 +12,8 @@
     { name: '吉亚峰', tel: '', email: '', qq: '', des: '叫我27号', url: 'https://shjyf.github.io/' ,group:'pro1'},
     { name: '任传真', tel: '', email: 'rcz@jusfoun.com', qq: '', des: '近朱者赤', url: 'https://grapetree.github.io' ,group:'pro1'},
 	{ name: '林源', tel: '', email: 'linyuan@jusfoun.com', qq: '', des: '诗和远方', url: 'https://lindybest.github.io/' ,group:'pro1'},
+    { name: '杨羽珂', tel: '', email: '', qq: '', des: '多一个世界', url: 'https://yykaue.github.io/' ,group:'pro1'},
+    { name: '杜万福', tel: '', email: '', qq: '', des: '不负有心人', url: 'https://hotwhy.github.io/' ,group:'pro1'},
     { name: '杨勇冠', tel: '17600801597', email: 'yyg@jusfoun.com', qq: '1135137781', des: '自律者自强 ...', url: 'https://yangyongguan.github.io' ,group:'pro3'},
     { name: '王杰', tel: '15001316150', email: 'wangjie@jusfoun.com', qq: '   674947294', des: '程序员', url: 'https://wangjie233.github.io/' ,group:'pro3'},
     { name: '杨微', tel: '18519292486', email: 'yangwei@jusfoun.com', qq: '873483161', des: '不一样色儿的呲花', url: 'https://vida77.github.io' ,group:'pro3'},
