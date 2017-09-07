@@ -31,7 +31,7 @@
      { name: '闫磊', tel: '', email: '', qq: '', des: '前端大狮子', url: 'https://yanlei0928.github.io/'  ,group:'pub'},
     { name: '张涛', tel: '', email: 'zhangtao@jusfoun.com', qq: '', des: '程序猿', url: 'https://zhangtao891116.github.io/'  ,group:'pub'},
     { name: '胡杰', tel: '', email: 'hujie@jusfoun.com', qq: '', des: ' 认真生活', url: 'https://prindarh.github.io/'  ,group:'pub'},
-    { name: '彭庆凯', tel: '', email: 'pqk@jusfoun.com', qq: '', des: ' 程序猿', url: 'https://wuyax.github.io/'  ,group:'pub'},
+    { name: '彭庆凯', tel: '', email: 'pqk@jusfoun.com', qq: '', des: ' 脚踏实地', url: 'https://wuyax.github.io/'  ,group:'pub'},
     { name: '任新杰', tel: '15611346676', email: 'rxj@jusfoun.com', qq: '346494891', des: '做个特别的人', url: 'https://musishui.github.io' ,group:'pro4'},
     { name: '颜庭光', tel: '15201147857', email: 'ytg@jusfoun.com', qq: '522125842', des: '网易云音乐', url: 'https://MrGuang123.github.io'  ,group:'pro4'},
     { name: '韩凯波', tel: '18610815241', email: 'hkb@jusfoun.com', qq: '1342233762', des: '搬砖的', url: 'https://hankaibo.github.io'  ,group:'pro4'},
