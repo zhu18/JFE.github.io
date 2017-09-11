@@ -6,6 +6,7 @@
     { name: '柳杨', tel: '18601265717', email: 'ly@jusfoun.com', qq: '451870307', des: '没有强迫症的处女座', url: 'https://arsliuyang.github.io' ,group:'pro2'},
     { name: '陈胜', tel: '18602685946', email: 'chensheng@jusfoun.com', qq: '809966184', des: 'RUN FOR FREEDOM', url: 'https://halfmoonvic.github.io' ,group:'pro2'},
     { name: '温兴月', tel: '', email: 'wxy@jusfoun.com', qq: '', des: '学无止境', url: 'https://qilitianjian.github.io' ,group:'pro2'},
+      { name: '李鹏飞', tel: '', email: '', qq: '', des: '认路比代码难', url: 'https://mrlipengfei.github.io' ,group:'pro2'},
     { name: '褚甜甜', tel: '', email: 'ctt@jusfoun.com', qq: '', des: '人...人如其名', url: 'https://chutiantian.github.io' ,group:'pro2'},
     { name: '王帅', tel: '15313163637', email: 'ws@jusfoun.com', qq: '188009510', des: '胖纸', url: 'https://ws880321.github.io' ,group:'pro1'},
     { name: '邢玮', tel: '18301150703', email: 'xw@jusfoun.com', qq: '1065641709', des: '随便看看', url: 'https://xingwGitHub.github.io' ,group:'pro1'},
@@ -27,12 +28,15 @@
     { name: '汝银娟', tel: '18611833241', email: 'ryj@jusfoun.com', qq: '1601450116', des: '90后女汉子', url: 'https://ruyinjuan.github.io'  ,group:'pub'},
     { name: '郭惠敏', tel: '15810169916', email: 'ghm@jusfoun.com', qq: '2777061859', des: '小萝莉', url: 'https://huiminguo.github.io'  ,group:'pub'},
     { name: '周志国', tel: '', email: 'zzg@jusfoun.com', qq: '', des: '勇往直前', url: 'https://yuyoo0508.github.io/'  ,group:'pub'},
+     { name: '闫磊', tel: '', email: '', qq: '', des: '前端大狮子', url: 'https://yanlei0928.github.io/'  ,group:'pub'},
     { name: '张涛', tel: '', email: 'zhangtao@jusfoun.com', qq: '', des: '程序猿', url: 'https://zhangtao891116.github.io/'  ,group:'pub'},
     { name: '胡杰', tel: '', email: 'hujie@jusfoun.com', qq: '', des: ' 认真生活', url: 'https://prindarh.github.io/'  ,group:'pub'},
+    { name: '彭庆凯', tel: '', email: 'pqk@jusfoun.com', qq: '', des: ' 脚踏实地', url: 'https://wuyax.github.io/'  ,group:'pub'},
     { name: '任新杰', tel: '15611346676', email: 'rxj@jusfoun.com', qq: '346494891', des: '做个特别的人', url: 'https://musishui.github.io' ,group:'pro4'},
     { name: '颜庭光', tel: '15201147857', email: 'ytg@jusfoun.com', qq: '522125842', des: '网易云音乐', url: 'https://MrGuang123.github.io'  ,group:'pro4'},
     { name: '韩凯波', tel: '18610815241', email: 'hkb@jusfoun.com', qq: '1342233762', des: '搬砖的', url: 'https://hankaibo.github.io'  ,group:'pro4'},
     { name: '吕颖萍', tel: '15201147857', email: 'lvyingping@jusfoun.com', qq: '383418784', des: '她倚在栏杆上', url: 'https://liquan007.github.io'  ,group:'pro4'},
-    { name: '李妮', tel: '', email: 'lini@jusfoun.com', qq: '', des: '相信自己', url: 'https://lini000.github.io/'  ,group:'pro4'}
+    { name: '李妮', tel: '', email: 'lini@jusfoun.com', qq: '', des: '相信自己', url: 'https://lini000.github.io/'  ,group:'pro4'},
+    { name: '冯红阳', tel: '', email: '', qq: '', des: '强烈求知欲', url: 'http://fenghongyang.applinzi.com/'  ,group:'pro4'}
     ]
 };
