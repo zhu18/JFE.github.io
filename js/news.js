@@ -23,6 +23,7 @@ $(document).ready(function () {
     $(".markdown-list-more-close-btn").click(function(){
         $(this).parent().removeClass("show").addClass("hide");
     });
+
 });
 /**
  * 获取链接中的参数日期
@@ -33,19 +34,20 @@ function getHrefDate(){
     if(winHref.indexOf("#")>=0){
         return winHref.substring(winHref.indexOf("#")+1,winHref.length);
     }else{
-        return "2017-02-09";
+        return "2017-09-07";
     }
 }
 /**
  * 获取周刊列表
  * @param urlParam
  */
-function getListData(urlParam){
+function getListData(){
     $.ajax({
         url: "news/newsList.md",
         success: function (data) {
             $(".markdown-content-body").addClass("active");
             $(".markdown-list-body,.markdown-list-more-show").html(marked(data));
+
             $(".markdown-list-body a,.markdown-list-more-show a").click(function(){
                 urlParam = $(this).attr("href").replace("#","");
                 getContentData(urlParam);
