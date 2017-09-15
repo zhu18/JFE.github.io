@@ -927,7 +927,7 @@ footer a { color: #EB5055 }
  -moz-border-radius: 49px;
  -webkit-border-radius: 49px;
  border-radius: 49px;
- background: #24b384 url(../img/Up.png) 9px 13px no-repeat;
+ background: #24b384 url(img/Up.png) 9px 13px no-repeat;
  filter: alpha(opacity=80);
  opacity: 0.8;
  -moz-box-shadow: 0 2px 2px 1px rgba(0,0,0,.15);
