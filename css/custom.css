@@ -103,8 +103,8 @@ h1 small { font-size: 90% }
  left:22%;
 }
 .banner-txt h3{
-  font-size: 30px;
-  font-width:bold;
+ font-size: 22px;
+ font-width:bold;
 }
 .banner-txt p{
  font-size: 14px;
@@ -112,7 +112,7 @@ h1 small { font-size: 90% }
 }
 @media screen and (max-width: 800px) {
  .banner{
- display: none;
+  display: none;
  }
 }
 
@@ -776,6 +776,8 @@ footer a { color: #EB5055 }
   font-size:12px;
  }
 }
+
+
 /* ==========================================================
                project
 ============================================================= */
@@ -787,103 +789,30 @@ footer a { color: #EB5055 }
 .bady-bgcolor{
  background-color:#161515;
 }
-
 #page-content{
  margin-top: 100px;
 }
-
-@media (min-width: 1200px){
- .container {
-  /*width: 85%;*/
- }
-}
-/*.box-content.box-1 .box-item{
- background-color: #fff;
- margin: 0 auto 30px;
- max-width: 500px;
- padding-bottom: 20px;
-}
-.box-content.box-1 .box-item .img-responsive{
- width: 100%;
- height:232px;
- overflow: hidden;
-}
-.box-content.box-1 .box-item .img-responsive img{
- width:100%;
- height:100%;
- transition: all 0.4s ease-in-out;
- -webkit-transition: all 0.4s ease-in-out;
- -moz-transition: all 0.4s ease-in-out;
- -o-transition: all 0.4s ease-in-out;
-}
-.box-content.box-1 .box-item:hover .img-responsive img{
- opacity: 0.9;
- transition: all 0.4s ease-in-out;
- -webkit-transition: all 0.4s ease-in-out;
- -moz-transition: all 0.4s ease-in-out;
- -o-transition: all 0.4s ease-in-out;
- transform: scale(1.2);
- -webkit-transform: scale(1.2);
- -moz-transform: scale(1.2);
- -o-transform: scale(1.2);
- -ms-transform: scale(1.2);
-}
-.box-content.box-1 .box-item:hover .content a{
- transition: all 0.4s ease-in-out;
- -webkit-transition: all 0.4s ease-in-out;
- -moz-transition: all 0.4s ease-in-out;
- -o-transition: all 0.4s ease-in-out;
- color: #EB5055;
-}
-.box-content.box-1 .box-item .content{
- padding: 10px 30px 30px;
-}
-.box-content.box-1 .box-item img {
- width: 100%;
-}
-.box-content.box-1 .box-item a{
- color: #0aac8e;
- font-weight: bold;
- transition: all 0.4s ease-in-out;
- -webkit-transition: all 0.4s ease-in-out;
- -moz-transition: all 0.4s ease-in-out;
- -o-transition: all 0.4s ease-in-out;
-}
-.box-content.box-1 .box-item .content h3{
- font-weight: 500;
- color: #333;
- font-size: 24px;
- margin-bottom: 20px;
-}
-.box-content.box-1 .box-item .content span{
- color: #bbb;
- font-size: 15px;
-}
-.box-content.box-1 .box-item .content{
- padding: 10px 30px 30px;
-}*/
-
-.markdown-content-body li{
+.projects-markdown li{
  background-color: #fff;
  list-style: none;
  margin: 0 auto 30px;
  max-width: 500px;
  padding-bottom: 20px;
 }
-.markdown-content-body li p{
+.projects-markdown li p{
  padding:0 30px 0 30px;
 }
-.markdown-content-body li p:nth-child(1){
+.projects-markdown li p:nth-child(1){
  width: 100%;
  height:220px;
  overflow: hidden;
  padding: 0;
 }
-.markdown-content-body li p:nth-child(2){
+.projects-markdown li p:nth-child(2){
  color: #bbb;
  font-size: 15px;
 }
-.markdown-content-body li p:nth-child(1) img{
+.projects-markdown li p:nth-child(1) img{
  width:100%;
  height:100%;
  opacity: .7;
@@ -892,11 +821,11 @@ footer a { color: #EB5055 }
  -moz-transition: all 0.4s ease-in-out;
  -o-transition: all 0.4s ease-in-out;
 }
-.markdown-content-body li:hover{
+.projects-markdown li:hover{
  cursor: pointer;
  box-shadow: 9px 15px 30px #333;
 }
-.markdown-content-body li:hover img{
+.projects-markdown li:hover img{
  opacity: 1!important;
  transition: all 0.4s ease-in-out;
  -webkit-transition: all 0.4s ease-in-out;
@@ -908,14 +837,14 @@ footer a { color: #EB5055 }
  -o-transform: scale(1.2);
  -ms-transform: scale(1.2);
 }
-.markdown-content-body li h3{
+.projects-markdown li h3{
  font-weight: 500;
  color: #333;
  font-size: 22px;
  margin-bottom: 20px;
  padding: 10px 30px 0 30px;
 }
-.markdown-content-body li a{
+.projects-markdown li a{
  color: #0aac8e;
  font-weight: bold;
  transition: all 0.4s ease-in-out;
@@ -927,28 +856,16 @@ footer a { color: #EB5055 }
  height: 206px;
  overflow: hidden;
 }
-.markdown-content-body li a:nth-child(4){
+.projects-markdown li a:nth-child(4){
  padding: 0 30px 0 30px;
 }
-.markdown-content-body li:hover a{
+.projects-markdown li:hover a{
  transition: all 0.4s ease-in-out;
  -webkit-transition: all 0.4s ease-in-out;
  -moz-transition: all 0.4s ease-in-out;
  -o-transition: all 0.4s ease-in-out;
  color: #EB5055;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 #ScrollToTop.Offscreen {
  bottom: -100px;
  -o-transition-duration: 250ms;
@@ -983,31 +900,3 @@ footer a { color: #EB5055 }
 #ScrollToTop:hover{
  background-color: #EB5055;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

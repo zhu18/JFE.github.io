@@ -12,9 +12,9 @@ $(document).ready(function () {
                 var $node = $(item);
                 var imgPath = $("img",$node).attr("src");
                 $("#con" + index%4).append($node);
-                $(".markdown-content-body li p a").attr("target","_blank");
+                $(".projects-markdown li p a").attr("target","_blank");
                 $("img",$node).attr("data-original",imgPath).attr("src","img/loading.gif");
-                $(".markdown-content-body li").click(function(){
+                $(".projects-markdown li").click(function(){
                     var href = $(this).find("a").attr("href");
                     window.open(href);
                 });
