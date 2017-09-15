@@ -67,7 +67,7 @@ $(document).ready(function() {
 		$("html").niceScroll();  // The document page (body)
 		$(".scroller").getNiceScroll().resize()
 
-  		<!--flexs lider--> 	
+  		//<!--flexs lider-->
 		 $('.flexslider').flexslider({
 		        animation: "fade",
 		        start: function(slider){

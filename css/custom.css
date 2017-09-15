@@ -103,8 +103,8 @@ h1 small { font-size: 90% }
  left:22%;
 }
 .banner-txt h3{
- font-size: 22px;
- font-width:bold;
+  font-size: 24px;
+  font-width:bold;
 }
 .banner-txt p{
  font-size: 14px;
@@ -112,7 +112,7 @@ h1 small { font-size: 90% }
 }
 @media screen and (max-width: 800px) {
  .banner{
-  display: none;
+ display: none;
  }
 }
 
@@ -608,7 +608,7 @@ footer a { color: #EB5055 }
   overflow: hidden;
  }
 }
-.markdown-body.markdown-content-body h2{
+.news .markdown-body.markdown-content-body h2{
  margin-left: 20px;
  font-weight: 500;
  font-size: 22px;
@@ -641,7 +641,7 @@ footer a { color: #EB5055 }
   opacity: 1;
  }
 }
-.markdown-body.markdown-content-body h4{
+.news .markdown-body.markdown-content-body h4{
  margin-bottom: 10px;
  margin-left: 20px;
  margin-top: 7px!important;
@@ -650,7 +650,7 @@ footer a { color: #EB5055 }
  font-weight: normal!important;
  color: #666D89;
 }
-.markdown-body.markdown-content-body ul li{
+.news .markdown-body.markdown-content-body ul li{
  background: rgba(255, 255, 255, 0.56);
  padding: 1px 15px;
  margin: 10px 0;
@@ -660,7 +660,7 @@ footer a { color: #EB5055 }
  border-radius:3px;
  border-left: 3px solid transparent;
 }
-.markdown-body.markdown-content-body ul li:hover{
+.news .markdown-body.markdown-content-body ul li:hover{
  box-shadow: 0 0 10px 1px rgba(84, 84, 84, 0.3);
  transition:all .3s;
  border-left: 3px solid #b31935;
@@ -776,127 +776,45 @@ footer a { color: #EB5055 }
   font-size:12px;
  }
 }
-
-
-/* ==========================================================
-               project
-============================================================= */
-/*clearfix*/
-.clearfix {*zoom:1;}
-.clearfix:before,.clearfix:after {display:table;line-height:0;content:"";}
-.clearfix:after {clear:both;}
-.fl{float: left}
-.bady-bgcolor{
- background-color:#161515;
+.doc .markdown-body{
+ color:#6a737d;
 }
-#page-content{
- margin-top: 100px;
-}
-.projects-markdown li{
- background-color: #fff;
- list-style: none;
- margin: 0 auto 30px;
- max-width: 500px;
- padding-bottom: 20px;
-}
-.projects-markdown li p{
- padding:0 30px 0 30px;
-}
-.projects-markdown li p:nth-child(1){
- width: 100%;
- height:220px;
- overflow: hidden;
- padding: 0;
-}
-.projects-markdown li p:nth-child(2){
- color: #bbb;
- font-size: 15px;
-}
-.projects-markdown li p:nth-child(1) img{
+.doc .navbar-nav li{
+ display:block;
  width:100%;
- height:100%;
- opacity: .7;
- transition: all 0.4s ease-in-out;
- -webkit-transition: all 0.4s ease-in-out;
- -moz-transition: all 0.4s ease-in-out;
- -o-transition: all 0.4s ease-in-out;
+ color: #6a737d;
+ border-bottom: 1px dashed rgba(202, 69, 73, 0.31);
 }
-.projects-markdown li:hover{
- cursor: pointer;
- box-shadow: 9px 15px 30px #333;
+.doc .navbar-nav li a{
+ color: #6a737d;
 }
-.projects-markdown li:hover img{
- opacity: 1!important;
- transition: all 0.4s ease-in-out;
- -webkit-transition: all 0.4s ease-in-out;
- -moz-transition: all 0.4s ease-in-out;
- -o-transition: all 0.4s ease-in-out;
- transform: scale(1.2);
- -webkit-transform: scale(1.2);
- -moz-transform: scale(1.2);
- -o-transform: scale(1.2);
- -ms-transform: scale(1.2);
+.doc .navbar-nav li a:hover,.doc .navbar-nav li.active a{
+ color:#EB5055;
+ background:transparent;
 }
-.projects-markdown li h3{
- font-weight: 500;
- color: #333;
- font-size: 22px;
- margin-bottom: 20px;
- padding: 10px 30px 0 30px;
+.doc .navbar-nav li a:focus{
+ background:transparent;
 }
-.projects-markdown li a{
- color: #0aac8e;
- font-weight: bold;
- transition: all 0.4s ease-in-out;
- -webkit-transition: all 0.4s ease-in-out;
- -moz-transition: all 0.4s ease-in-out;
- -o-transition: all 0.4s ease-in-out;
- background: #000;
- display: block;
- height: 206px;
- overflow: hidden;
+@media (min-width: 768px){
+ .doc .navbar-nav{
+  float:none;
+  margin:0 0 20px;
+ }
+ .doc .markdown-list-warp{
+  padding:0;
+ }
 }
-.projects-markdown li a:nth-child(4){
- padding: 0 30px 0 30px;
+
+/*定义滚动条高宽及背景*/
+::-webkit-scrollbar
+{
+ width: 9px;
+ background-color: transparent;
 }
-.projects-markdown li:hover a{
- transition: all 0.4s ease-in-out;
- -webkit-transition: all 0.4s ease-in-out;
- -moz-transition: all 0.4s ease-in-out;
- -o-transition: all 0.4s ease-in-out;
- color: #EB5055;
-}
-#ScrollToTop.Offscreen {
- bottom: -100px;
- -o-transition-duration: 250ms;
- transition-duration: 250ms;
- -moz-transition-duration: 250ms;
- -webkit-transition-duration: 250ms;
-}
-#ScrollToTop{
- cursor: pointer;
- position: fixed;
- _position: absolute;
- z-index: 4;
- right: 36px;
- bottom: 49px;
- display: block;
- width: 42px;
- height: 42px;
- -moz-border-radius: 49px;
- -webkit-border-radius: 49px;
- border-radius: 49px;
- background: #24b384 url(../img/Up.png) 9px 13px no-repeat;
- filter: alpha(opacity=80);
- opacity: 0.8;
- -moz-box-shadow: 0 2px 2px 1px rgba(0,0,0,.15);
- -webkit-box-shadow: 0 2px 2px 1px rgba(0,0,0,.15);
- box-shadow: 0 2px 2px 1px rgba(0,0,0,.15);
- -moz-transition: bottom 250ms ease-in-out;
- -webkit-transition: bottom 250ms ease-in-out;
- -o-transition: all 250ms ease-in-out;
- transition: all 250ms ease-in-out;
-}
-#ScrollToTop:hover{
- background-color: #EB5055;
+
+/*定义滑块*/
+::-webkit-scrollbar-thumb
+{
+ border-radius: 10px;
+ background-color: rgb(202, 69, 73);/*rgba(102, 109, 137,0.6)*/
 }
