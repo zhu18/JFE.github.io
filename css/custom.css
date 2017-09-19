@@ -874,28 +874,42 @@ footer a { color: #EB5055 }
  -o-transition: all 0.4s ease-in-out;
 }
 .img-loding{
- animation:imgLoding  .5s ease;
+ animation:imgLoding  .5s;
 }
-
+@keyframes imgLoding
+{
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
 @-webkit-keyframes imgLoding
 {
  0% {
-  -webkit-filter:blur(5px);
- }
- 2% {
-  -webkit-filter:blur(4px);
- }
- 40% {
-  -webkit-filter:blur(3px);
- }
- 60% {
-  -webkit-filter:blur(2px);
- }
- 80% {
-  -webkit-filter:blur(1px);
+  opacity: 0;
  }
  100% {
-  -webkit-filter:blur(0px);
+  opacity: 1;
+ }
+}
+@-moz-keyframes imgLoding
+{
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
+@-o-keyframes imgLoding
+{
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
  }
 }
 .projects-markdown li:hover{
