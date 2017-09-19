@@ -223,25 +223,25 @@
         /* 返回顶部 */
 
         $(document).ready(function () {
-
+            //返回到顶部
             ScrollToTop.setup();
 
         });
 
         var ScrollToTop = ScrollToTop || {
-                setup: function () {
-                    var a = $(window).height() / 2;
-                    $(window).scroll(function () {
-                        (window.innerWidth ? window.pageYOffset : document.documentElement.scrollTop) >= a ? $("#ScrollToTop").removeClass("Offscreen") : $("#ScrollToTop").addClass("Offscreen")
-                    });
-                    $("#ScrollToTop").click(function () {
-                        $("html, body").animate({
-                            scrollTop: "0"
-                        }, 400);
-                        return false;
-                    });
-                }
-            };
+            setup: function () {
+                var a = $(window).height() / 2;
+                $(window).scroll(function () {
+                    (window.innerWidth ? window.pageYOffset : document.documentElement.scrollTop) >= a ? $("#ScrollToTop").removeClass("Offscreen") : $("#ScrollToTop").addClass("Offscreen")
+                });
+                $("#ScrollToTop").click(function () {
+                    $("html, body").animate({
+                        scrollTop: "0"
+                    }, 400);
+                    return false;
+                });
+            }
+        };
     </script>
 </body>
 </html>

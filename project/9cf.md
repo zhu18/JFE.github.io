@@ -43,7 +43,7 @@
 <p>潍坊政务服务大数据展示平台</p>
 <p>2016年11月</p>
 
-- [![工商大数据](./img/Project/oneTeam/gongshang.png)](https://gezi666.github.io/business/newHtml/login.html)
+- [![工商大数据](./img/Project/oneTeam/gongshang.jpg)](https://gezi666.github.io/business/newHtml/login.html)
 ### 工商大数据 ######
 <p>利用工商全景大数据库构建市场监管风险预警机制，挖掘业务关联，精准定位监管难点重点，并通过“机器学习”模式自动生成处置建议，采取预防措施，合理调配监管力量，提高监管效率；通过可视化图表进行宏观经济趋势分析、经济结构调整分析、资本流动趋势预判、就业需求景气预测等在内的各类辅助决策信息支持与数据验证，帮助各级政府与职能部门提高政策决策能力与市场掌控能力。</p>
 <p>2017年1月</p>
