@@ -872,17 +872,22 @@ footer a { color: #EB5055 }
  -webkit-transition: all 0.4s ease-in-out;
  -moz-transition: all 0.4s ease-in-out;
  -o-transition: all 0.4s ease-in-out;
+ border-bottom: 1px solid #dfdfdf;
+ opacity: 0;
 }
-.img-loding{
+.projects-markdown li p:nth-child(1) img.img-loding{
  animation:imgLoding  .5s;
+ opacity: 1;
 }
 @keyframes imgLoding
 {
  0% {
   opacity: 0;
+  transform: scale(1.1);
  }
  100% {
   opacity: 1;
+  transform: scale(1);
  }
 }
 @-webkit-keyframes imgLoding
@@ -936,10 +941,6 @@ footer a { color: #EB5055 }
 .projects-markdown li:hover p:nth-child(1){
  color: #fff;
 }
-.projects-markdown li:hover h3{
-
-}
-
 .projects-markdown li h3{
  font-weight: 500;
  color: #333;
