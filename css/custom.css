@@ -874,6 +874,7 @@ footer a { color: #EB5055 }
  -o-transition: all 0.4s ease-in-out;
  border-bottom: 1px solid #dfdfdf;
  opacity: 0;
+ object-fit: cover;
 }
 .projects-markdown li p:nth-child(1) img.img-loding{
  animation:imgLoding  .5s;
