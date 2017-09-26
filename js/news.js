@@ -1,17 +1,18 @@
 /**
  * Created by Administrator on 2017/7/12.
  */
+var urlParam;
 $(document).ready(function () {
     $("html").niceScroll();
     marked.setOptions({
         gfm: true
     });
     //获取url中的参数日期，初始化日期是写死的
-    var urlParam = getHrefDate() ;
+    urlParam = getHrefDate() ;
     //初始化加载周刊列表
     getListData(urlParam);
     //初始化加载最新一期周刊内容，
-    getContentData(urlParam);
+    //getContentData(urlParam);
     //编辑周刊内容的icon链接
     $("#news-edit-link").attr("href","https://github.com/jusfoun-FE/jusfoun-FE.github.io/edit/master/news/"+urlParam+".md");
 
@@ -34,7 +35,7 @@ function getHrefDate(){
     if(winHref.indexOf("#")>=0){
         return winHref.substring(winHref.indexOf("#")+1,winHref.length);
     }else{
-        return "2017-09-07";
+        return "";
     }
 }
 /**
@@ -52,6 +53,11 @@ function getListData(){
                 urlParam = $(this).attr("href").replace("#","");
                 getContentData(urlParam);
             });
+            if(urlParam)
+                getContentData(urlParam);
+            else
+                $(".markdown-list-body a:eq(0)").click();
+
             $(".markdown-list-more-show a").click(function(){
                 $(".markdown-list-more-body").removeClass("show").addClass("hide");
             });
@@ -73,6 +79,10 @@ function getContentData(urlParam){
                 window.open(href);
             });
             $(".markdown-content-body").addClass("active");
+
+            $(".markdown-list-body a").removeClass("active");
+            $(".markdown-list-body a[href='#"+urlParam+"'").addClass("active")
+
         }
     });
     $(".markdown-content-body").removeClass("active");

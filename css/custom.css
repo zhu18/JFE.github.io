@@ -687,6 +687,9 @@ footer a { color: #EB5055 }
 .markdown-list-body a:hover,.markdown-list-more-show a:hover{
  color:#EB5055;
 }
+.markdown-list-body a.active{
+ color:#EB5055;
+}
 .markdown-list-body p em{
  float:right;
  font-size:12px;

@@ -39,9 +39,12 @@ $(document).ready(function () {
     $("a[href*=#]:not([href=#])").click(function () {
         if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") || location.hostname == this.hostname) {
             var b = $(this.hash);
+            var hashName=this.hash;
             b = b.length ? b : $("[name=" + this.hash.slice(1) + "]");
             if (b.length) {
-                $("html,body").animate({scrollTop: b.offset().top}, 500);
+                $("html,body").animate({scrollTop: b.offset().top}, 500,null,function () {
+                    location.hash = hashName;
+                });
                 return false
             }
         }
