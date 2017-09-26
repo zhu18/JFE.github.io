@@ -23,6 +23,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/custom.css?v=1.0.0.2" rel="stylesheet">
     <link href="css/github-markdown.css" rel="stylesheet">
+
 </head>
 <body data-spy="scroll" data-target="#ha-header" class="bady-bgcolor">
 
@@ -218,30 +219,31 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/marked.min.js"></script>
     <script src="js/project.js"></script>
-    <script src="js/jquery.lazyload.min.js"></script>
+    <!--<script src="js/jquery.lazyload.min.js"></script>-->
+    <script src="js/jquery.scrollLoad.js"></script>
     <script>
         /* 返回顶部 */
 
         $(document).ready(function () {
-
+            //返回到顶部
             ScrollToTop.setup();
 
         });
 
         var ScrollToTop = ScrollToTop || {
-                setup: function () {
-                    var a = $(window).height() / 2;
-                    $(window).scroll(function () {
-                        (window.innerWidth ? window.pageYOffset : document.documentElement.scrollTop) >= a ? $("#ScrollToTop").removeClass("Offscreen") : $("#ScrollToTop").addClass("Offscreen")
-                    });
-                    $("#ScrollToTop").click(function () {
-                        $("html, body").animate({
-                            scrollTop: "0"
-                        }, 400);
-                        return false;
-                    });
-                }
-            };
+            setup: function () {
+                var a = $(window).height() / 2;
+                $(window).scroll(function () {
+                    (window.innerWidth ? window.pageYOffset : document.documentElement.scrollTop) >= a ? $("#ScrollToTop").removeClass("Offscreen") : $("#ScrollToTop").addClass("Offscreen")
+                });
+                $("#ScrollToTop").click(function () {
+                    $("html, body").animate({
+                        scrollTop: "0"
+                    }, 400);
+                    return false;
+                });
+            }
+        };
     </script>
 </body>
 </html>
