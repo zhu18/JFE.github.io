@@ -831,43 +831,104 @@ footer a { color: #EB5055 }
 .clearfix:after {clear:both;}
 .fl{float: left}
 .bady-bgcolor{
- background-color:#161515;
+ background-color:#e4e4e4;
+ font-family: "helvetica neue",arial,sans-serif;
 }
 #page-content{
  margin-top: 100px;
+ min-height:768px;
 }
 .projects-markdown li{
- background-color: #fff;
+ background: rgba(255,255,255,.7);
  list-style: none;
  margin: 0 auto 30px;
  max-width: 500px;
  padding-bottom: 20px;
-}
-.projects-markdown li p{
- padding:0 30px 0 30px;
-}
-.projects-markdown li p:nth-child(1){
- width: 100%;
- height:220px;
- overflow: hidden;
- padding: 0;
-}
-.projects-markdown li p:nth-child(2){
- color: #bbb;
- font-size: 15px;
-}
-.projects-markdown li p:nth-child(1) img{
- width:100%;
- height:100%;
- opacity: .7;
+ border-radius: 3px;
+ box-shadow: 0 1px 3px rgba(0,0,0,.3);
  transition: all 0.4s ease-in-out;
  -webkit-transition: all 0.4s ease-in-out;
  -moz-transition: all 0.4s ease-in-out;
  -o-transition: all 0.4s ease-in-out;
 }
+.projects-markdown li p{
+ padding:0 25px 0 25px;
+ color: #9E7E6B;
+}
+.projects-markdown li p:nth-child(1){
+ width: 100%;
+ height:206px;
+ overflow: hidden;
+ padding: 0;
+}
+.projects-markdown li p:nth-child(3){
+ color: #555;
+ font-size: 14px;
+ line-height: 23px;
+ /*height: 0px;*/
+ /*overflow: hidden;*/
+}
+.projects-markdown li p:nth-child(1) img{
+ width:100%;
+ height:100%;
+ transition: all 0.4s ease-in-out;
+ -webkit-transition: all 0.4s ease-in-out;
+ -moz-transition: all 0.4s ease-in-out;
+ -o-transition: all 0.4s ease-in-out;
+ border-bottom: 1px solid #dfdfdf;
+ opacity: 0;
+ object-fit: cover;
+}
+.projects-markdown li p:nth-child(1) img.img-loding{
+ animation:imgLoding  .5s;
+ opacity: 1;
+}
+@keyframes imgLoding
+{
+ 0% {
+  opacity: 0;
+  transform: scale(1.1);
+ }
+ 100% {
+  opacity: 1;
+  transform: scale(1);
+ }
+}
+@-webkit-keyframes imgLoding
+{
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
+@-moz-keyframes imgLoding
+{
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
+@-o-keyframes imgLoding
+{
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
 .projects-markdown li:hover{
  cursor: pointer;
- box-shadow: 9px 15px 30px #333;
+ box-shadow: -1px 10px 25px #797979;
+ background: rgba(255,255,255,1);
+ transition: all 0.4s ease-in-out;
+ -webkit-transition: all 0.4s ease-in-out;
+ -moz-transition: all 0.4s ease-in-out;
+ -o-transition: all 0.4s ease-in-out;
 }
 .projects-markdown li:hover img{
  opacity: 1!important;
@@ -881,12 +942,15 @@ footer a { color: #EB5055 }
  -o-transform: scale(1.2);
  -ms-transform: scale(1.2);
 }
+.projects-markdown li:hover p:nth-child(1){
+ color: #fff;
+}
 .projects-markdown li h3{
  font-weight: 500;
  color: #333;
- font-size: 22px;
- margin-bottom: 20px;
- padding: 10px 30px 0 30px;
+ font-size: 20px;
+ line-height: 25px;
+ padding: 0px 25px 0 25px;
 }
 .projects-markdown li a{
  color: #0aac8e;
@@ -895,10 +959,12 @@ footer a { color: #EB5055 }
  -webkit-transition: all 0.4s ease-in-out;
  -moz-transition: all 0.4s ease-in-out;
  -o-transition: all 0.4s ease-in-out;
- background: #000;
+ background: #d2d0d0;
  display: block;
- height: 206px;
+ height: 100%;
+ width: 100%;
  overflow: hidden;
+ border-radius: 3px 3px 0 0;
 }
 .projects-markdown li a:nth-child(4){
  padding: 0 30px 0 30px;
@@ -930,7 +996,7 @@ footer a { color: #EB5055 }
  -moz-border-radius: 49px;
  -webkit-border-radius: 49px;
  border-radius: 49px;
- background: #24b384 url(/img/up.png) 9px 13px no-repeat;
+ background: #24b384 url(../img/up.png) 9px 13px no-repeat;
  filter: alpha(opacity=80);
  opacity: 0.8;
  -moz-box-shadow: 0 2px 2px 1px rgba(0,0,0,.15);
