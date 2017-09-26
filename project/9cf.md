@@ -2,7 +2,6 @@
 ### 金融小场景-招商通 ######
 <p>公司金融小场景项目</p>
 <p>2017年8月</p>
-<p></p>
 
 - [![呼和浩特市政府采购电子交易平台](./img/Project/twoTeam/hushidianshang.jpg)](https://chutiantian.github.io/hsds/html/)
 ### 呼和浩特市政府采购电子交易平台 ######
@@ -54,11 +53,6 @@
 <p>该项目主要展示金华市电商的大数据，包括：店铺数量波动、税务登记、月销售额、行业销售趋势、电商舆情等数据展示。</p>
 <p>2016年</p>
 
-- [![质检大数据平台](./img/Project/oneTeam/zhijian2.jpg)](https://xingwgithub.github.io/qualityControl/)
-### 质检大数据平台 ######
-<p>质量监控，质量预警、质量检测事件等对企业进行质量监控和预警，展示各公司和各省的质量状况</p>
-<p>2016年</p>
-
 - [![寰球大数据官网](./img/Project/oneTeam/huanqiu.jpg)](https://hotwhy.github.io/huanqiuweb/)
 ### 寰球大数据官网 ######
 <p>寰球大数据官网是一个提供产品与服务，展示公司所做的大数据平台，以及提供行业解决方案和数据研究院提供的专业数据报告。</p>
@@ -78,11 +72,6 @@
 ### 安易行app ######
 <p>出国安全预警，困难求助，团队管理</p>
 <p>2017年9月</p>
-
-- [![民意云标准化平台](./img/Project/threeTeam/minyiyun.jpg)](https://yangyongguan.github.io/big-data/minyi/html/index.html)
-### 民意云标准化平台 ######
-<p>民意大数据可视化展示，顶层决策</p>
-<p>2017年4月</p>
 
 - [![钢铁大数据](./img/Project/threeTeam/gangtie.jpg)](https://wangjie233.github.io/steelBigData)
 ### 钢铁大数据 ######
