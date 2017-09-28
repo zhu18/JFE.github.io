@@ -249,6 +249,7 @@ html[xmlns] .slides { display: block; }
 .portfolio-title { position: relative; float: left; width: 100%; height: 20px; overflow: hidden; margin-top: 5px; }
 .portfolio-title h4 { position: relative; line-height: 20px; width: 100%; text-align: center; margin:0; }
 .portfolio-title h4 span { width: 100%; position: absolute; margin: 0 auto; left: 0; color: #A3A7B9; top: 20px; }
+.portfolio-title:hover{height:40px;}
 .hexagon a { float: left; width: 100px; height: 100px; overflow: hidden; display: block; position: relative; }
 .hexagon a img { position: absolute; left: 0; top: 0; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -o-filter: grayscale(100%); -ms-filter: grayscale(100%); filter: grayscale(100%); -webkit-transition: 300ms ease-out; -moz-transition: 300ms ease-out; -o-transition: 300ms ease-out; transition: 300ms ease-out; }
 .hexagon a img.hovering { transform: translateX(3px); -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%); -o-filter: grayscale(0%); -ms-filter: grayscale(0%); filter: grayscale(0%); }
@@ -852,8 +853,14 @@ footer a { color: #EB5055 }
  -o-transition: all 0.4s ease-in-out;
 }
 .projects-markdown li p{
- padding:0 25px 0 25px;
- color: #9E7E6B;
+ padding: 0px 25px 0 25px;
+}
+.projects-markdown li h3{
+ font-weight: 500;
+ color: #333;
+ font-size: 20px;
+ line-height: 25px;
+ padding: 0px 25px 0 25px;
 }
 .projects-markdown li p:nth-child(1){
  width: 100%;
@@ -861,14 +868,13 @@ footer a { color: #EB5055 }
  overflow: hidden;
  padding: 0;
 }
-.projects-markdown li p:nth-child(3){
+.projects-markdown li p:nth-child(2){
+ padding:0 25px 0 25px;
  color: #555;
  font-size: 14px;
  line-height: 23px;
- /*height: 0px;*/
- /*overflow: hidden;*/
 }
-.projects-markdown li p:nth-child(1) img{
+.projects-markdown li p a img:nth-child(1){
  width:100%;
  height:100%;
  transition: all 0.4s ease-in-out;
@@ -930,7 +936,7 @@ footer a { color: #EB5055 }
  -moz-transition: all 0.4s ease-in-out;
  -o-transition: all 0.4s ease-in-out;
 }
-.projects-markdown li:hover img{
+.projects-markdown li:hover p a img:nth-child(1){
  opacity: 1!important;
  transition: all 0.4s ease-in-out;
  -webkit-transition: all 0.4s ease-in-out;
@@ -942,32 +948,27 @@ footer a { color: #EB5055 }
  -o-transform: scale(1.2);
  -ms-transform: scale(1.2);
 }
-.projects-markdown li:hover p:nth-child(1){
- color: #fff;
+.projects-markdown li:hover div a img:nth-child(1){
+ -webkit-filter:brightness(.5);
+ transition: filter .5s;
 }
-.projects-markdown li h3{
- font-weight: 500;
- color: #333;
- font-size: 20px;
- line-height: 25px;
- padding: 0px 25px 0 25px;
+.projects-markdown li div{
+ padding: 25px;
 }
-.projects-markdown li a{
- color: #0aac8e;
- font-weight: bold;
- transition: all 0.4s ease-in-out;
- -webkit-transition: all 0.4s ease-in-out;
- -moz-transition: all 0.4s ease-in-out;
- -o-transition: all 0.4s ease-in-out;
- background: #d2d0d0;
- display: block;
- height: 100%;
- width: 100%;
- overflow: hidden;
- border-radius: 3px 3px 0 0;
+.projects-markdown li div p:nth-child(1){
+ width:auto;
+ height: 20px;
+ color: #9E7E6B;
+ float: left;
 }
 .projects-markdown li a:nth-child(4){
  padding: 0 30px 0 30px;
+}
+.projects-markdown li div a img:nth-child(1){
+ width: 20px;
+ height: 20px;
+ float: right;
+ transition: filter .5s;
 }
 .projects-markdown li:hover a{
  transition: all 0.4s ease-in-out;
@@ -976,6 +977,7 @@ footer a { color: #EB5055 }
  -o-transition: all 0.4s ease-in-out;
  color: #EB5055;
 }
+/* 返回顶部 */
 #ScrollToTop.Offscreen {
  bottom: -100px;
  -o-transition-duration: 250ms;
