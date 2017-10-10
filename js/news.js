@@ -3,7 +3,7 @@
  */
 var urlParam;
 $(document).ready(function () {
-    $("html").niceScroll();
+    //$("html").niceScroll();
     marked.setOptions({
         gfm: true
     });

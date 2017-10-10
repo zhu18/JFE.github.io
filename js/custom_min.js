@@ -22,7 +22,7 @@ $(document).ready(function () {
     });
 
 
-    $("html").niceScroll();
+    //$("html").niceScroll();
     /*$(".scroller").getNiceScroll().resize();
     $(".flexslider").flexslider({
         animation: "fade", start: function (b) {

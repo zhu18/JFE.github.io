@@ -3,7 +3,6 @@
  */
 $(document).ready(function () {
 
-    $("html").niceScroll();
     marked.setOptions({
         gfm: true
     })
