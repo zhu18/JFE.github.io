@@ -2,7 +2,18 @@
  * Created by guohuimin on 2017/9/8.
  */
 $(document).ready(function () {
-
+    var icons={
+        jquery:'icon-jquery',
+        vue:'icon-vuejs',
+        echarts:'icon-echart',
+        layui:'icon-layer',
+        css3:'icon-css',
+        handlebars:'icon-qishihorseman1',
+        vue:'icon-vuejs',
+        bootstrap:'icon-bootstrap',
+        webpack:'icon-webpack1',
+        mintui:'icon-yezi',
+    };
     $.ajax({
         url: "project/9cf.md",
         success: function (data) {
@@ -15,6 +26,15 @@ $(document).ready(function () {
                 $img.attr({"src":'',"data-original":imgPath});
                 $("img:eq(1)",$item).attr("tag",1);
                 $("#con" + index%4).append($item);
+                //使用技术
+                var $div = $("div:eq(0)",$item);
+                var technology=$div.html().split(',');
+                $div.html("");
+                $(technology).each(function (index,item) {
+                    var icon = icons[item];
+                    $div.append($("<i>").attr("class","icon iconfont " + icon));
+                });
+
             });
             $(".projects-markdown li a").attr("target","_blank");
             $(".projects-markdown li").click(function(){
@@ -31,7 +51,11 @@ $(document).ready(function () {
                 window.open(href);
                 return false;
                 })
+            // 所用技术
+
+
             })
+            /*  */
         }
     })
 });
