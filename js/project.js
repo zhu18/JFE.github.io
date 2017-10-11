@@ -13,6 +13,7 @@ $(document).ready(function () {
         bootstrap:'icon-bootstrap',
         webpack:'icon-webpack1',
         mintui:'icon-yezi',
+        gulp:'icon-gulp'
     };
     $.ajax({
         url: "project/9cf.md",
@@ -28,11 +29,13 @@ $(document).ready(function () {
                 $("#con" + index%4).append($item);
                 //使用技术
                 var $div = $("div:eq(0)",$item);
+                console.log($div);
                 var technology=$div.html().split(',');
-                $div.html("");
+                $div.addClass("div-technology").html("");
+                $div.append("<span style='font-size:13px;'>使用技术：</span>");
                 $(technology).each(function (index,item) {
                     var icon = icons[item];
-                    $div.append($("<i>").attr("class","icon iconfont " + icon));
+                    $div.append($("<i>").attr("class","icon iconfont " + icon).attr("title",item));
                 });
 
             });

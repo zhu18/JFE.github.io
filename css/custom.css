@@ -984,6 +984,8 @@ footer a { color: #EB5055 }
  padding: 5px 25px 0 25px!important;
 }
 .div-technology i{margin-right: 5px;}
+.icon-jquery{}
+
 /* 返回顶部 */
 #ScrollToTop.Offscreen {
  bottom: -100px;
