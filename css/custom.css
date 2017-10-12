@@ -950,9 +950,15 @@ footer a { color: #EB5055 }
  -o-transform: scale(1.2);
  -ms-transform: scale(1.2);
 }
-.projects-markdown li:hover div i{
+.projects-markdown li:hover .icon-github1{
  -webkit-filter:brightness(.5);
  transition: filter .5s;
+ color: #EB5055;
+}
+.div-technology i:hover{
+ -webkit-filter:brightness(.5);
+ transition: filter .5s;
+ color: #EB5055;
 }
 .projects-markdown li div{
  padding: 15px 25px;
@@ -972,6 +978,7 @@ footer a { color: #EB5055 }
  transition: filter .5s;
  float: right;
  color: #9E7E6B;
+ margin-top: -2px;
 }
 .projects-markdown li:hover a{
  transition: all 0.4s ease-in-out;
