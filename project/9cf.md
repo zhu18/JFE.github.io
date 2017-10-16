@@ -94,12 +94,6 @@
 <div class="div-technology">echarts,jquery</div>
 <p>2016年9月<p>
 
-- [![亲属朋友关联企业族谱](./img/Project/threeTeam/zupu.jpg)](https://jusfoun-fe.github.io/user/)
-### 亲属朋友关联企业族谱 ######
-用户通过输入公司的代表或者总裁等职务人的名称，通过大数据分析可以获得该人关联的所有企业的公司诉讼、公司失信、公司舆论、公司变更、公司行政处罚等方面的情况，也可以查看具体的某公司相关方面的各种情况。
-<div class="div-technology">vue,echarts,webpack</div>
-<p>2017年9月<p>
-
 - [![溯源大数据](./img/Project/threeTeam/suyuan.jpg)](https://jusfoun-fe.github.io/originPlatform/html/index/index/dataStatistics.html)
 ### 溯源大数据 ######
 提供农产品监管大数据展示，为政府提供决策
