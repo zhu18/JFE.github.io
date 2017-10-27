@@ -7,8 +7,21 @@
 
 培训人：魏彬
 
+### THREE（一）
+内容：1、WebGL介绍
+     2、three基础对象
+     3、几何体 
+     4、光源
+     5、材质
+     6、控制器
+ 
+ 时间：2017年10月28日 (周六) 14:00
+ 
+ 地点：四楼大会议室
+ 
+ 培训人：朱润亚
 
-### ReactNative（一）-- ReactNative基础与入门
+### ReactNative（一）
 内容：1、初始react-native
      2、react-native环境搭建
      3、完成Hello word 
