@@ -7,7 +7,7 @@
 
 培训人：魏彬
 
-### THREE（一）
+### ![THREE（一）](https://github.com/zhu18/Train_THREE)
 内容：1、WebGL介绍
      2、three基础对象
      3、几何体 
