@@ -26,7 +26,7 @@
  
  培训人：朱润亚
 
-### ReactNative（一）(https://github.com/yangyongguan/react-native-01)
+### [ReactNative（一）](https://github.com/yangyongguan/react-native-01)
 内容：1、初始react-native
      2、react-native环境搭建
      3、完成Hello word 
