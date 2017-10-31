@@ -1,6 +1,6 @@
 ## 前端培训计划
 
-### VUE 模板基础培训（一）
+### [VUE 模板基础培训（一）](https://github.com/jusfoun-FE/spa-development-pc)
 时间：2017年10月19日 18:00
 
 地点：四楼大会议室
