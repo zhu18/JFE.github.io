@@ -557,6 +557,7 @@ footer a { color: #EB5055 }
 }
 .container{position: relative;}
 .doc-edit-link{position: absolute;  right: 15px;  top: 10px;  font-size: 24px;  color: #bbb;line-height: normal;}
+.project-edit-link{font-size: 24px;  color: #bbb;line-height: normal;float: right;margin-bottom: 15px;}
 .markdown-body{
  min-height: 600px;padding: 0px 15px;
  margin-top:10px;

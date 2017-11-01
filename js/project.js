@@ -65,6 +65,10 @@ $(document).ready(function () {
                     $(this).addClass("img-loding");
                 })
             })
+            //跳转到md文件
+            $("#project-edit-link").click(function () {
+                $(this).attr("href","https://github.com/jusfoun-FE/jusfoun-FE.github.io/edit/master/project/"+"9cf.md");
+            })
         }
     })
 });
