@@ -36,6 +36,8 @@
  
  时间：2017年11月01日(星期三) (18:00)
  
+ 视频：http://v.youku.com/v_show/id_XMzEyNjg5MTY5Mg==.html?spm=a2hzp.8244740.0.0
+ 
  地点：四楼大会议室
  
  培训人：杨勇冠
