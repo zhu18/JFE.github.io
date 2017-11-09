@@ -52,6 +52,8 @@
 
 地点：四楼大会议室
 
+视频：https://i.youku.com/i/UMTMzNzk1NzE1Ng==?spm=a2h0j.8191423.uerCenter.5~5!2~A
+
 培训人：韩凯波
 
 ### D3（二）
