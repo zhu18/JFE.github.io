@@ -106,6 +106,12 @@
 <div class="div-technology">vue,echarts</div>
 <p>2017年7月<p>
 
+- [![山东潍坊政务进度APP](./img/Project/twoTeam/shandongweifang.jpg)](https://chutiantian.github.io/progressApp/html/)
+### 山东潍坊政务进度APP ######
+以手机便捷办公方式，贯穿招商项目的提报、推送、审批、调度、分析、督查、反馈、决策等全业务流程；分步实施系统数据，先重大项目，后其他项目，对市领导、部门领导关注的项目实时推送；统筹全市招商工作流程相关数据的实时联动，加快推进全市招商项目的洽谈、落地和建设。
+<div class="div-technology">jquery,echarts,sass</div>
+<p>2017年10月<p>
+
 
 
   
