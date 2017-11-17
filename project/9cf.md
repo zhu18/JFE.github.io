@@ -4,7 +4,7 @@
 <div>vue,echarts</div>
 <p>2017年8月<p>
  
-- [![呼和浩特市政府采购电子交易平台](./img/Project/twoTeam/hushidianshang.jpg)](https://jusfoun-fe.github.io/hsds/html/)
+- [![呼和浩特市政府采购电子交易平台](./img/Project/twoTeam/hushidianshang.jpg)](https://chutiantian.github.io/hsds/html/)
 ### 呼和浩特市政府采购电子交易平台 ######
 为了避免传统采购模式的弊病，更好的体现公平竞争的原则，使政府采购物品价格公开化、透明化，呼和浩特市财政局引入了电商采购系统，通过连接诸多电商平台，引进更广泛的供应商，并实现与市场价的快速比较分析，保证政府采购商品的最高性价比，为管理单位和预算单位提供更为有效的监督手段。
 <div>jquery</div> 
