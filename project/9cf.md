@@ -46,7 +46,7 @@
 <div>jquery,css3</div>
 <p>2017年1月<p>
 
-- [![九次方民意云大数据平台](./img/Project/oneTeam/minyiyun.jpg)](https://jusfoun-fe.github.io/publicOpinionStandardization/html/login.html)
+- [![九次方民意云大数据平台](./img/Project/oneTeam/minyiyun.jpg)](https://yangyongguan.github.io/big-data/minyi/html/login.html)
 ### 九次方民意云大数据平台 ######
 九次方民意云大数据平台，通过大数据手段对收集到的民意数据进行研判分析，建立预测预警模型，精准覆盖民意热点。
 <div>jquery,echarts,handlebars</div>
@@ -82,7 +82,7 @@
 <div class="div-technology">jquery,css3,echarts,SVG,bootstrap</div>
 <p>2016年3月<p>
 
-- [![安易行app](./img/Project/threeTeam/anyihangapp.jpg)](https://jusfoun-fe.github.io/big-data/slb)
+- [![安易行app](./img/Project/threeTeam/anyihangapp.jpg)](./phone.html?url=https://jusfoun-fe.github.io/big-data/slb)
 ### 安易行app ######
 出国安全预警，困难求助，团队管理
 <div class="div-technology">vue,webpack,mintui</div>
@@ -106,7 +106,7 @@
 <div class="div-technology">vue,echarts</div>
 <p>2017年7月<p>
 
-- [![山东潍坊政务进度APP](./img/Project/twoTeam/shandongweifang.jpg)](https://chutiantian.github.io/progressApp/html/)
+- [![山东潍坊政务进度APP](./img/Project/twoTeam/shandongweifang.jpg)](./phone.html?url=https://chutiantian.github.io/progressApp/html/)
 ### 山东潍坊政务进度APP ######
 以手机便捷办公方式，贯穿招商项目的提报、推送、审批、调度、分析、督查、反馈、决策等全业务流程；分步实施系统数据，先重大项目，后其他项目，对市领导、部门领导关注的项目实时推送；统筹全市招商工作流程相关数据的实时联动，加快推进全市招商项目的洽谈、落地和建设。
 <div class="div-technology">jquery,echarts,sass</div>
