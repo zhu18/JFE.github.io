@@ -44,7 +44,7 @@ function GetQueryString(name)
     if(r!=null)return  unescape(r[2]); return null;
 }
 
-funciont setActive(urlParam){
+function setActive(urlParam){
     
      $(".markdown-list-warp li").each(function(i,v){
             var urlStr = $(this).find("a").attr("href").replace("#","");
