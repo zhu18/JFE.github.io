@@ -78,6 +78,9 @@ function getContentData(urlParam){
         success: function (data) {
             $(".markdown-body").html(marked(data));
             $(".markdown-content-body").addClass("active");
+            
+             $(".markdown-body.markdown-content-body a").attr("target","blank");
+            
         }
     });
 
