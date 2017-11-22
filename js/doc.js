@@ -20,7 +20,7 @@ $(document).ready(function () {
 
     //获取url中的参数日期，初始化日期是写死的
     var urlParam = getHrefDate() ;
-
+     setActive(urlParam);
     //初始化加载 入职注意事项，
     getContentData(urlParam);
     $(".markdown-list-warp a").click(function(){
@@ -28,15 +28,8 @@ $(document).ready(function () {
         getContentData(urlParam);
         //编辑内容的icon链接
         $("#doc-edit-link").attr("href","https://github.com/jusfoun-FE/jusfoun-FE.github.io/edit/master/doc/"+urlParam+".md");
-
-        $(".markdown-list-warp li").each(function(i,v){
-            var urlStr = $(this).find("a").attr("href").replace("#","");
-            if(urlStr == urlParam){
-                $(this).addClass("active");
-            }else{
-                $(this).removeClass("active");
-            }
-        });
+        setActive(urlParam);
+       
     });
 
     //编辑内容的icon链接
@@ -50,6 +43,19 @@ function GetQueryString(name)
     var r = window.location.search.substr(1).match(reg);
     if(r!=null)return  unescape(r[2]); return null;
 }
+
+funciont setActive(urlParam){
+    
+     $(".markdown-list-warp li").each(function(i,v){
+            var urlStr = $(this).find("a").attr("href").replace("#","");
+            if(urlStr == urlParam){
+                $(this).addClass("active");
+            }else{
+                $(this).removeClass("active");
+            }
+        });
+}
+
 /**
  * 获取链接中的参数日期
  * @returns {*}
