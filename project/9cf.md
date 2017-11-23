@@ -85,49 +85,49 @@
 - [![寰球大数据官网](./img/Project/oneTeam/huanqiu.jpg)](https://jusfoun-fe.github.io/huanqiuweb/)
 ### 寰球大数据官网 ######
 寰球大数据官网是一个提供产品与服务，展示公司所做的大数据平台，以及提供行业解决方案和数据研究院提供的专业数据报告。
-<div class="div-technology">jquery,css3</div>
+<div>jquery,css3</div>
 <p>2017年7月<p>
 
 - [![融合平台](./img/Project/publicTeam/fusion.jpg)](https://jusfoun-fe.github.io/fusion/)
 ### 融合平台 ######
 数据采集、共享交互、数据清洗、建模分析一体的大数据共享融合平台；对汇聚到平台的数据进行编目，将数据目录化（可以把资源目录理解为一本书的目录，数据就是书中的内容），便于对外提供数据服务
-<div class="div-technology">jquery,css3,echarts,SVG,bootstrap</div>
+<div>jquery,css3,echarts,SVG,bootstrap</div>
 <p>2017年5月<p>
 
 - [![九次方官网2.0](./img/Project/publicTeam/jusfoun.jpg)](https://jusfoun-fe.github.io/jusfoun/)
 ### 九次方官网2.0 ######
 九次方大数据（JUSFOUN BIGDATA)是中国领先的大数据服务公司。秉承“贡献中国数据智慧，释放全球数据价值”的发展理念，致力于推动政府数据公开及数据交易，挖掘各个产业的大数据价值及大数据应用。
-<div class="div-technology">jquery,css3,echarts,SVG,bootstrap</div>
+<div>jquery,css3,echarts,SVG,bootstrap</div>
 <p>2016年3月<p>
 
 - [![安易行app](./img/Project/threeTeam/anyihangapp.jpg)](./phone.html?url=https://jusfoun-fe.github.io/big-data/slb)
 ### 安易行app ######
 出国安全预警，困难求助，团队管理
-<div class="div-technology">vue,webpack,mintui</div>
+<div>vue,webpack,mintui</div>
 <p>2017年9月<p>
 
 - [![钢铁大数据](./img/Project/threeTeam/gangtie.jpg)](https://jusfoun-fe.github.io/steelBigData)
 ### 钢铁大数据 ######
 钢铁供应链金融大数据，可视化监视，方案决策
-<div class="div-technology">echarts,jquery</div>
+<div>echarts,jquery</div>
 <p>2016年9月<p>
 
 - [![溯源大数据](./img/Project/threeTeam/suyuan.jpg)](https://jusfoun-fe.github.io/originPlatform/html/index/index/dataStatistics.html)
 ### 溯源大数据 ######
 提供农产品监管大数据展示，为政府提供决策
-<div class="div-technology">jquery,echarts,layui</div>
+<div>jquery,echarts,layui</div>
 <p>2017年7月<p>
 
 - [![星购互动云经纪大数据平台](./img/Project/oneTeam/xinggouhudong.jpg)](https://jusfoun-fe.github.io/xghd/#/)
 ### 星购互动云经纪大数据平台 ######
 星购互动是一个全新模式下的文化经纪全产业链互动平台,星购互动团队由两岸三地知名经纪人、媒体人和知名企业组建而成,团队拥有娱乐业及传媒业十余年的专业经验。
-<div class="div-technology">vue,echarts</div>
+<div>vue,echarts</div>
 <p>2017年7月<p>
 
 - [![山东潍坊政务进度APP](./img/Project/twoTeam/shandongweifang.jpg)](./phone.html?url=https://chutiantian.github.io/progressApp/html/)
 ### 山东潍坊政务进度APP ######
 以手机便捷办公方式，贯穿招商项目的提报、推送、审批、调度、分析、督查、反馈、决策等全业务流程；分步实施系统数据，先重大项目，后其他项目，对市领导、部门领导关注的项目实时推送；统筹全市招商工作流程相关数据的实时联动，加快推进全市招商项目的洽谈、落地和建设。
-<div class="div-technology">jquery,echarts,sass</div>
+<div>jquery,echarts,sass</div>
 <p>2017年10月<p>
 
 
