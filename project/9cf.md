@@ -1,3 +1,9 @@
+- [![政务信息资源管理中心](./img/Project/fourTeam/guanlizhongxin.jpg)](./phone.html?url=https://arsliuyang.github.io/lijingAPP/html/)
+### 政务信息资源管理中心 ######
+政务信息资源管理中心
+<div class="div-technology">vue</div>
+<p>2017年11月<p>  
+
 - [![政务信息填报系统](./img/Project/fourTeam/zhengwutianbao.jpg)](./phone.html?url=https://arsliuyang.github.io/lijingAPP/html/)
 ### 政务信息填报系统 ######
 政务信息填报系统
