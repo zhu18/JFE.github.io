@@ -1,6 +1,6 @@
 - [![政务信息填报系统](./img/Project/twoTeam/lijiangApp.jpg)](./phone.html?url=https://arsliuyang.github.io/lijingAPP/html/)
-### [政务信息填报系统 ######
-[政务信息填报系统
+### 政务信息填报系统 ######
+政务信息填报系统
 <div class="div-technology">vue</div>
 <p>2017年11月<p>  
 
