@@ -2,21 +2,13 @@
 ### 政务信息资源管理中心 ######
 政务信息资源管理中心
 <div>jquery,css3</div>
-<<<<<<< HEAD
 <p>2017年11月<p> 
-=======
-2017年11月 
->>>>>>> 9c751b930ffa5da6f42e02b29832e46620b62fba
 
 - [![政务信息填报系统](./img/Project/fourTeam/zhengwutianbao.jpg)](https://huiminguo.github.io/zhengwutianbao/index.html)
 ### 政务信息填报系统 ######
 政务信息填报系统
 <div>jquery,css3</div>
-<<<<<<< HEAD
-<p>2017年11月<p> 
-=======
-2017年11月 
->>>>>>> 9c751b930ffa5da6f42e02b29832e46620b62fba
+<p>2017年11月<p>
 
 - [![丽江旅游大数据APP](./img/Project/twoTeam/lijiangApp.jpg)](./phone.html?url=https://arsliuyang.github.io/lijingAPP/html/)
 ### 丽江旅游大数据APP首页 ######
