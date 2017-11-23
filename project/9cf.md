@@ -2,7 +2,7 @@
 ### 丽江旅游大数据APP首页 ######
 丽江旅游大数据APP首页是H5页面制作，别的页面都是APP端开发的。
 <div class="div-technology">vue</div>
-<p>2017年10月<p>
+<p>2017年10月<p>  
 
 - [![金融小场景-招商通](./img/Project/twoTeam/zhaoshangtong.jpg)](https://jusfoun-fe.github.io/zhaoshangtong/index.html)
 ### 金融小场景-招商通 ######
