@@ -890,7 +890,7 @@ footer a { color: #EB5055 }
 .projects-markdown li p:nth-child(1) img.img-loding{
  animation:imgLoding  .5s;
  opacity: 1;
- height: 210px;
+ /*height: 210px;*/
 }
 @keyframes imgLoding
 {
