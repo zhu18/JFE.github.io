@@ -1,3 +1,9 @@
+- [![政务信息填报系统](./img/Project/twoTeam/lijiangApp.jpg)](https://github.com/huiminguo/zhengwutianbao.git/index.html)
+### 丽江旅游大数据APP首页 ######
+丽江旅游大数据APP首页是H5页面制作，别的页面都是APP端开发的。
+<div class="div-technology">vue</div>
+<p>2017年10月<p>
+
 - [![丽江旅游大数据APP](./img/Project/twoTeam/lijiangApp.jpg)](./phone.html?url=https://arsliuyang.github.io/lijingAPP/html/)
 ### 丽江旅游大数据APP首页 ######
 丽江旅游大数据APP首页是H5页面制作，别的页面都是APP端开发的。
