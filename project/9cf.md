@@ -2,7 +2,7 @@
 ### 政务信息资源管理中心 ######
 政务信息资源管理中心
 <div>jquery,css3</div>
-<p>2017年11月<p>  
+2017年11月 
 
 - [![政务信息填报系统](./img/Project/fourTeam/zhengwutianbao.jpg)](https://huiminguo.github.io/zhengwutianbao/index.html)
 ### 政务信息填报系统 ######
