@@ -1,3 +1,21 @@
+- [![政务信息填报系统](./img/Project/fourTeam/zhengwutianbao.jpg)](https://github.com/huiminguo/zhengwutianbao.git/index.html)
+### 政务信息填报系统 ######
+政务信息系统整合共享工作进度填报。
+<div class="div-technology">vue</div>
+<p>2017年11月<p>
+ 
+ - [![政务信息资源管理中心](./img/Project/fourTeam/guanlizhongxin.jpg)](https://github.com/huiminguo/adminCenter.git/index.html)
+### 政务信息资源管理中心 ######
+政务信息资源管理中心。
+<div class="div-technology">vue</div>
+<p>2017年11月<p>
+
+- [![丽江旅游大数据APP](./img/Project/twoTeam/lijiangApp.jpg)](./phone.html?url=https://arsliuyang.github.io/lijingAPP/html/)
+### 丽江旅游大数据APP首页 ######
+丽江旅游大数据APP首页是H5页面制作，别的页面都是APP端开发的。
+<div class="div-technology">vue</div>
+<p>2017年10月<p>
+
 - [![金融小场景-招商通](./img/Project/twoTeam/zhaoshangtong.jpg)](https://jusfoun-fe.github.io/zhaoshangtong/index.html)
 ### 金融小场景-招商通 ######
 公司金融小场景项目
