@@ -63,6 +63,8 @@
 
 培训人：韩凯波
 
+资料：https://github.com/hankaibo/d3-demos.git
+
 
 ### React-基础（一）
 时间：2017年11月24日(星期五) 18:00
