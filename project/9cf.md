@@ -100,7 +100,7 @@
 <div>jquery,css3,echarts,SVG,bootstrap</div>
 <p>2016年3月<p>
 
-- [![安易行app](./img/Project/threeTeam/anyihangapp.jpg)](./phone.html?url=https://jusfoun-fe.github.io/big-data/slb)
+- [![安易行app](./img/Project/threeTeam/anyihangapp.jpg)](./phone.html?url=https://jusfoun-fe.github.io/big-data/slb/index.html)
 ### 安易行app ######
 出国安全预警，困难求助，团队管理
 <div>vue,webpack,mintui</div>
