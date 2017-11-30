@@ -13,7 +13,8 @@ $(document).ready(function () {
         bootstrap:'icon-bootstrap',
         webpack:'icon-webpack1',
         mintui:'icon-yezi',
-        gulp:'icon-gulp'
+        gulp:'icon-gulp',
+        elementUi:'icon-element'
     };
     $.ajax({
         url: "project/9cf.md",

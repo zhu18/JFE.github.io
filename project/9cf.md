@@ -1,3 +1,9 @@
+- [![僵尸企业库](./img/Project/oneTeam/jiangshi.jpg)](https://yangxujie666.github.io/zombieTrade/index.html#)
+### 僵尸企业库 ######
+从名称变更次数、地址变更次数、有无年报、是否地址无法连接等预判企业是否是僵尸企业，分析成为僵尸企业的主要原因。
+<div>vue,elementUi</div>
+<p>2017年10月<p> 
+
 - [![政务信息资源管理中心](./img/Project/fourTeam/guanlizhongxin.jpg)](https://huiminguo.github.io/adminCenter/index.html)
 ### 政务信息资源管理中心 ######
 政务信息资源管理中心
