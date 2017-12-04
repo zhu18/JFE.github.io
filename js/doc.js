@@ -2,6 +2,24 @@
  * Created by Administrator on 2017/7/12.
  */
 $(document).ready(function () {
+    /*$(document).scroll(function() {
+        console.log("已滚动")
+        $(".fixed-warp").addClass("scroll-style");
+    })*/
+    /*if ($(document).scroll()){
+        console.log("已滚动")
+        $(".fixed-warp").addClass("scroll-style");
+        return $(window).unbind('scroll');
+    }else {
+        console.log("未滚动")
+    }*/
+
+    /*$(document).on( 'scroll', function(){
+        console.log("未滚动");
+        $(".fixed-warp").removeClass("scroll-style");
+    });*/
+
+
 
     marked.setOptions({
         gfm: true
@@ -36,6 +54,7 @@ $(document).ready(function () {
     $("#doc-edit-link").attr("href","https://github.com/jusfoun-FE/jusfoun-FE.github.io/edit/master/doc/"+urlParam+".md");
 
 });
+
 
 function GetQueryString(name)
 {

@@ -17,6 +17,10 @@ h3{font-size: 16px;}
  font-weight: normal;
  font-style: normal;
 }
+@font-face {
+ font-family: 'Merienda-Regular';
+ src: url(../font/Merienda-Regular.ttf)format('truetype');
+}
 html { font-size: 80% }
 body { color: #555; font-family: aller_lightregular; font-size: 1.1em; line-height: 1.5; }
 h1, h2, h3, h4, h5, h6 { font-family: "allerregular", Helvetica, Arial, sans-serif; }
@@ -183,7 +187,7 @@ html[xmlns] .slides { display: block; }
                 services
 ============================================================= */
 .services, .about, .projects { background: #F2F2F2; border-bottom: 5px solid #FCFCFC; color: #666D89; padding: 80px 0 40px 0; }
-.doc{min-height: 950px;background: #F2F2F2; border-bottom: 5px solid #FCFCFC; color: #666D89; padding: 120px 0 40px 0;}
+.doc{min-height: 950px;/*background: #F2F2F2;*/background-color: #fff; border-bottom: 5px solid #FCFCFC; color: #666D89; padding: 120px 0 40px 0;}
 @media (max-width: 991px){
  .doc{padding-top: 100px;}
 }
@@ -567,6 +571,22 @@ footer a { color: #EB5055 }
  -o-animation: mtAnimation .8s;
  animation: mtAnimation .8s;
 }
+
+/*左侧菜单*/
+.fixed-warp{
+ background-color: #f4f5f9;
+}
+.doc .navbar-nav{
+ padding:0 15px;
+}
+.fixed-warp p.title{
+ background-color: #E04343;
+ color: #fff;
+ padding: 12px 20px;
+ font-size: 18px;
+ margin: 0;
+ font-family:'Merienda-Regular';
+}
 @media (min-width: 1200px){
  .markdown-list-warp{
   padding:0;
@@ -788,10 +808,25 @@ footer a { color: #EB5055 }
  display:block;
  width:100%;
  color: #6a737d;
- border-bottom: 1px dashed rgba(202, 69, 73, 0.31);
+ border-bottom: 1px dashed rgba(202, 69, 73, 0);
+ position: relative;
+}
+.doc .navbar-nav li:after {
+ content: "";
+ width: 0;
+ height: 2px;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ transition: all 0.35s ease 0s;
+ background-color: #e39494;
+}
+.doc .navbar-nav li:hover:after{
+width: 100%;
 }
 .doc .navbar-nav li a{
  color: #6a737d;
+ padding-left: 10px;
 }
 .doc .navbar-nav li a:hover,.doc .navbar-nav li.active a{
  color:#EB5055;
@@ -799,6 +834,11 @@ footer a { color: #EB5055 }
 }
 .doc .navbar-nav li a:focus{
  background:transparent;
+}
+/*滚动样式*/
+.scroll-style{
+ box-shadow:0px 6px 15px #d5d5d5;
+ transition: all .5s;
 }
 @media (min-width: 768px){
  .doc .navbar-nav{
