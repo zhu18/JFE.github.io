@@ -186,7 +186,7 @@ html[xmlns] .slides { display: block; }
 /* ==========================================================
                 services
 ============================================================= */
-.services, .about, .projects { background: #F2F2F2; border-bottom: 5px solid #FCFCFC; color: #666D89; padding: 80px 0 40px 0; }
+.services, .about, .projects { background: #fff; border-bottom: 5px solid #FCFCFC; color: #666D89; padding: 80px 0 40px 0; }
 .doc{min-height: 950px;/*background: #F2F2F2;*/background-color: #fff; border-bottom: 5px solid #FCFCFC; color: #666D89; padding: 120px 0 40px 0;}
 @media (max-width: 991px){
  .doc{padding-top: 100px;}
