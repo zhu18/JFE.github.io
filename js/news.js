@@ -22,7 +22,7 @@ $(document).ready(function () {
     });
     //关闭按钮隐藏弹窗
     $(".markdown-list-more-close-btn").click(function(){
-        $(this).parent().removeClass("show").addClass("hide");
+        $(this).parent().parent().removeClass("show").addClass("hide");
     });
 
 });

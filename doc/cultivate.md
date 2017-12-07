@@ -42,7 +42,7 @@
  
  培训人：杨勇冠
 
-### D3（一）-- D3基础与入门
+### [D3（一）-- D3基础与入门](https://github.com/hankaibo/d3-demos.git)
 内容：1、Web端图形技术简要概述
    	2、SVG简要概述
    	3、	D3.js入门指南
@@ -56,7 +56,7 @@
 
 培训人：韩凯波
 
-### D3（二）
+### [D3（二）](https://github.com/hankaibo/d3-demos.git)
 时间：2017年11月17日(星期五) 18:00
 
 地点：四楼大会议室
