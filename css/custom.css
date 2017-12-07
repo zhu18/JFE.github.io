@@ -1096,3 +1096,11 @@ width: 100%;
 #ScrollToTop:hover{
  background-color: #EB5055;
 }
+
+
+blockquote strong strong{
+ display: inline-block;
+ line-height: 15px;
+ width: 60px;
+ border-bottom: 1px solid #6a737d;
+}
