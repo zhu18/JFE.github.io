@@ -1,3 +1,5 @@
+KeyCodes:ALL,苹果,河蟹,小场景,政务,泸州
+
 - [![僵尸企业库](./img/Project/oneTeam/jiangshi.jpg)](https://yangxujie666.github.io/zombieTrade/index.html#)
 ### 僵尸企业库 ######
 从名称变更次数、地址变更次数、有无年报、是否地址无法连接等预判企业是否是僵尸企业，分析成为僵尸企业的主要原因。

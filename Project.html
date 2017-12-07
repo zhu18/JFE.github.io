@@ -65,11 +65,11 @@
                 </div>-->
                 <div class="project-search-box">
                     <div class="search-box row">
-                        <input type="text" class="col-md-11"  placeholder="输入关键字">
-                        <span class="col-md-1"><i class="icon iconfont icon-chaxun"></i></span>
+                        <input type="text" class="col-md-11" id="keycode"  placeholder="输入关键字">
+                        <span class="col-md-1" onclick="search()"><i class="icon iconfont icon-chaxun"></i></span>
                     </div>
-                    <div class="antistop-box">
-                        <label>关键词：</label><span>苹果</span><span>河蟹</span><span>小场景</span><span>一带一路</span><span>政务</span><span>泸州</span>
+                    <div class="antistop-box" id="keyCodes">
+                        <label>关键词：</label>
                     </div>
                 </div>
                 <div class="row">
@@ -91,132 +91,9 @@
                     <div class="col-md-3">
                         <article class="projects-markdown" id="con3"></article>
                     </div>
-                   <!-- <div class="col-md-3">
-                        <div class="box-item">
-                            <div class="img-responsive"><img src="./img/Project/5.jpg"></div>
-                            <div class="content">
-                                <h3>九次方官网v2.0</h3>
-                                <p>九次方大数据（JUSFOUN BIGDATA)是中国领先的大数据服务公司。秉承“贡献中国数据智慧，释放全球数据价值”的发展理念，致力于推动政府数据公开及数据交易，挖掘各个产业的大数据价值及大数据应用。</p>
-                                <a href="single.html">查看详情</a>
-                                <br><br>
-                                <span>MAY 21, 2014 BY VAFPRESS</span><br>
-                            </div>
-                        </div>
-                        <div class="box-item">
-                            <div class="img-responsive"><img src="./img/Project/6.jpg"></div>
-                            <div class="content">
-                                <h3>Planning Our Honeymoon</h3>
-                                <p>Suspendisse porttitor sapien ac lectus euismod imperdiet. Curabitur nec nibh at massa pellentesque accumsan eu id nibh. Donec accumsan ut mi et tincidunt. Aliquam eget metus nec leo tempor bibendum. Phasellus tincidunt lobortis metus. Duis euismod lorem turpis at diam.</p>
-                                <a href="single.html">Read More...</a>
-                                <br><br>
-                                <span>MAY 21, 2014 BY VAFPRESS</span><br>
-                            </div>
-                        </div>
-                        <div class="box-item">
-                            <div class="img-responsive"><img src="./img/Project/1.jpg"></div>
-                            <div class="content">
-                                <h3>Brainstorming Wedding Ideas</h3>
-                                <p>Suspendisse porttitor. Aliquam eget metus nec leo tempor bibendum. Phasellus tincidunt lobortis metus. Duis euismod lorem turpis, viverra feugiat ipsum volutpat vitae. Fusce justo turpis, sodales sed placerat non, suscipit at diam.</p>
-                                <a href="single.html">Read More...</a>
-                                <br><br>
-                                <span>MAY 21, 2014 BY VAFPRESS</span><br>
-                            </div>
-                        </div>
-                        <div class="box-item">
-                            <div class="img-responsive"><img src="./img/Project/2.jpg"></div>
-                            <div class="content">
-                                <h3>Choosing The Bridesmaids and Groomsmen</h3>
-                                <p>Suspendisse porttitor sapien ac lectus euismod imperdiet. Curabitur nec nibh at massa pellentesque accumsan eu id nibh. Donec accumsan ut mi.</p>
-                                <a href="single.html">Read More...</a>
-                                <br><br>
-                                <span>MAY 21, 2014 BY VAFPRESS</span><br>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="box-item">
-                            <div class="img-responsive"><img src="./img/Project/3.jpg"></div>
-                            <div class="content">
-                                <h3>Pellentesque vehicula</h3>
-                                <p>Nunc eu velit metus. Donec in massa libero. Donec bibendum orci a lorem scelerisque luctus. Aliquam et ante quis erat semper pretium. Pellentesque vehicula.</p>
-                                <a href="single.html">Read More...</a>
-                                <br><br>
-                                <span>MAY 21, 2014 BY VAFPRESS</span><br>
-                            </div>
-                        </div>
-                        <div class="box-item">
-                            <div class="img-responsive"><img src="./img/Project/4.jpg"></div>
-                            <div class="content">
-                                <h3>Planning Our Honeymoon</h3>
-                                <p>Suspendisse porttitor sapien ac lectus euismod imperdiet. Curabitur nec nibh at massa pellentesque accumsan eu id nibh. Donec accumsan ut mi et tincidunt. Aliquam eget metus nec leo tempor bibendum. Phasellus tincidunt lobortis metus. Duis euismod lorem turpis at diam.</p>
-                                <a href="single.html">Read More...</a>
-                                <br><br>
-                                <span>MAY 21, 2014 BY VAFPRESS</span><br>
-                            </div>
-                        </div>
-                        <div class="box-item">
-                            <div class="img-responsive"><img src="./img/Project/5.jpg"></div>
-                            <div class="content">
-                                <h3>Brainstorming Wedding Ideas</h3>
-                                <p>Suspendisse porttitor. Aliquam eget metus nec leo tempor bibendum. Phasellus tincidunt lobortis metus. Duis euismod lorem turpis, viverra feugiat ipsum volutpat vitae. Fusce justo turpis, sodales sed placerat non, suscipit at diam.</p>
-                                <a href="single.html">Read More...</a>
-                                <br><br>
-                                <span>MAY 21, 2014 BY VAFPRESS</span><br>
-                            </div>
-                        </div>
-                        <div class="box-item">
-                            <div class="img-responsive"><img src="./img/Project/6.jpg"></div>
-                            <div class="content">
-                                <h3>Choosing The Bridesmaids and Groomsmen</h3>
-                                <p>Suspendisse porttitor sapien ac lectus euismod imperdiet. Curabitur nec nibh at massa pellentesque accumsan eu id nibh. Donec accumsan ut mi.</p>
-                                <a href="single.html">Read More...</a>
-                                <br><br>
-                                <span>MAY 21, 2014 BY VAFPRESS</span><br>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="box-item">
-                            <div class="img-responsive"><img src="./img/Project/1.jpg"></div>
-                            <div class="content">
-                                <h3>Pellentesque vehicula</h3>
-                                <p>Nunc eu velit metus. Donec in massa libero. Donec bibendum orci a lorem scelerisque luctus. Aliquam et ante quis erat semper pretium. Pellentesque vehicula.</p>
-                                <a href="single.html">Read More...</a>
-                                <br><br>
-                                <span>MAY 21, 2014 BY VAFPRESS</span><br>
-                            </div>
-                        </div>
-                        <div class="box-item">
-                            <div class="img-responsive"><img src="./img/Project/2.jpg"></div>
-                            <div class="content">
-                                <h3>Planning Our Honeymoon</h3>
-                                <p>Suspendisse porttitor sapien ac lectus euismod imperdiet. Curabitur nec nibh at massa pellentesque accumsan eu id nibh. Donec accumsan ut mi et tincidunt. Aliquam eget metus nec leo tempor bibendum. Phasellus tincidunt lobortis metus. Duis euismod lorem turpis at diam.</p>
-                                <a href="single.html">Read More...</a>
-                                <br><br>
-                                <span>MAY 21, 2014 BY VAFPRESS</span><br>
-                            </div>
-                        </div>
-                        <div class="box-item">
-                            <div class="img-responsive"><img src="./img/Project/6.jpg"></div>
-                            <div class="content">
-                                <h3>Brainstorming Wedding Ideas</h3>
-                                <p>Suspendisse porttitor. Aliquam eget metus nec leo tempor bibendum. Phasellus tincidunt lobortis metus. Duis euismod lorem turpis, viverra feugiat ipsum volutpat vitae. Fusce justo turpis, sodales sed placerat non, suscipit at diam.</p>
-                                <a href="single.html">Read More...</a>
-                                <br><br>
-                                <span>MAY 21, 2014 BY VAFPRESS</span><br>
-                            </div>
-                        </div>
-                        <div class="box-item">
-                            <div class="img-responsive"><img src="./img/Project/3.jpg"></div>
-                            <div class="content">
-                                <h3>Choosing The Bridesmaids and Groomsmen</h3>
-                                <p>Suspendisse porttitor sapien ac lectus euismod imperdiet. Curabitur nec nibh at massa pellentesque accumsan eu id nibh. Donec accumsan ut mi.</p>
-                                <a href="single.html">Read More...</a>
-                                <br><br>
-                                <span>MAY 21, 2014 BY VAFPRESS</span><br>
-                            </div>
-                        </div>
-                    </div>-->
+                </div>
+                <div class="row no-result">
+                    列表为空，请重新选择关键字
                 </div>
             </div>
         </section>
