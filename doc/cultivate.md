@@ -7,10 +7,10 @@
 
 培训人：魏彬
 
-内容：* 1、VUE模板目录讲解
-     * 2、SASS基本介绍
-     * 3、组件封装知识点
-     * 4、ELEMENT UI介绍
+内容：1、VUE模板目录讲解
+     2、SASS基本介绍
+     3、组件封装知识点
+     4、ELEMENT UI介绍
 
 ### [THREE（一）](https://github.com/zhu18/Train_THREE)
 内容：1、WebGL介绍
