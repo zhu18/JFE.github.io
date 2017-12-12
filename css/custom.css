@@ -583,7 +583,7 @@ footer a { color: #EB5055 }
  padding:0 15px;
 }
 .fixed-warp p.title{
- background-color: #E04343;
+ background-color: rgb(202, 69, 73);
  color: #fff;
  padding: 12px 20px;
  font-size: 18px;
@@ -599,7 +599,7 @@ footer a { color: #EB5055 }
   width:285px;
  }
  .markdown-list-body.style {
-  height: 710px;
+  height: 655px;
   overflow: hidden;
  }
 }
@@ -700,7 +700,7 @@ footer a { color: #EB5055 }
 .markdown-list-body h4,.markdown-list-more-show h4{
  margin-bottom: 10px;
  line-height:30px;
- background-color: #E04343;
+ background-color: #ca4549;
  color: #fff;
  padding: 12px 20px;
  font-size: 18px;
@@ -732,10 +732,10 @@ footer a { color: #EB5055 }
  padding:0 20px 0 10px;
 }
 .markdown-list-body a:hover,.markdown-list-more-show a:hover{
- color:#EB5055;
+ color:#ca4549;
 }
 .markdown-list-body a.active{
- color:#EB5055;
+ color:#ca4549;
 }
 .markdown-list-body p em{
  float:right;
@@ -744,7 +744,7 @@ footer a { color: #EB5055 }
 .markdown-list-more-btn{
  float:right;
  font-size: 16px;
- color:#EB5055;
+ color:#ca4549;
  cursor:pointer;
  margin: 10px 36px 20px;
 }
@@ -900,7 +900,7 @@ width: 100%;
  padding-left: 10px;
 }
 .doc .navbar-nav li a:hover,.doc .navbar-nav li.active a{
- color:#EB5055;
+ color:#ca4549;
  background:transparent;
 }
 .doc .navbar-nav li a:focus{
@@ -1062,14 +1062,10 @@ width: 100%;
  -ms-transform: scale(1.2);
 }
 .projects-markdown li:hover .icon-github1{
- -webkit-filter:brightness(.5);
- transition: filter .5s;
- color: #EB5055;
+ color: #ca4549;
 }
 .div-technology i:hover{
- -webkit-filter:brightness(.5);
- transition: filter .5s;
- color: #EB5055;
+ color: #ca4549;
 }
 .projects-markdown li div{
  padding: 15px 25px;
@@ -1093,11 +1089,7 @@ width: 100%;
  margin-right: 25px;
 }
 .projects-markdown li:hover a{
- transition: all 0.4s ease-in-out;
- -webkit-transition: all 0.4s ease-in-out;
- -moz-transition: all 0.4s ease-in-out;
- -o-transition: all 0.4s ease-in-out;
- color: #EB5055;
+ color: #ca4549;
 }
 .div-technology{
  padding: 5px 25px 15px 25px!important;
@@ -1134,7 +1126,7 @@ width: 100%;
  -moz-border-radius: 49px;
  -webkit-border-radius: 49px;
  border-radius: 49px;
- background: #24b384 url(../img/up.png) 9px 13px no-repeat;
+ background: #d87376 url(../img/up.png) 9px 13px no-repeat;
  filter: alpha(opacity=80);
  opacity: 0.8;
  -moz-box-shadow: 0 2px 2px 1px rgba(0,0,0,.15);
@@ -1146,7 +1138,7 @@ width: 100%;
  transition: all 250ms ease-in-out;
 }
 #ScrollToTop:hover{
- background-color: #EB5055;
+ background-color: #ca4549;
 }
 
 
