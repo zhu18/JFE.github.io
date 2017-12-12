@@ -64,6 +64,7 @@
 培训人：韩凯波
 
 资料：https://github.com/hankaibo/d3-demos.git
+	http://v.youku.com/v_show/id_XMzIxOTE4MDM5Mg==.html?spm=a2h3j.8428770.3416059.1
 
 
 ### React-基础（一）
