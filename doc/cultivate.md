@@ -44,8 +44,8 @@
 
 ### [D3（一）-- D3基础与入门](https://github.com/hankaibo/d3-demos.git)
 内容：1、Web端图形技术简要概述
-   	2、SVG简要概述
-   	3、	D3.js入门指南
+   	2、SVG简要概述
+   	3、	D3.js入门指南
    	4、	D3.js hellowold
    	
 时间：2017年11月6日(星期一) 18:00
@@ -63,8 +63,9 @@
 
 培训人：韩凯波
 
-资料：https://github.com/hankaibo/d3-demos.git
-	http://v.youku.com/v_show/id_XMzIxOTE4MDM5Mg==.html?spm=a2h3j.8428770.3416059.1
+资料：1、https://github.com/hankaibo/d3-demos.git
+   	2、http://v.youku.com/v_show/id_XMzIxOTE4MDM5Mg==.html?spm=a2h3j.8428770.3416059.1
+	
 
 
 ### React-基础（一）
