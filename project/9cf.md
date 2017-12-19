@@ -1,5 +1,11 @@
 KeyCodes:ALL,苹果,河蟹,小场景,政务,泸州
 
+- [![舆情大数据](./img/Project/twoTeam/yuqingdashuju.jpg)](https://https://mrlipengfei.github.io/yuqing/dist/index.html)
+### 舆情大数据 ######
+依托丰富的数据优势与人工智能能力，提供稳定强大的舆情采集，分析及展示服务。服务于多个行业，提供可靠的事实舆情跟踪，辅助提高服务质量和口碑等。
+<div>gulp,jquery,BMap</div>
+<p>2017年12月<p> 
+ 
 - [![僵尸企业库](./img/Project/oneTeam/jiangshi.jpg)](https://yangxujie666.github.io/zombieTrade/index.html#)
 ### 僵尸企业库 ######
 从名称变更次数、地址变更次数、有无年报、是否地址无法连接等预判企业是否是僵尸企业，分析成为僵尸企业的主要原因。
