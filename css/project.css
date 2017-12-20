@@ -11,7 +11,6 @@ a:hover,a:focus{
 /* ==========================================================
                project
 ============================================================= */
-
 .bady-bgcolor{
     background-color:#fcfcfc;
     font-family: "helvetica neue",arial,sans-serif;
@@ -172,6 +171,9 @@ a:hover,a:focus{
 }
 .project-edit-link:hover{
     color: #EB5055;
+}
+.project-edit-link:focus{
+    color: #bbb;
 }
 /* 项目搜索 */
 .project-search-box{

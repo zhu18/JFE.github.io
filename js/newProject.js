@@ -22,11 +22,6 @@ $(function () {
         elementUi: 'icon-element'
     };
 
-    //跳转到json文件
-    $("#project-edit-link").click(function () {
-        $(this).attr("href", "https://github.com/jusfoun-FE/jusfoun-FE.github.io/blob/master/js/" + "porject.json");
-    });
-
     getJson();//解析json
 
     //模糊查询
