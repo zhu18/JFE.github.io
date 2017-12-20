@@ -300,8 +300,9 @@ a:hover,a:focus{
 @media (max-width: 999px) {
     .project-search-box{width: 70%;}
     .project-search-box{margin: 40px auto 0;}
-    .project-search-box .search-box input{width: 82%;height: 35px;float: left}
+    .project-search-box .search-box input{width: 79%;height: 35px;float: left}
     .sey-item {width: 500px;}
+    .project-search-box {width: 72%;}
     .project-search-box .antistop-box span{padding: 0 4px; height: 25px; line-height: 25px;}
 }
 @media (max-width: 768px) {
