@@ -1,3 +1,6 @@
+a:hover,a:focus{
+    text-decoration: none!important;
+}
 /* 滚动条样式 */
 .show-scroll{
     overflow-y: scroll;
@@ -5,7 +8,171 @@
 .show-scroll #page-content{
     min-height:779px;
 }
+/* ==========================================================
+               project
+============================================================= */
 
+.bady-bgcolor{
+    background-color:#fcfcfc;
+    font-family: "helvetica neue",arial,sans-serif;
+}
+#page-content{
+    margin-top: 100px;
+    min-height:768px;
+}
+.project-box{
+    background: rgba(255,255,255,.7);
+    margin: 0 auto 30px;
+    max-width: 500px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(51,51,51,.3);
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+.project-box .project-href{
+    width: 100%;
+    height:205px;
+    overflow: hidden;
+    padding: 0;
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px 3px 0 0;
+}
+.project-box .projects-content{
+    padding: 0px 25px 0 25px;
+}
+.project-box .h3-title{
+    font-weight: 500;
+    color: #333;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.project-box .p-con{
+    color: #555;
+    font-size: 14px;
+    line-height: 23px;
+}
+.project-box:hover{
+    cursor: pointer;
+    box-shadow: -1px 10px 25px #d5d5d5;
+    background: rgba(255,255,255,1);
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+.project-box .project-href .img-loding{
+    width:100%;
+    height:100%;
+    border-radius: 3px 3px 0 0;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    object-fit: cover;
+    animation:imgLoding  .6s;
+}
+.project-box:hover .project-href .img-loding{
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+@keyframes imgLoding
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes imgLoding
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes imgLoding
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes imgLoding
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.div-technology label{
+    font-size: 13px;
+    color: #333;
+}
+.project-box .icon-github1{
+    font-size: 18px;
+    float: right;
+    color: #9E7E6B;
+    margin-top: -3px;
+}
+.project-box:hover .icon-github1{
+    color: #ca4549;
+}
+.project-box:hover a{
+    color: #ca4549;
+}
+.project-box .shade{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0,0,0,.1);
+    z-index: 9;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.project-box:hover .shade{
+    opacity: 1;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.div-technology i{margin-right: 5px;}
+.no-result{
+    text-align:center;
+    font-size: 20px;
+    color:#777;
+    margin:30px 0;
+    font-weight:bold;
+    display: none;
+}
+.project-edit-link:hover{
+    color: #EB5055;
+}
 /* 项目搜索 */
 .project-search-box{
     width: 60%;
@@ -17,38 +184,51 @@
 }
 .project-search-box .search-box{
     width: 100%;
-    height: 40px;
+    height: 42px;
     line-height: 40px;
-    border:1px solid rgb(202, 69, 73);
-    border-radius: 5px 7px;
+    border:2px solid rgba(202, 69, 73,.7);
+    border-radius: 5px 5px 0 0;
+    transition: border .3s;
+    -webkit-transition: border .3s;
+    -o-transition: border .3s;
+    -moz-transition: border .3s;
+}
+.project-search-box:hover .search-box{
+    border:2px solid rgba(202, 69, 73,1);
+    transition: border .3s;
+    -webkit-transition: border .3s;
+    -o-transition: border .3s;
+    -moz-transition: border .3s;
 }
 .project-search-box .search-box input{
     height: 38px;
     border: 0;
     outline:none;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
+    background-color: #fff;
     transition: all .3s;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     -moz-transition: all .3s;
 }
 .project-search-box .search-box input:focus{
-    border-color: rgb(202, 69, 73);
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(224,67,67,.6);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(224,67,67,.6);
+    /* border-color: rgb(202, 69, 73);
+  /ebkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(224,67,67,.6);
+   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(224,67,67,.6);*/
     transition: all .3s;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     -moz-transition: all .3s;
 }
 .project-search-box .search-box span{
-    background: rgb(202, 69, 73);
-    height: 39px;
-    color: #fff;
+    background: #fff;
+    height: 38px;
+    color: #ca4549;
     cursor: pointer;
     text-align: center;
-    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+    border-radius: 0 5px 0 0;
     float: right;
     transition: background .5s;
     -webkit-transition: background .5s;
@@ -57,25 +237,16 @@
 }
 .project-search-box .search-box span i{
     font-size: 18px;
-    transition: text-shadow .3s;
-    -webkit-transition: text-shadow .3s;
-    -o-transition: text-shadow .3s;
-    -moz-transition: text-shadow .3s;
-}
-.project-search-box .search-box span:hover{
-    background: #db2020;
-    transition: background .5s;
-    -webkit-transition: background .5s;
-    -o-transition: background .5s;
-    -moz-transition: background .5s;
-
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
 }
 .project-search-box .search-box span:hover i{
-    text-shadow: #333 1px 2px 6px;
-    transition: text-shadow .3s;
-    -webkit-transition: text-shadow .3s;
-    -o-transition: text-shadow .3s;
-    -moz-transition: text-shadow .3s;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
 }
 .project-search-box .antistop-box{
     width: 90%;
@@ -87,24 +258,35 @@
     color: #000000;
 }
 .project-search-box .antistop-box span{
-    padding: 2px 12px;
-    border: 1px solid #e6e6e6;
-    margin-right: 10px;
-    border-radius: 3px;
+    padding: 0 20px;
+    margin-right: 5px;
     cursor: pointer;
     color: #777;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+        height: 30px;
+    line-height: 30px;
+}
+.project-search-box .antistop-box span:hover,.project-search-box .antistop-box span.active{
+    background-color: #ca4549;
+    color: #fff;
+    border-radius: 5px;
     transition: all .4s;
     -webkit-transition: all .4s;
     -o-transition: all .4s;
     -moz-transition: all .4s;
 }
-.project-search-box .antistop-box span:hover{
-    color: #333;
-    background-color: #F2F2F2;
-    transition: all .4s;
-    -webkit-transition: all .4s;
-    -o-transition: all .4s;
-    -moz-transition: all .4s;
+.project-search-box .search-box select{
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    top: 39px;
 }
 /*（桌面显示器，大于等于 ***） */
 @media (max-width: 1200px) {
@@ -114,10 +296,12 @@
 @media (max-width: 999px) {
     .project-search-box{width: 70%;}
     .project-search-box{margin: 40px auto 0;}
-    .project-search-box .search-box input{width: 88%;height: 35px;}
+    .project-search-box .search-box input{width: 88%;height: 35px;float: left}
+    .sey-item {width: 500px;}
 }
 @media (max-width: 768px) {
     .project-search-box {
         margin: 0 auto;
     }
 }
+

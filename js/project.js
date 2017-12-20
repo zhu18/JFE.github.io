@@ -114,7 +114,7 @@ function ajaxData() {
                     return false;
                 })
             })
-
+            //仿懒加载效果
             $("#projectsRow img").scrollLoad(function () {
                 $(this).attr("src", $(this).attr("data-original")).on("load", function () {
                     $(this).addClass("img-loding");

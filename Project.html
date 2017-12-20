@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="keywords" content="H5,CSS3,bootstrap,vue,angular.js, react.js,Node.js, D3,Gulp,Webpack">
-    <link rel="shortcut icon" href="img/favicon.png">
-    <link rel="stylesheet" href="css/project.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/iconfont.css">
     <title>九次方大数据-前端研发</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/custom.css?v=1.0.0.2" rel="stylesheet">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/horsey.css">
+    <link rel="stylesheet" href="css/example.css">
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,11 +26,6 @@
     <script src="js/ie/html5shiv.js"></script>
     <script src="js/ie/respond.min.js"></script>
     <![endif]-->
-
-    <!-- Add custom CSS here -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/custom.css?v=1.0.0.2" rel="stylesheet">
-    <link href="css/github-markdown.css" rel="stylesheet">
 
 </head>
 <body data-spy="scroll" data-target="#ha-header" class="bady-bgcolor show-scroll">
@@ -65,11 +65,12 @@
                 </div>-->
                 <div class="project-search-box">
                     <div class="search-box row">
-                        <input type="text" class="col-md-11" id="keycode"  placeholder="输入关键字">
+                        <input class="col-md-11" id="hy" placeholder="输入项目名称"/>
                         <span class="col-md-1" onclick="search()"><i class="icon iconfont icon-chaxun"></i></span>
                     </div>
                     <div class="antistop-box" id="keyCodes">
-                        <label>关键字：</label>
+                        <label>项目类别：</label>
+                        <span class="active">ALL</span><span>PC</span><span>APP</span><span>可视化</span>
                     </div>
                 </div>
                 <div class="row">
@@ -78,19 +79,10 @@
                     </div>
                 </div>
                 <div class="row" id="projectsRow">
-
-                    <div class="col-md-3">
-                        <article class="projects-markdown" id="con0"></article>
-                    </div>
-                    <div class="col-md-3">
-                        <article class="projects-markdown" id="con1"></article>
-                    </div>
-                    <div class="col-md-3">
-                        <article class="projects-markdown" id="con2"></article>
-                    </div>
-                    <div class="col-md-3">
-                        <article class="projects-markdown" id="con3"></article>
-                    </div>
+                    <div class="procon col-md-3" id="con0"></div>
+                    <div class="procon col-md-3" id="con1"></div>
+                    <div class="procon col-md-3" id="con2"></div>
+                    <div class="procon col-md-3" id="con3"></div>
                 </div>
                 <div class="row no-result">
                     列表为空，请重新选择关键字
@@ -113,25 +105,26 @@
             </div>
         </div>
     </footer>
-
     <div id="ScrollToTop" class="Offscreen" title="回到顶部"></div>
     <!-- /Footer -->
     <!-- JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/marked.min.js"></script>
-    <script src="js/project.js"></script>
+    <!--<script src="js/project.js"></script>-->
+    <script src="js/newProject.js"></script>
     <!--<script src="js/jquery.lazyload.min.js"></script>-->
     <script src="js/jquery.scrollLoad.js"></script>
+    <script src="js/horsey/horsey.js"></script>
     <script>
-        /* 返回顶部 */
-
         $(document).ready(function () {
+
             //返回到顶部
             ScrollToTop.setup();
 
         });
 
+        //返回到顶部
         var ScrollToTop = ScrollToTop || {
             setup: function () {
                 var a = $(window).height() / 2;
@@ -146,6 +139,7 @@
                 });
             }
         };
+
     </script>
 </body>
 </html>
