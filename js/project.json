@@ -71,7 +71,7 @@
   "img":"./img/Project/twoTeam/pingguo.jpg",
   "technology":"jquery,echarts",
   "time":"2017年4月",
-  "type":"PC",
+  "type":"可视化",
   "txt":"对苹果大数据进行专题分析，旨在从全局的角度，对苹果大数据的应用方向、数据源、实施路径、应用效果、应用场景设计、可行性等方面提出实施方案，深入挖掘苹果大数据的价值。"
 },{
   "name":"质检大数据",
@@ -79,7 +79,7 @@
   "img":"./img/Project/oneTeam/zhijian.jpg",
   "technology":"jquery,echarts",
   "time":"2016年",
-  "type":"PC",
+  "type":"可视化",
   "txt":"质量监控，质量预警、质量检测事件等对企业进行质量监控和预警，展示各公司和各省的质量状况。"
 },{
   "name":"九次方综合管理系统",
@@ -119,7 +119,7 @@
   "img":"./img/Project/oneTeam/jinhuadianshang.jpg",
   "technology":"gulp,webpack,echarts,jquery",
   "time":"2016年",
-  "type":"PC",
+  "type":"可视化",
   "txt":"该项目主要展示金华市电商的大数据，包括：店铺数量波动、税务登记、月销售额、行业销售趋势、电商舆情等数据展示。"
 },{
   "name":"寰球大数据官网",
@@ -135,7 +135,7 @@
   "img":"./img/Project/publicTeam/fusion.jpg",
   "technology":"jquery,css3,echarts,SVG,bootstrap",
   "time":"2017年5月",
-  "type":"PC",
+  "type":"可视化",
   "txt":"数据采集、共享交互、数据清洗、建模分析一体的大数据共享融合平台；对汇聚到平台的数据进行编目，将数据目录化（可以把资源目录理解为一本书的目录，数据就是书中的内容），便于对外提供数据服务"
 },{
   "name":"九次方官网2.0",
