@@ -1,5 +1,14 @@
 [
   {
+    "name":"湖北省安全生产事故统计分析服务系统",
+    "url":"https://nancyxu89.github.io/hubeiAccident/dist/index.html",
+    "img":"./img/Project/fourTeam/anquanshengchanshigu.jpg",
+    "technology":"vue,echarts",
+    "time":"2017年11月",
+    "type":"PC",
+    "txt":"规范湖北省存在安全隐患企业的事故填报，实现数据及时统计汇总和线上管理，网络化监察及动态监管，实现对事故办理的及时了解和全程跟踪，对一些处理行为实时监督、及时督办，通过事故数据的大数据分析及综合展示查询，服务于省安监部门进行科学的监管与决策，为显著提高安全事故统计工作的科学规范水平、提高统计质量和配套服务水平提供服务和支持。"
+  },
+  {
     "name":"舆情大数据",
     "url":"https://mrlipengfei.github.io/yuqing/dist/index.html",
     "img":"./img/Project/twoTeam/yuqingdashuju.jpg",
