@@ -68,12 +68,14 @@
 	
 
 
-### React-基础（一）
-时间：2017年12月15日(星期五) 18:00
+### [React-基础（一）](https://github.com/halfmoonvic/react-base)
+时间：2017年12月22日(星期五) 18:00
 
 地点：4楼大会议室
 
-培训人：王帅
+培训人：陈胜
+
+资料：1、https://github.com/halfmoonvic/react-base
 
  ### [Flex布局培训](https://ruyinjuan.github.io/2017/12/15/Flex%E5%9F%BA%E7%A1%80%E7%AF%87/)
 内容：1、基础篇 
