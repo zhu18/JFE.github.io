@@ -190,17 +190,18 @@ a:hover,a:focus{
     line-height: 40px;
     border:2px solid #bbb;
     border-radius: 5px 5px 0 0;
-    transition: border .3s;
-    -webkit-transition: border .3s;
-    -o-transition: border .3s;
-    -moz-transition: border .3s;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
 }
 .project-search-box .search-box:hover{
     border:2px solid rgba(202, 69, 73,1);
-    transition: border .3s;
-    -webkit-transition: border .3s;
-    -o-transition: border .3s;
-    -moz-transition: border .3s;
+    box-shadow: 0 0 10px rgba(202,69,73,.5);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
 }
 .project-search-box .search-box input{
     height: 38px;

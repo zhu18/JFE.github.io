@@ -1,5 +1,14 @@
 [
   {
+    "name":"政务信息共享平台",
+    "url":"https://huiminguo.github.io/zwxxGX/pages/index/index.html",
+    "img":"./img/Project/publicTeam/zhengwugongxiang.jpg",
+    "technology":"css3,echarts,bootstrap",
+    "time":"2017年11月",
+    "type":"PC",
+    "txt":"政务信息共享平台"
+  },
+  {
     "name":"湖北省安全生产事故统计分析服务系统",
     "url":"https://nancyxu89.github.io/hubeiAccident/dist/index.html",
     "img":"./img/Project/fourTeam/anquanshengchanshigu.jpg",
@@ -48,7 +57,7 @@
   "img":"./img/Project/twoTeam/lijiangApp.jpg",
   "technology":"vue",
   "time":"2017年10月",
-  "type":"APP",
+  "type":"H5",
   "txt":"丽江旅游大数据APP首页是H5页面制作，别的页面都是APP端开发的。"
 },{
   "name":"金融小场景-招商通",
@@ -160,7 +169,7 @@
   "img":"./img/Project/threeTeam/anyihangapp.jpg",
   "technology":"vue,webpack,mintui",
   "time":"2017年9月",
-  "type":"APP",
+  "type":"H5",
   "txt":"出国安全预警，困难求助，团队管理出国安全预警，困难求助，团队管理"
 },{
   "name":"钢铁大数据",
@@ -192,7 +201,7 @@
   "img":"./img/Project/twoTeam/shandongweifang.jpg",
   "technology":"jquery,echarts,sass",
   "time":"2017年10月",
-  "type":"APP",
+  "type":"H5",
   "txt":"以手机便捷办公方式，贯穿招商项目的提报、推送、审批、调度、分析、督查、反馈、决策等全业务流程；分步实施系统数据，先重大项目，后其他项目，对市领导、部门领导关注的项目实时推送；统筹全市招商工作流程相关数据的实时联动，加快推进全市招商项目的洽谈、落地和建设。"
 }
 ]
