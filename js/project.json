@@ -1,5 +1,14 @@
 [
   {
+    "name":"政务数据开放平台",
+    "url":"https://huiminguo.github.io/zhengwukaifang/index/index.html",
+    "img":"./img/Project/publicTeam/zhengwukaifangpingtai.jpg",
+    "technology":"css3,echarts",
+    "time":"2017年11月",
+    "type":"PC",
+    "txt":"政务数据开放平台"
+  },
+  {
     "name":"政务信息共享平台",
     "url":"https://huiminguo.github.io/zwxxGX/pages/index/index.html",
     "img":"./img/Project/publicTeam/zhengwugongxiang.jpg",
