@@ -1708,21 +1708,4 @@ document.onclick = function(e) {
 }
 /******************************搜索功能实现-结束*******************************/
 
-//菜单滑入滑出事件
-function navEvent(){
-  $('.nav .dropdown').mouseover(function(){
-    $(this).addClass('open').siblings().removeClass('open');
-  });
-  $('.nav .dropdown').mouseout(function(){
-    $(this).removeClass('open');
-  });
-  $('.dropdown-submenu').mouseover(function(){
-    $(this).addClass('open').siblings().removeClass('open');
-  });
-  $('.dropdown-submenu').mouseout(function(){
-    $(this).removeClass('open');
-  });
-  $('.dropdown-menu').mouseout(function () {
-    $(this).parents('.dropdown').removeClass('open');
-  });
-}
+
