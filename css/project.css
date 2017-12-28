@@ -293,7 +293,7 @@ a:hover,a:focus{
     left: 0;
     top: 39px;
 }
-.container{min-width: 725px;}
+/*.container{min-width: 725px;}*/
 /*（桌面显示器，大于等于 ***） */
 @media (max-width: 1200px) {
     .projects-markdown li .icon-github1{margin-right: 19px!important;}
