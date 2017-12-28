@@ -27,7 +27,7 @@ function getInitData(){
 function getData() {
   $.ajax({
     type:'get',
-    url:'https://jusfoun-fe.github.io/projectManage/configInfo/config.json?t='+(new Date()).valueOf(),
+    url:'../../configInfo/config.json?t='+(new Date()).valueOf(),
     success:function (res) {
       dataLen =res.data.length;
       res.data.sort(function (a, b) {
@@ -48,7 +48,7 @@ function getData() {
 function getData1 (item,dataLen,index) {
   $.ajax({
     type:'get',
-    url:'https://jusfoun-fe.github.io/projectManage/configInfo/'+item+'?t='+(new Date()).valueOf(),
+    url:'../../configInfo/'+item+'?t='+(new Date()).valueOf(),
     success:function (res) {
       dataLen2++;
       dataArr.push(res);
@@ -85,7 +85,7 @@ function renderData (res,index)  {
   }
   var html = '<li class="list-li">'
               +'<span class="down " onclick="clickArrow(this)"> <i></i></span>'
-              +'<a class="icon iconfont icon-github1 edit-json" href="https://github.com/jusfoun-FE/projectManage/edit/master/configInfo/'+jsonUrl+'" title="编辑" target="_blank"> <i></i></a>';
+              +'<a class="icon iconfont icon-github1 edit-json" href="https://github.com/jusfoun-FE/jusfoun-FE.github.io/blob/master/projectManage/edit/master/configInfo/'+jsonUrl+'" title="编辑" target="_blank"> <i></i></a>';
               if(!delay){
                 html += '<span class="delay"></span><i class="delay-txt">延期</i>'
               }
