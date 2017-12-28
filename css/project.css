@@ -293,22 +293,68 @@ a:hover,a:focus{
     left: 0;
     top: 39px;
 }
+.container{min-width: 770px;}
 /*（桌面显示器，大于等于 ***） */
 @media (max-width: 1200px) {
     .projects-markdown li .icon-github1{margin-right: 19px!important;}
     .project-search-box{width: 80%;}
+    .sey-item{width: 748px!important}
 }
 @media (max-width: 999px) {
     .project-search-box{width: 70%;}
-    .project-search-box{margin: 40px auto 0;}
     .project-search-box .search-box input{width: 79%;height: 35px;float: left}
-    .sey-item {width: 500px;}
+    .sey-item {width:673px!important}
     .project-search-box {width: 72%;}
     .project-search-box .antistop-box span{padding: 0 4px; height: 25px; line-height: 25px;}
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .project-search-box {
-        margin: 0 auto;
+        margin: 40px auto 0;
+    }
+    .sey-item {width:528px!important}
+}
+@media (min-width: 770px) and (max-width: 979px) {
+    .sey-item {
+        width:528px!important
+    }
+    .project-edit-link{
+        margin-right: 120px;
     }
 }
+
+@media(max-width: 767px) {
+    .sey-item{
+        width: 520px!important;
+    }
+}
+@media (max-width: 760px){
+    .project-search-box{
+        width: 65%;
+    }
+    .sey-item {
+        width: 477px!important;
+    }
+    .project-edit-link{
+        margin-right: 120px;
+    }
+}
+@media (max-width: 760px){
+    .sey-item {
+        width: 477px!important;
+    }
+}
+@media (max-width: 720px){
+    .sey-item {
+        width: 482px!important;
+    }
+}
+@media (max-width: 480px) {
+    .sey-item{
+        width: 272px!important;
+    }
+    .project-edit-link{
+        margin-right: 120px;
+    }
+}
+
 

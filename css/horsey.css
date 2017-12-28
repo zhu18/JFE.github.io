@@ -57,14 +57,6 @@
   font-size: 12px;
   box-shadow: 1px 0px 1px;
   padding: 7px;
-}@media (max-width: 1200px){
-  .sey-item{
-    width: 687px;
-  }
 }
-@media (max-width: 999px) {
-  .sey-item {
-    width: 500px;
-  }
-}
+
 
