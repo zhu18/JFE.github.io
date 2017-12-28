@@ -1,0 +1,35 @@
+﻿{
+  "base": {
+    "name": "网络有害信息监测",
+    "url": "http://192.168.1.6:8124/NetworkMonitor/html/index.html",
+    "desc": "10.31版本系统开发"
+  },
+  "schedule": {
+    "status": "已完成",
+    "actualStartTime": "2017-10-26",
+    "actualEndTime": "2017-10-30",
+    "estimatedStartTime": "2017-10-26",
+    "estimatedEndTime": "2017-10-30",
+    "process": 100,                    
+    "delay": false,
+    "technology":["jQuery","Layui"],
+    "pages":20,
+    "score":"5"  
+  },
+  "resources": {
+    "demander": "全国扫黄打非工作小组办公室",
+    "type":"独立纵队",			
+    "manager":"柴成",
+    "charge": "闫磊",
+    "affiliate": ["韩凯波"],
+    "average":2
+  },
+  "bug": {
+    "total": 12,
+    "resolved": 12,
+    "unsolved": 0                
+  },
+  "others": {
+    "remark": "用户名(admin),密码(shdf925).  真实数据,尽量别做数据操作."
+  }
+}

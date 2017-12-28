@@ -1,0 +1,37 @@
+{
+  "base": {
+    "name": "政务信息资源管理中心",           
+    "url": "http://192.168.1.6:8124/governmentAffairs/adminCenter/index.html",          
+    "desc": "政务信息管理系统",                          
+    "mobile":false                       
+  },
+  "schedule": {
+    "status": "已完成",                  
+    "actualStartTime": "2017-10-25",  
+    "actualEndTime": "2017-10-31",    
+    "estimatedStartTime": "2017-10-25",
+    "estimatedEndTime": "2017-10-31",  
+    "process": 100,                     
+    "delay": false,                   
+    "technology":["css3","jquery"],
+    "pages":7,
+    "score":"5",
+    "scoreUrl":""
+  },
+  "resources": {
+    "demander": "王苏栋", 
+    "type":"独立纵队",				      
+    "manager":"王苏栋",                
+    "charge": "李猛",                 
+    "affiliate": [],
+    "average":1      
+  },
+  "bug": {
+    "total": 0, 
+    "resolved": 0,
+    "unsolved": 0 
+  },
+  "others": {
+    "remark": "前端就提供静态页面"     
+  }
+}

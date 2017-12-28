@@ -1,0 +1,37 @@
+﻿{
+  "base": {
+    "name": "大数据情报服务平台",
+    "url": "http://192.168.1.6:8124/yuqingBigData/html/index.html",
+    "desc": "依托丰富的数据优势与人工智能能力，提供稳定强大的舆情采集，分析及展示服务。服务于多个行业，提供可靠的事实舆情跟踪，辅助提高服务质量和口碑等",
+    "mobile":false,
+    "scene":false
+  },
+  "schedule": {
+    "status": "已完成",
+    "actualStartTime": "2017-09-05",
+    "actualEndTime": "2017-11-20",
+    "estimatedStartTime": "2017-09-05",
+    "estimatedEndTime": "2017-12-10",
+    "process": 100,
+    "delay": true,
+    "technology":["jQuery","Layui"],
+    "pages":60,                           
+    "score":"4.5"                      
+  },
+  "resources": {
+    "demander": "九次方",
+    "type":"总部平台",
+    "manager":"何毅容",
+    "charge": "李鹏飞",
+    "affiliate": ["柳杨"],
+    "average":3
+  },
+  "bug": {
+    "total":0 ,
+    "resolved":0 ,
+    "unsolved": 0
+  },
+  "others": {
+    "remark": "舆情大数据共分两个版本，第一版完成后，期间中断一段时间参与开发泸州项目，之后二期改版重新投入，为计算投入资源因此项目实际完成时间有向前推"
+  }
+}
