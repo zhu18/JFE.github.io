@@ -55,43 +55,7 @@ h1 small { font-size: 90% }
 /* ==========================================================
             Header Area
 ============================================================= */
-.header { background-color: #EB5055 }
-.logo { background: url("../img/logo.png") no-repeat scroll 0 0 transparent;opacity: .7; background-size: 45px; height: 45px;  width: 220px; padding-left: 55px;color:#fff; }
-.logo:hover,.logo:active,.logo:focus{color:#fff !important;}
-/**bootstrap over style for menu**/
-.navbar-default{ background-color: #303441; border-bottom: 2px solid #4A4F5E; top: 0; left: 0; position: fixed; right: 0; z-index: 1030; margin-bottom: 20px; min-height: 50px; -webkit-transform: translateY(0%); -moz-transform: translateY(0%); transform: translateY(0%); -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0); color: #EB5055; }
-.navbar-default .navbar-nav > li > a{ color: #A3A7B9; font-size: 1em; text-transform: uppercase; }
 
-/**small menu**/
-.navbar-default .navbar-toggle {border-color: #EB5055;border: 0 none;}
-.navbar-default .navbar-toggle .icon-bar {background-color: #EB5055}
-.navbar-toggle .icon-bar {border-radius: 0;display: block;height: 4px;width: 30px}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #EB5055;border-radius: 0 0 0 0;}
-.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar{background-color: #303441}
-
-.ha-header .navbar-toggle {border-color: #EB5055;border: 0 none;}
-.ha-header .navbar-toggle .icon-bar {background-color: #EB5055}
-.ha-header .navbar-toggle .icon-bar {border-radius: 0;display: block;height: 4px;width: 30px}
-.ha-header .navbar-toggle:hover, .ha-header .navbar-toggle:focus {background-color: #EB5055;border-radius: 0 0 0 0;}
-.ha-header .navbar-toggle:hover .icon-bar, .ha-header .navbar-toggle:focus .icon-bar{background-color: #303441}
-
-.ha-header { background-color: rgba(48,52,65,.9);padding:12px 0px; border-bottom: 1px solid #4A4F5E; top: 0; left: 0; position: fixed; right: 0; z-index: 1030; margin-bottom: 20px; min-height: 50px; }
-.ha-header .navbar-nav > li > a { color: #A3A7B9; font-size: 1.2em; text-transform: uppercase; }
-.ha-header .navbar-nav > .active > a, .ha-header .navbar-nav > .active > a:hover, .ha-header .navbar-nav > .active > a:focus { background: none repeat scroll 0 0 rgba(0, 0, 0, 0); color: #EB5055; }
-.ha-header .navbar-nav > li > a:hover, .ha-header .navbar-nav > li > a:focus { background-color: rgba(0, 0, 0, 0); }
-/* Individual states */
-
-.ha-header-large { padding: 25px 0; }
-.ha-header-small { padding: 12px 0 12px; }
-.ha-header-small .navbar-nav > li > a { padding-bottom: 10px; padding-top: 10px; }
-.ha-header-small .logo { background: url("../img/logo.png") no-repeat scroll 0 0 transparent;  background-size: 45px;padding-left:55px;font-weight:bold;}
-@media screen and (max-width: 800px) {
- .ha-header-small .logo {
-  margin-left: 20px;
-  margin-top: 5px;
- }
-}
 
 /* ==========================================================
                  banner
