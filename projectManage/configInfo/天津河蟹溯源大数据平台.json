@@ -1,0 +1,37 @@
+{
+  "base": {
+    "name": "天津河蟹溯源大数据平台",            
+    "url": "http://192.168.1.6:8124/tianjinCrabBigData/index.html",         
+    "desc": "河蟹标准化生产与溯源大数据平台",
+    "mobile":false
+  },
+  "schedule": {
+    "status": "已提测",                  
+    "actualStartTime": "2017-10-30",
+    "actualEndTime": "",      
+    "estimatedStartTime": "2017-10-30",
+    "estimatedEndTime": "2017-12-31",
+    "process": 98,                      
+    "delay": false,
+    "technology":["vuejs"],
+    "pages":10,
+    "score":"暂无",
+    "scoreUrl":""  
+  },
+  "resources": {
+    "demander": "",
+    "type":"合资公司",
+    "manager":"李静波",                  
+    "charge": "胡杰",                  
+    "affiliate": ["李妮"],
+    "average":1
+  },
+  "bug": {
+    "total": 0,                     
+    "resolved": 0,                  
+    "unsolved": 0                     
+  },
+  "others": {
+    "remark": "服务端是后台同事的电脑，可能会不稳定。用户名：visitor  密码：123456"
+  }
+}

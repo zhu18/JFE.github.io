@@ -1,35 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="H5,CSS3,bootstrap,vue,angular.js, react.js,Node.js, D3,Gulp,Webpack">
-    <link rel="shortcut icon" href="img/favicon.png">
-    <title>九次方大数据-前端研发</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <link href="css/ie_8.css" rel="stylesheet"/>
-    <script src="js/ie/html5shiv.js"></script>
-    <script src="js/ie/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Add custom CSS here -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/custom.css?v=1.0.0.2" rel="stylesheet">
-    <link href="css/github-markdown.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/header.css" >
+	<meta charset="UTF-8">
+	<meta name="keywords" content="your keywords">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="your description">
+	<meta name="author" content="author,email address">
+	<meta name="robots" content="index,follow">
+	<meta name="renderer" content="ie-stand">
+	<link rel="shortcut icon" href="https://jusfoun-fe.github.io/img/favicon.png">
+	<title>九次方大数据-前端研发</title>
+	<!-- S DNS预解析 -->
+	<link rel="dns-prefetch" href="">
+	<!-- E DNS预解析 -->
+	<!-- S 线上样式页面片，开发请直接取消注释引用 -->
+	<!-- #include virtual="" -->
+	<!-- E 线上样式页面片 -->
+	<!-- S 本地调试，根据开发模式选择调试方式，请开发删除 -->
+	<!--<link rel="stylesheet" href="index/css/index.css" >-->
+	<!-- /本地调试方式 -->
+	<link rel="stylesheet" href="static/css/lib/bootstrap.min.css" >
+	<link rel="stylesheet" href="static/font/iconfont.css" >
+	<link rel="stylesheet" href="static/raty/demo/css/application.css" >
+	<link rel="stylesheet" href="static/css/reset.css" >
+	<link rel="stylesheet" href="static/css/common.css" >
+	<link rel="stylesheet" href="static/css/anys.css" >
+	<link rel="stylesheet" href="../css/header.css" >
+	<!-- /开发机调试方式 -->
+	<!-- E 本地调试 -->
 </head>
-
-<body data-spy="scroll" data-target="#ha-header">
-
-<!-- Fixed navbar -->
-
+<body>
 <div class="header-wrapper">
     <div class="container header header-small">
         <div class="navbar-header">
@@ -70,7 +71,7 @@
                                 <li><a href="https://jusfoun-fe.github.io/JFE-library/" target="_blank">脚本库</a></li>
                                 <li><a href="https://zhu18.github.io/visualcontrols/#/map3d/world" target="_blank">可视化组件</a></li>
                                 <li><a href="http://img.9cfcf.com/#tp-scatter" target="_blank">图表配置</a></li>
-                                <li><a href="https://jusfoun-fe.github.io/projectManage/analysis.html">工作量计算</a></li>
+                                <li><a href="https://jusfoun-fe.github.io/projectManage/analysis.html" >工作量计算</a></li>
                                 <li><a href="http://192.168.1.6:8765/texiao/" target="_blank">特效</a></li>
                             </ul>
                         </li>
@@ -87,8 +88,8 @@
                     <ul class="dropdown-menu">
                         <li class="dropdown-submenu"><a href="javascript:void(0)" >实施方案</a>
                             <ul class="dropdown-menu">
-                                <li><a href="https://jusfoun-fe.github.io/doc.html#bugSuperviseScheme">bug监管方案</a></li>
-                                <li><a href="https://jusfoun-fe.github.io/doc.html#qualitySupervision" >质量监管方案</a></li>
+                                <li><a href="https://jusfoun-fe.github.io/doc.html#bugSuperviseScheme" >bug监管方案</a></li>
+                                <li><a href="https://jusfoun-fe.github.io/doc.html#qualitySupervision">质量监管方案</a></li>
                                 <li><a href="https://jusfoun-fe.github.io/doc.html#staticPage">前端静态化方案</a></li>
                             </ul>
                         </li>
@@ -100,7 +101,7 @@
                 <li class="dropdown">
                     <a href="javascript:void(0)"  data-toggle="dropdown" class="dropdown-toggle" data-submenu>关于我们<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="https://jusfoun-fe.github.io/index.html#portfolio">团队介绍</a></li>
+                        <li><a href="https://jusfoun-fe.github.io/index.html#portfolio" >团队介绍</a></li>
                         <li><a href="https://jusfoun-fe.github.io/index.html#contact">加入我们</a></li>
                     </ul>
                 </li>
@@ -108,50 +109,80 @@
         </div>
     </div>
 </div>
-<!-- End Fixed navbar -->
-<div id="news" class="doc news ha-waypoint" data-animate-down="ha-header-small" data-animate-up="ha-header-large">
-    <div class="container">
-        <div class="col-lg-3 col-md-3 clearfix markdown-list-warp">
-            <div class="fixed-warp">
-                <a href="https://github.com/jusfoun-FE/jusfoun-FE.github.io/edit/master/news/newsList.md" target="_blank" class="doc-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
-                <article class="markdown-list-body style">
-                </article>
-                <span class="markdown-list-more-btn">更多 &gt;&gt;</span>
-            </div>
-            <div class="markdown-list-more-body hide">
-                <div class="more-box">
-                    <i class="fa fa-times-circle markdown-list-more-close-btn"></i>
-                    <article class="markdown-list-more-show"></article>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-9 col-md-9 clearfix markdown-content-warp">
-            <a href="" id="news-edit-link" target="_blank" class="doc-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
-            <article class="markdown-body markdown-content-body news-title" id="markdown-content-body"></article>
-        </div>
-    </div>
+<div class="container wrapper">
+	<div class="row content-block">
+		<div class="list-wrapper col-lg-12  col-md-12 col-sm-12">
+			<ul class="condition-wrapper">
+				<li class="clearfix row">
+					<span class="condition-title">项目类型：</span>
+					<div id="condition-select" class="condition-list status-list">
+						<span class="active">全部</span>
+						<span>VUE</span>
+						<span>Jquery</span>
+						<span>mobile</span>
+					</div>
+				</li>
+			</ul>
+			<div class="condition-wrapper marginLeft" style="border-bottom: none;">
+				<ul id="selectedPro">
+					<!-- <li><a href="###">item1</a></li>
+					<li>item2</li>
+					<li>item3</li>
+					<li>item4</li> -->
+				</ul>
+			</div>
+			
+			<div class="condition-wrapper marginLeft" style="border-top:none">
+				<h3><span class="type">全部</span>项目预测</h3>
+				<label class="pre-label">
+					<span>页面数：</span>					
+					<input id="pageCont"/>
+					<span>页</span>
+				</label>
+
+			<label class="pre-label">
+				<span>时间周期：</span>
+				<input id="timeRange"/>
+				<span>天</span>
+			</label>
+
+			<label class="pre-label">
+				<span>人员：</span>
+				<input id="personCont"/>
+				<span>人</span>
+			</label>
+			<button id="reset" class="btn btn-primary">重置</button>
+			<h2 class="intro">*计算规则：筛选出符合条件的项目，对每个项目进行历史数据分析:计算投入的人数，工作周期及产出工作量（页面数）并进行对比,计算出此类项目的加权平均值，以此数值来进行同类项目工作预测</h2>
+			<h2 id="result"></h2>
+			</div>
+			
+			
+
+			<div class="condition-wrapper">
+				<h3 class="marginLeft"><span class="type">全部</span>历史数据</h3>
+				<div class="chart" id="chart1" style="width:100%;height: 800px"></div>
+			</div>
+
+		</div>
+
+	</div>
+   
+</div>
+<div class="footer-wrapper">
+	<div class="container footer clearfix ">
+		<div class="row">
+			<p class="col-lg-6 col-md-6 col-sm-6 sol-xs-12">版权所有 九次方大数据信息集团有限公司</p>
+			<p class="col-lg-6 col-md-6 col-sm-6 sol-xs-12">Copyright 2017 by Jusfoun.com. All Right Reserved</p>
+		</div>
+
+	</div>
 </div>
 
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-7 col-sm-12">
-                <p>版权所有 九次方大数据信息集团有限公司</p>
-            </div>
-            <div class="col-xs-12 col-md-5 col-sm-12">
-                <p>Copyright 2017 by Jusfoun.com. All Right Reserved</p>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- /Footer -->
-<!-- JavaScript -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/pace.min.js"></script> <!--page load progress bar-->
-<script src="js/marked.min.js"></script>
-<script src="js/news.js?v=1.0.3"></script>
-<script src="./js/header.js"></script>
+
+<script src="static/js/lib/jquery.min.js"></script>
+<script src="static/js/lib/echarts.js"></script>
+<script src="static/js/lib/bootstrap.min.js"></script>
+<script src="static/js/anys.js"></script> 
+<script src="../js/header.js"></script>
 </body>
 </html>

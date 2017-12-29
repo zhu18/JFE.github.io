@@ -1,0 +1,37 @@
+{
+  "base": {
+    "name": "天津河蟹PC端",            
+    "url": "http://192.168.1.6:8124/tianjinCrabPC/index.html",         
+    "desc": "河蟹养殖追溯",
+    "mobile":false
+  },
+  "schedule": {
+    "status": "已提测",                  
+    "actualStartTime": "2017-09-25",
+    "actualEndTime": "",      
+    "estimatedStartTime": "2017-09-25",
+    "estimatedEndTime": "2017-12-31",
+    "process": 98,                      
+    "delay": false,
+    "technology":["vuejs"],
+    "pages":86,                           
+    "score":"暂无",                      
+    "scoreUrl":""
+  },
+  "resources": {
+    "demander": "",
+    "type":"合资公司",
+    "manager":"李静波",                  
+    "charge": "胡杰",                  
+    "affiliate": ["商业庆"],
+    "average":1
+  },
+  "bug": {
+    "total": 0,                     
+    "resolved": 0,                  
+    "unsolved": 0                     
+  },
+  "others": {
+    "remark": "用户名visitor,密码123456,由于服务器是连的后台同事的电脑，可能会不稳定，请不要修改系统管理的数据，由于3个端的BUG都提在一起没办法区分PC和移动，目前只能统计未改的BUG"
+  }
+}

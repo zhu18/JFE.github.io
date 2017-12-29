@@ -1,0 +1,36 @@
+{
+  "base": {
+    "name": "重庆云", 
+    "url": "",         
+    "desc": "",                          
+    "mobile":false                    
+  },
+  "schedule": {
+    "status": "开发中",                 
+    "actualStartTime": "2017-11-02",
+    "actualEndTime": "未定",    
+    "estimatedStartTime": "2017-11-02", 
+    "estimatedEndTime": "2017-11-16",   
+    "process": 90,                     
+    "delay": false,                      
+    "technology":["vue"],
+    "pages":0,                           
+    "score":"暂无",                      
+    "scoreUrl":""             
+  },
+  "resources": {
+    "demander": "",                    
+    "type":"合资公司",				         
+    "manager":"许峰",                
+    "charge": "韩凯波",              
+    "affiliate": ["徐媛媛"]      
+  },
+  "bug": {
+    "total": 135,                    
+    "resolved": 135,                  
+    "unsolved": 0                  
+  },
+  "others": {
+    "remark": "需求有更改，账户名(17600801597),密码(111111)"                  
+  }   
+}

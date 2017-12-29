@@ -24,29 +24,89 @@
     <link href="css/custom.css?v=1.0.0.2" rel="stylesheet">
     <link href="css/github-markdown.css" rel="stylesheet">
     <link href="css/dailySpecification.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/header.css" >
 </head>
 
 <body data-spy="scroll" data-target="#ha-header">
 
 <!-- Fixed navbar -->
-<div class="ha-header ha-header-small" id="ha-header">
-    <div class="container">
+
+<div class="header-wrapper">
+    <div class="container header header-small">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
-                    class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-            <a class="navbar-brand logo" href="#">九次方前端</a></div>
-        <div class="navbar-collapse collapse ">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html#services ">前端规范</a></li>
-                <li><a href="index.html#portfolio ">团队介绍</a></li>
-                <li><a href="index.html#contact">加入我们</a></li>
-                <li><a href="news.html" title="" target="_blank">新闻周刊</a></li>
-                <li  class="active"><a href="doc.html"  target="_blank" id="priInfo">内部资料</a></li>
-                <li><a href="Project.html"  target="_blank">前端项目</a></li>
-                <li><a href="https://jusfoun-fe.github.io/projectManage/"  target="_blank">项目管理</a></li>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand logo" href="https://jusfoun-fe.github.io/">九次方前端</a>
+        </div>
+        <div id="navbar-collapse" class="navbar-collapse collapse ">
+            <ul class="nav navbar-nav">
+                <li class="dropdown" >
+                    <a  href="https://jusfoun-fe.github.io/">首页</a>
+                </li>
+                <li class="dropdown" >
+                    <a  href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle" data-submenu>规范须知<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://jusfoun-fe.github.io/index.html#services">代码规范</a></li>
+                        <li><a href="https://jusfoun-fe.github.io/doc.html#dailySpecification">日常规范</a></li>
+                        <li><a href="https://jusfoun-fe.github.io/doc.html#rules">入职注意事项</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)"  data-toggle="dropdown" class="dropdown-toggle"  data-submenu>学习共享<b class="caret"></b></a>
+                    <ul class="dropdown-menu" >
+
+                        <li class="dropdown-submenu">
+                            <a href="javascript:void(0)" >技术提升</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://jusfoun-fe.github.io/doc.html#cultivate">培训计划</a></li>
+                                <li><a href="https://jusfoun-fe.github.io/news.html">技术周刊</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="javascript:void(0)">组件/工具</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://jusfoun-fe.github.io/JFE-library/" target="_blank">脚本库</a></li>
+                                <li><a href="https://zhu18.github.io/visualcontrols/#/map3d/world" target="_blank">可视化组件</a></li>
+                                <li><a href="http://img.9cfcf.com/#tp-scatter" target="_blank">图表配置</a></li>
+                                <li><a href="https://jusfoun-fe.github.io/projectManage/analysis.html">工作量计算</a></li>
+                                <li><a href="http://192.168.1.6:8765/texiao/" target="_blank">特效</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="javascript:void(0)" >信息反馈</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://jusfoun-fe.github.io/doc.html#questionnaire">组件库调查</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)"  data-toggle="dropdown" class="dropdown-toggle" data-submenu>项目管理<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu"><a href="javascript:void(0)" >实施方案</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://jusfoun-fe.github.io/doc.html#bugSuperviseScheme">bug监管方案</a></li>
+                                <li><a href="https://jusfoun-fe.github.io/doc.html#qualitySupervision" >质量监管方案</a></li>
+                                <li><a href="https://jusfoun-fe.github.io/doc.html#staticPage">前端静态化方案</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://jusfoun-fe.github.io/Project.html">静态化项目</a></li>
+                        <li><a href="https://jusfoun-fe.github.io/projectManage/">项目总览</a></li>
+                    </ul>
+
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)"  data-toggle="dropdown" class="dropdown-toggle" data-submenu>关于我们<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://jusfoun-fe.github.io/index.html#portfolio">团队介绍</a></li>
+                        <li><a href="https://jusfoun-fe.github.io/index.html#contact">加入我们</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
-        <!--/.nav-collapse -->
     </div>
 </div>
 <!-- End Fixed navbar -->
@@ -94,6 +154,7 @@
 <script src="js/pace.min.js"></script> <!--page load progress bar-->
 <script src="js/marked.min.js"></script>
 <script src="js/doc.js?v=1.0.6"></script>
+<script src="./js/header.js"></script>
 <script>
 
 </script>
