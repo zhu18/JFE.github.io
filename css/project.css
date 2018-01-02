@@ -187,6 +187,7 @@ a:hover,a:focus{
 .project-search-box .search-box{
     width: 100%;
     height: 42px;
+    margin: 0 auto;
     line-height: 40px;
     border:2px solid #bbb;
     border-radius: 5px 5px 0 0;
@@ -311,11 +312,11 @@ a:hover,a:focus{
     .project-search-box {
         margin: 40px auto 0;
     }
-    .sey-item {width:528px!important}
+    .sey-item {width:515px!important}
 }
 @media (min-width: 770px) and (max-width: 979px) {
     .sey-item {
-        width:528px!important
+        width:514px!important;
     }
     .project-edit-link{
         margin-right: 120px;
@@ -348,12 +349,47 @@ a:hover,a:focus{
         width: 482px!important;
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 580px){
+    .project-search-box {
+        width: 70%;
+    }
+    .sey-item {
+        width: 482px!important;
+    }
+}
+@media (min-width: 665px) and (max-width: 767px){
+    .project-search-box {
+        width: 70%;
+    }
     .sey-item{
-        width: 477px!important;
+        width: 484px!important;
+    }
+}
+@media (max-width: 720px){
+    .sey-item {
+        width: 482px!important;
+    }
+}
+@media (min-width: 483px) and (max-width: 660px) {
+    .project-search-box {
+        width: 100%;
+    }
+    .sey-item{
+        width: 341px!important;
     }
     .project-edit-link{
         margin-right: 120px;
+    }
+}
+@media (min-width: 375px) and (max-width: 480px) {
+    .project-search-box {
+        width: 100%;
+    }
+    .sey-item{
+        width: 341px!important;
+    }
+    .project-edit-link{
+        margin-right: 0px;
     }
 }
 
