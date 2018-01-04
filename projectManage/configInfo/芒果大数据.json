@@ -1,6 +1,6 @@
 {
   "base": {
-    "name": "芒果大数据",            
+    "name": "华坪县芒果大数据服务平台",            
     "url": "http://192.168.1.6:8124/mango/html/index/index.html",          
     "desc": "",                          
     "mobile":false                       
@@ -11,7 +11,7 @@
     "actualEndTime": "未定",      
     "estimatedStartTime": "2017-12-11", 
     "estimatedEndTime": "2018-12-30",   
-    "process":4,                      
+    "process":5,                      
     "delay": false,                     
     "technology":["gulp","vue","layui"],
     "pages":420,                           
