@@ -8,7 +8,6 @@ $(function () {
   $('[data-submenu]').submenupicker();
   //getData();
   getInitData();
-  navEvent();
 });
 function getInitData(){
   $.getJSON('static/output.json',function(res){
@@ -85,7 +84,7 @@ function renderData (res,index)  {
   }
   var html = '<li class="list-li">'
               +'<span class="down " onclick="clickArrow(this)"> <i></i></span>'
-              +'<a class="icon iconfont icon-github1 edit-json" href="https://github.com/jusfoun-FE/jusfoun-FE.github.io/blob/master/projectManage/edit/master/configInfo/'+jsonUrl+'" title="编辑" target="_blank"> <i></i></a>';
+              +'<a class="icon iconfont icon-github1 edit-json" href="https://github.com/jusfoun-FE/jusfoun-FE.github.io/edit/master/projectManage/configInfo/'+jsonUrl+'" title="编辑" target="_blank"> <i></i></a>';
               if(!delay){
                 html += '<span class="delay"></span><i class="delay-txt">延期</i>'
               }
