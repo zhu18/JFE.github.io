@@ -114,11 +114,11 @@
 
 }
 .navbar-nav>li .dropdown-menu li {
-    padding:5px 0;
+    padding:0;
 }
 .navbar-nav>li .dropdown-menu li a {
     font-size: 1.1em;
-    padding: 8px 20px;
+    padding: 10px 20px;
     color: #A3A7B9;
 }
 .header-wrapper .navbar-nav>li .dropdown-menu li:hover>a {
