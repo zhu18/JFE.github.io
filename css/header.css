@@ -80,7 +80,6 @@
 .navbar-nav>li .dropdown-menu {
     min-width: 150px;
     top: 70px;
-    padding: 10px 20px;
     background: rgba(48, 52, 65, .9);
     border: none;
     display:block;
@@ -118,7 +117,7 @@
 }
 .navbar-nav>li .dropdown-menu li a {
     font-size: 1.1em;
-    padding: 8px 20px;
+    padding: 10px 20px;
     color: #A3A7B9;
 }
 .header-wrapper .navbar-nav>li .dropdown-menu li:hover>a {
