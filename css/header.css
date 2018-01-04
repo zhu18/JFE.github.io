@@ -80,6 +80,7 @@
 .navbar-nav>li .dropdown-menu {
     min-width: 150px;
     top: 70px;
+    padding: 10px 20px;
     background: rgba(48, 52, 65, .9);
     border: none;
     display:block;
@@ -89,6 +90,7 @@
     -moz-transition:all .3s;
     -webkit-transition:all .3s;
     -o-transition:all .3s;
+    overflow: hidden;
 }
 .navbar-nav>li.open>.dropdown-menu{
     visibility: visible;
@@ -108,7 +110,7 @@
 }
 
 .navbar-nav>li .dropdown-menu .dropdown-submenu .dropdown-menu {
-    top: 0;
+    top: 5px;
 
 }
 .navbar-nav>li .dropdown-menu li {

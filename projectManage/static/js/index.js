@@ -8,7 +8,6 @@ $(function () {
   $('[data-submenu]').submenupicker();
   //getData();
   getInitData();
-  navEvent();
 });
 function getInitData(){
   $.getJSON('static/output.json',function(res){

@@ -11,10 +11,10 @@
     "actualEndTime": "",
     "estimatedStartTime": "2017-12-28",
     "estimatedEndTime": "",
-    "process": 0,
+    "process": 30,
     "delay": false,
     "technology":["VUE","echarts"],
-    "pages": 2,
+    "pages": 3,
     "score":"暂无",
     "scoreUrl":""
   },
@@ -32,6 +32,6 @@
     "unsolved": 0
   },
   "others": {
-    "remark": "12-27下班给的新增需求，需求尚不明确，已邮件询问"
+    "remark": "新需求还有2个页面没给设计，项目经理说延后开发"
   }
 }
