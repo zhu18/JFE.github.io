@@ -90,7 +90,6 @@
     -moz-transition:all .3s;
     -webkit-transition:all .3s;
     -o-transition:all .3s;
-    overflow: hidden;
 }
 .navbar-nav>li.open>.dropdown-menu{
     visibility: visible;
