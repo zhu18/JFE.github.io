@@ -12,7 +12,7 @@
 .header-wrapper {
     position: fixed;
     right: 0;
-	top: 0;
+    top: 0;
     width: 100%;
     background: rgba(48, 52, 65, .9);
     z-index: 10000000;
@@ -148,7 +148,9 @@
 .caret {
     margin-left: 4px;
 }
-
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background: #EB5055;
+}
 @media (max-width: 767px){
     .container {
         padding: 0;
@@ -187,7 +189,7 @@
         margin: 0;
     }
     .navbar-nav .open .dropdown-menu>li>a {
-        line-height: 30px;
+        line-height: 36px;
     }
     .header-wrapper .navbar-nav > li > a {
         line-height: 30px;
