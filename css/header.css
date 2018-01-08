@@ -193,7 +193,7 @@
     }
     .header-wrapper .navbar-nav > li > a {
         line-height: 30px;
-        padding: 10px 30px;
+        padding: 10px 15px 10px 30px;
     }
     .navbar-nav>li .dropdown-menu {
         min-width: 150px;
@@ -220,7 +220,7 @@
     }
     .dropdown-submenu>a:after {
         float: right;
-        margin: 10px 0 0 0;
+        margin: 15px 0 0 0;
     }
     .caret {
         float: right;
