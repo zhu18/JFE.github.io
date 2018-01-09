@@ -41,7 +41,7 @@ $(document).ready(function () {
      setActive(urlParam);
     //初始化加载 入职注意事项，
     getContentData(urlParam);
-    $(".markdown-list-warp a").click(function(){
+    $(".dropdown-menu li a").click(function(){
         urlParam = $(this).attr("href").replace("#","");
         getContentData(urlParam);
         //编辑内容的icon链接
