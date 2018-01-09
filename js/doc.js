@@ -42,7 +42,8 @@ $(document).ready(function () {
     //初始化加载 入职注意事项，
     getContentData(urlParam);
     $(".dropdown-menu li a").click(function(){
-        urlParam = $(this).attr("href").replace("#","");
+        var hrefUrl = $(this).attr("href");
+        urlParam = hrefUrl.substring(hrefUrl.indexOf("#")+1,hrefUrl.length);
         getContentData(urlParam);
         //编辑内容的icon链接
         $("#doc-edit-link").attr("href","https://github.com/jusfoun-FE/jusfoun-FE.github.io/edit/master/doc/"+urlParam+".md");
