@@ -1,5 +1,14 @@
 [
   {
+    "name":"苹果大数据大屏展示项目(二期)",
+    "url":"https://leimite.github.io/appleBigscreen/#/index",
+    "img":"./img/Project/twoTeam/apple.jpg",
+    "technology":"css3,echarts,elementUi,vue",
+    "time":"2017年11月",
+    "type":"PC",
+    "txt":"对苹果大数据进行专题分析，旨在从全局的角度，对苹果大数据的应用方向、数据源、实施路径、应用效果、应用场景设计、可行性等方面提出实施方案，深入挖掘苹果大数据的价值。"
+  },
+  {
     "name":"政务数据开放平台",
     "url":"https://huiminguo.github.io/zhengwukaifang/index/index.html",
     "img":"./img/Project/publicTeam/zhengwukaifangpingtai.jpg",

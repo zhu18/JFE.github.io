@@ -764,6 +764,9 @@ a.title-txt:active {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.content-block {
+    margin-top: 120px;
+ }
 }
 
 
