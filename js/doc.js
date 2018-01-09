@@ -10,7 +10,7 @@ $(document).ready(function () {
     //初始化加载 入职注意事项，
     getContentData(urlParam);
     $(".dropdown-menu li a").click(function(){
-      var hrefUrl = $(this).attr("href");
+        var hrefUrl = $(this).attr("href");
         urlParam = hrefUrl.substring(hrefUrl.indexOf("#")+1,hrefUrl.length);
         getContentData(urlParam);
         //编辑内容的icon链接
