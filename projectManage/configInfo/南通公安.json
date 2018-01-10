@@ -6,12 +6,12 @@
     "mobile":false
   },
   "schedule": {
-    "status": "已提测",
+    "status": "已完成",
     "actualStartTime": "2017-02",
     "actualEndTime": "",
     "estimatedStartTime": "2017-02",
     "estimatedEndTime": "未定",
-    "process": 90,
+    "process": 100,
     "delay": false,
     "technology":["layer弹层","水印效果","jQuery"],
     "pages":54,                           
@@ -32,6 +32,6 @@
     "unsolved": 0
   },
   "others": {
-    "remark": "这个是测试地址，只有在公司内网可以进入，正式地址在公安内部网，进不到网页中，账户名(zhidui),密码(123456)，二期新需求静态页面完成，已交接开发提测"                 
+    "remark": "这个是测试地址，只有在公司内网可以进入，正式地址在公安内部网，进不到网页中，账户名(zhidui),密码(123456)，一期完成，二期开始时间待定"                 
   }
 }
