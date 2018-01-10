@@ -1,0 +1,37 @@
+{
+  "base": {
+    "name": "非银行间项目库",
+    "url": "",
+    "desc": "",               
+    "mobile":false,
+    "scene":true
+  },
+  "schedule": {
+    "status": "开发中",
+    "actualStartTime": "2018-1-10",
+    "actualEndTime": "",
+    "estimatedStartTime": "2018-1-10",
+    "estimatedEndTime": "2018-1-31",
+    "process":1, 
+    "delay": false,
+    "technology":["vue","element-ui","echarts","sass"],
+    "pages": 7,
+    "score":"暂无"
+  },
+  "resources": {
+    "demander": "九次方大数据",
+    "type":"独立纵队",
+    "manager":"",
+    "charge": "魏阁",
+    "affiliate": ["林源"],
+    "average":2
+  },
+  "bug": {
+    "total": 0,
+    "resolved": 0,
+    "unsolved": 0
+  },
+  "others": {
+    "remark": ""
+  }
+}
