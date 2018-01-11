@@ -6,12 +6,12 @@
     "mobile":false                    
   },
   "schedule": {
-    "status": "开发中",                 
+    "status": "已完成",                 
     "actualStartTime": "2017-12-21",
-    "actualEndTime": "",    
+    "actualEndTime": "2018-1-5",    
     "estimatedStartTime": "2017-12-21", 
     "estimatedEndTime": "2017-12-29",   
-    "process": 80,                     
+    "process": 100,                     
     "delay": false,                      
     "technology":[],
     "pages":0,                           
