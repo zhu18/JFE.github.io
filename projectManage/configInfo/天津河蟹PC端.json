@@ -8,15 +8,14 @@
   "schedule": {
     "status": "已完成",                  
     "actualStartTime": "2017-09-25",
-    "actualEndTime": "2017-12-31-",      
+    "actualEndTime": "2017-12-31",      
     "estimatedStartTime": "2017-09-25",
     "estimatedEndTime": "2017-12-31",
     "process": 98,                      
     "delay": false,
     "technology":["vuejs"],
     "pages":86,                           
-    "score":"暂无",                      
-    "scoreUrl":""
+    "score":"暂无"
   },
   "resources": {
     "demander": "",
