@@ -12,7 +12,7 @@
     "actualEndTime": "未定",
     "estimatedStartTime": "2017-12-15",
     "estimatedEndTime": "2017-12-30",
-    "process":95,
+    "process":100,
     "delay": false,                     
     "technology":["IE8兼容模板","layui","kindeditor"],
     "pages":38
@@ -23,7 +23,7 @@
     "manager":"崔智华",
     "charge": "王杰",
     "affiliate": ["杨勇冠","郑梦丽","王斌彦","冯彦文"],
-    "average":4
+    "average":3
   },
   "bug": {
     "total": 44,            
