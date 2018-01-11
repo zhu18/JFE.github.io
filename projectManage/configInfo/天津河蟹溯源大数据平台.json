@@ -6,11 +6,11 @@
     "mobile":false
   },
   "schedule": {
-    "status": "已提测",                  
+    "status": "已完成",                  
     "actualStartTime": "2017-10-30",
-    "actualEndTime": "",      
+    "actualEndTime": "2017-12-31",      
     "estimatedStartTime": "2017-10-30",
-    "estimatedEndTime": "2018-1-10",
+    "estimatedEndTime": "2017-12-31",
     "process": 99,                      
     "delay": false,
     "technology":["vuejs"],
@@ -32,6 +32,6 @@
     "unsolved": 0                     
   },
   "others": {
-    "remark": "服务端是后台同事的电脑，可能会不稳定。用户名：visitor  密码：123456"
+    "remark": "服务端是后台同事的电脑，可能会不稳定。用户名：hujie  密码：123456"
   }
 }
