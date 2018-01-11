@@ -315,6 +315,16 @@
       "name":"拟上市企业库",
       "url":"拟上市企业库.json",
       "actualStartTime": "2017/09/18"
+    },
+     {
+      "name":"非银行间项目库",
+      "url":"非银行间项目库.json",
+      "actualStartTime": "2018/01/10"
+    },
+     {
+      "name":"行业景气指数",
+      "url":"行业景气指数.json",
+      "actualStartTime": "2018/01/08"
     }
   ]
 }
