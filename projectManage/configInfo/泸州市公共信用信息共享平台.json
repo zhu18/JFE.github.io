@@ -12,13 +12,13 @@
     "actualEndTime": "未定",
     "estimatedStartTime": "2017-12-15",
     "estimatedEndTime": "2017-12-30",
-    "process":95,
+    "process":100,
     "delay": false,                     
     "technology":["IE8兼容模板","layui","kindeditor"],
     "pages":38
   },
   "resources": {
-    "demander": "九次方大数据",   
+    "demander": "泸州市发改委",   
     "type":"独立纵队",				       
     "manager":"崔智华",
     "charge": "王杰",
