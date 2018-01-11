@@ -6,11 +6,11 @@
     "mobile":true
   },
   "schedule": {
-    "status": "已提测",                  
+    "status": "已完成",                  
     "actualStartTime": "2017-09-11",
-    "actualEndTime": "",      
+    "actualEndTime": "2017-12-31",      
     "estimatedStartTime": "2017-09-11",
-    "estimatedEndTime": "2018-1-10",
+    "estimatedEndTime": "2017-12-31",
     "process": 98,                      
     "delay": false,
     "technology":["vuejs"],
@@ -32,6 +32,6 @@
     "unsolved": 0                   
   },
   "others": {
-    "remark": "用户名:visitor,密码:123456,服务端连接的后台同事的电脑，所以可能会不稳定，由于3个端的BUG都提在一起没办法区分PC和移动，目前只能统计未改的BUG"
+    "remark": "用户名:hujie,密码:123456,服务端连接的后台同事的电脑，所以可能会不稳定，由于3个端的BUG都提在一起没办法区分PC和移动，目前只能统计未改的BUG"
   }
 }
