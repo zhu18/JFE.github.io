@@ -116,9 +116,11 @@ function getInitData(res){
         if(v.base.name !== '部门内部研发' && 
           
            v.schedule.pages && v.schedule.pages!=="" && 
-           v.schedule.actualStartTime && v.schedule.actualStartTime!=='未定' && v.schedule.actualStartTime!=='' &&
+           v.schedule.actualStartTime && v.schedule.actualStartTime!=='未定' && v.schedule.actualStartTime!=='' && v.schedule.actualStartTime!=='未知'
+           &&
            v.schedule.actualEndTime && v.schedule.actualEndTime!==''&&
            v.schedule.actualEndTime!=='未定' &&
+           v.schedule.actualEndTime!=='未知' &&
            v.resources.average){
              projectName.push(v.base.name)
 
@@ -295,26 +297,29 @@ function chart1(projectName,pageNum,timeRange,peopleNum,calcRTNum,xArr,urlArr){
           "type": "bar",
           'barCategoryGap':'100%',
           'barWidth':'10', 
+          "stack":'aa',
           "data": pageNum
         },
         {
           "name": "开发周期",
           "type": "bar",
+          "stack":'aa',
           'barWidth':'10', 
           "data": timeRange
         },
         {
           "name": "人员",
           "type": "bar",
+          "stack":'aa',
           'barWidth':'10', 
           "data": peopleNum
         },
-        {
-          "name": "人天",
-          "type": "bar",
-          'barWidth':'10', 
-          "data": calcRTNum
-        },
+        // {
+        //   "name": "人天",
+        //   "type": "bar",
+        //   'barWidth':'10', 
+        //   "data": calcRTNum
+        // },
         {
           "name": "效率值",
           "type": "line",
