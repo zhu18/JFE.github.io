@@ -21,9 +21,9 @@
     "demander": "",
     "type": "独立纵队",
     "manager": "许峰",
-    "charge": "魏阁",
-    "affiliate": ["周志国","林源"],
-    "average": 3
+    "charge": "周志国",
+    "affiliate": ["韩凯波"],
+    "average": 2
   },
   "bug": {
     "total": 0,
