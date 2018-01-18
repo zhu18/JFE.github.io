@@ -6,15 +6,15 @@
     "mobile":false                      
   },
   "schedule": {
-    "status": "开发中",                  
+    "status": "已提测",                  
     "actualStartTime": "2017-12-26",    
     "actualEndTime": "未定",      
     "estimatedStartTime": "2017-12-26", 
-    "estimatedEndTime": "2018-01-22",   
-    "process": 70,
+    "estimatedEndTime": "2018-01-26",   
+    "process": 90,
     "delay": false,                      
     "technology":["jquery","layui","echarts","gulp"],
-    "pages":20,
+    "pages":44,
     "score":"暂无"
   },
   "resources": {
@@ -26,8 +26,8 @@
     "average": 2
   },
   "bug": {
-    "total": 0,
-    "resolved": 0,
+    "total": 7,
+    "resolved": 7,
     "unsolved": 0                     
   },
   "others": {
