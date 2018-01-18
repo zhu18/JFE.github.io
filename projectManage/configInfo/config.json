@@ -325,6 +325,11 @@
       "name":"行业景气指数",
       "url":"行业景气指数.json",
       "actualStartTime": "2018/01/08"
+    },
+     {
+      "name":"河北省公安猎狐大数据",
+      "url":"河北省公安猎狐大数据.json",
+      "actualStartTime": "2018/01/15"
     }
   ]
 }
