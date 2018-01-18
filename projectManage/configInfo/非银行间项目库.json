@@ -12,7 +12,7 @@
     "actualEndTime": "",
     "estimatedStartTime": "2018-1-10",
     "estimatedEndTime": "2018-1-31",
-    "process":1, 
+    "process":30, 
     "delay": false,
     "technology":["vue","element-ui","echarts","sass"],
     "pages": 7,
