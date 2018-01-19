@@ -11,7 +11,7 @@
     "actualEndTime": "",
     "estimatedStartTime": "2017-11-08",
     "estimatedEndTime": "2018-3-15",
-    "process": 20,
+    "process": 30,
     "delay": false,
     "technology":["jQuery","handlebars"],
     "pages":25,                           
