@@ -15,7 +15,7 @@
     "technology":["vue","echarts","sass","moment"],
     "pages":50,                           
     "score":"暂无",                      
-    "scoreUrl":""  
+    "average":3 
   },
   "resources": {
     "demander": "金融",
