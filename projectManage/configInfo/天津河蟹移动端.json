@@ -13,7 +13,7 @@
     "estimatedEndTime": "2017-12-31",
     "process": 98,                      
     "delay": false,
-    "technology":["vuejs","echarts","video"],
+    "technology":["vuejs","echarts"],
     "pages":45,                           
     "score":4.5
   },
