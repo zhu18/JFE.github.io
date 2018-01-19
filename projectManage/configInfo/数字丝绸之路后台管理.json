@@ -22,7 +22,8 @@
     "type":"内部研发平台",				            
     "manager":"崔志华",                  
     "charge": "冯彦文",                  
-    "affiliate": ["王斌彦","杨勇冠"]       
+    "affiliate": ["王斌彦","杨勇冠"],
+    "average":3          
   },
   "bug": {
     "total": 0,                     
