@@ -14,15 +14,15 @@
     "delay": false,
     "technology":["vue"],
     "pages":35,                           
-    "score":"暂无",                      
-    "average":5 
+    "score":"暂无"
   },
   "resources": {
     "demander": "金融",
     "type":"独立纵队",
     "manager":"樊利安",
     "charge": "任新杰",
-    "affiliate": ["颜庭光","吕颖萍","韩凯波","冯红阳"]
+    "affiliate": ["颜庭光","吕颖萍","韩凯波","冯红阳"],                      
+    "average":5 
   },
   "bug": {
     "total": 0,
