@@ -347,6 +347,10 @@ body {
     margin: 0  2px 0 2px;
     font-size: 14px;
 }
+.icon-i2 {
+    font-size: 20px;
+    margin-top: 3px;
+}
 .tech-icon:hover {
     text-decoration: none;
 }
