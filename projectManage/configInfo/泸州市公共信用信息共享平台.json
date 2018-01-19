@@ -14,7 +14,7 @@
     "estimatedEndTime": "2017-12-30",
     "process":100,
     "delay": false,                     
-    "technology":["IE8兼容模板","layui","kindeditor"],
+    "technology":["layui","kindeditor"],
     "pages":38,
     "score":"暂无"
   },
