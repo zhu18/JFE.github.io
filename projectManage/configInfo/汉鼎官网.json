@@ -2,7 +2,7 @@
   "base": {
     "name": "汉鼎官网",
     "url": "http://www.heading-century.com/",
-    "desc": "",
+    "desc": "暂无",
     "mobile":false
   },
   "schedule": {
@@ -15,13 +15,12 @@
     "delay": false,
     "technology":["CMS"],
      "pages":14,                           
-    "score":"暂无",                      
-    "scoreUrl":""  
+    "score":"暂无"
   },
   "resources": {
-    "demander": "",
-    "type":"",
-    "manager":"",
+    "demander": "张德良",
+    "type":"独立纵队",
+    "manager":"张德良",
     "charge": "汝银娟",
     "affiliate": [],
     "average":1
