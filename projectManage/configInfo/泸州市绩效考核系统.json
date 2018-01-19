@@ -15,7 +15,8 @@
     "process":100,
     "delay": false,                     
     "technology":["vue","echarts"],
-    "pages":17
+    "pages":17,
+    "score":"暂无"
   },
   "resources": {
     "demander": "泸州市发改委",   
