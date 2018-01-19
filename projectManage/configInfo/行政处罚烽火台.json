@@ -9,9 +9,9 @@
   "schedule": {
     "status": "暂停开发",
     "actualStartTime": "2017-10-23",
-    "actualEndTime": "",
+    "actualEndTime": "未定",
     "estimatedStartTime": "2017-10-23",
-    "estimatedEndTime": "",
+    "estimatedEndTime": "未定",
     "process":90, 
     "delay": false,
      "pages":6,
