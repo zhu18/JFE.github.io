@@ -22,6 +22,7 @@
     "type": "独立纵队",
     "manager": "周维",
     "charge": "韩凯波",
+    "average":3,
     "affiliate": ["徐媛媛", "颜庭光"]
   },
   "bug": {
