@@ -8,7 +8,7 @@
     "scene":true
   },
   "schedule": {
-    "status": "开发中",    
+    "status": "暂停开发",    
     "actualStartTime": "2018-01-02", 
     "actualEndTime": "未知",
     "estimatedStartTime": "2018-01-02", 
@@ -32,7 +32,7 @@
     "unsolved": 0           
   },
   "others": {
-    "remark": ""     
+    "remark": "产品原型还得修改"     
   }
 }
 
