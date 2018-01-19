@@ -6,7 +6,7 @@
     "mobile":false                       
   },
   "schedule": {
-    "status": "已提测",                  
+    "status": "开发中",                  
     "actualStartTime": "2017-05-12",    
     "actualEndTime": "未定",      
     "estimatedStartTime": "2017-05-02", 
@@ -22,7 +22,7 @@
     "type":"合资公司",				           
     "manager":"姚文龙",                 
     "charge": "任传真",                  
-    "affiliate": [],
+    "affiliate": ["王帅"],
     "average": 3
   },
   "bug": {
