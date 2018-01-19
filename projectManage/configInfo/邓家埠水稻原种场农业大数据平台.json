@@ -13,7 +13,7 @@
     "estimatedEndTime": "2017-12-29",   
     "process": 100,                     
     "delay": false,                      
-    "technology":[],
+    "technology":['html','css','vue'],
     "pages":0,                           
     "score":"暂无"   
   },
