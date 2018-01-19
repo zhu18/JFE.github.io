@@ -15,7 +15,7 @@
     "process":100, 
     "delay": false,
     "pages":16,
-    "score":"暂无"
+    "score":"暂无",
     "technology":["vue","element-ui","echarts"]
   },
   "resources": {
