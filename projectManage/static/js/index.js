@@ -203,8 +203,8 @@ function renderData (res,index)  {
                         'less':'icon-less',
                         'sass':'icon-sass',
                         'handle':'icon-qishihorseman1',
-			'handlebar':'icon-qishihorseman1',
-			'handlebars':'icon-qishihorseman1',
+			                  'handlebar':'icon-qishihorseman1',
+			                  'handlebars':'icon-qishihorseman1',
                         'node.js':'icon-nodejs1',
                         'node':'icon-nodejs1',
                         'angular.js':'icon-angularjs',
@@ -221,18 +221,18 @@ function renderData (res,index)  {
                         'react':'icon-react',
                         'cms':'icon-cms',
                         'CMS':'icon-cms',
-			'JEECMS':'icon-cms',
+			                  'JEECMS':'icon-cms',
                         'svg':'icon-svg1160608easyiconnet',
                         'apicloud':'icon-cloud',
                         'webgl':'icon-WebGL'
                       };
                         if(res.schedule.technology) {
                           res.schedule.technology.forEach(function (item) {
-				if(icons[item.toLowerCase()]){
-					html +='<a class="tech-icon iconfont '+icons[item.toLowerCase()]+'" title="'+item+'"></a>';
-				}else {
-					html +='<a class="tech-icon iconfont" title="'+item+'">'+item.toLowerCase()+'</a>';
-				}	  
+                          if(icons[item.toLowerCase()]){
+                            html +='<a class="tech-icon iconfont '+icons[item.toLowerCase()]+'" title="'+item+'"></a>';
+                          }else {
+                            html +='<a class="tech-icon iconfont" title="'+item+'">'+item.toLowerCase()+'</a>';
+                          }
                             
                           })
                         }
