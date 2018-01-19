@@ -4,7 +4,7 @@
     "url": "http://192.168.1.6:8124/luzhouzhenfufuwuxitong/html/index.html",
     "desc": "政府服务，公共服务，专业机构服务，数据上报管理四个子系统",
     "mobile":false,
-    "scene":true
+    "scene":false
   },
   "schedule": {
     "status": "已提测",    
