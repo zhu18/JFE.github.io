@@ -15,15 +15,15 @@
     "delay": false,                      
     "technology":["layui"],
     "pages":109,                           
-    "score":"暂无",                      
-    "average":3
+    "score":"暂无"
   },
   "resources": {
     "demander": "泸州市发改委",                     
     "type":"合资公司",				            
     "manager":"苏伟杰",                  
     "charge": "吉亚峰",                  
-    "affiliate": ["杨勇冠","王杰"]       
+    "affiliate": ["杨勇冠","王杰"],                      
+    "average":3       
   },
   "bug": {
     "total": 382,                     
