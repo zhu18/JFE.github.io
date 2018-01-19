@@ -13,7 +13,7 @@
     "estimatedEndTime": "2017-12",
     "process": 100,
     "delay": false,
-    "technology":["layer弹层","水印效果","jQuery"],
+    "technology":["layui","jQuery"],
     "pages":54,                           
     "score":"5",                      
     "scoreUrl":""  
