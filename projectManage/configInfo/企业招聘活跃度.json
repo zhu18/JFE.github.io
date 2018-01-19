@@ -7,11 +7,11 @@
     "scene":true
   },
   "schedule": {
-    "status": "开发中",
+    "status": "已完成",
     "actualStartTime": "2017-11-23",
-    "actualEndTime": "",
+    "actualEndTime": "2017-12-15",
     "estimatedStartTime": "2017-11-23",
-    "estimatedEndTime": "",
+    "estimatedEndTime": "2017-12-15",
     "process":100, 
     "delay": false,
     "technology":["vue","element-ui","echarts"],
