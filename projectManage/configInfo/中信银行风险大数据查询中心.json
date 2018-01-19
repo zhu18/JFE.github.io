@@ -14,15 +14,15 @@
     "delay": false,
     "technology":["vue","echarts","sass","moment"],
     "pages":50,                           
-    "score":"暂无",                      
-    "average":3 
+    "score":"暂无"
   },
   "resources": {
     "demander": "金融",
     "type":"独立纵队",
     "manager":"周英",
     "charge": "任新杰",
-    "affiliate": ["颜庭光","吕颖萍"]
+    "affiliate": ["颜庭光","吕颖萍"],                      
+    "average":3 
   },
   "bug": {
     "total": 100,
