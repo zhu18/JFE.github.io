@@ -203,6 +203,8 @@ function renderData (res,index)  {
                         'less':'icon-less',
                         'sass':'icon-sass',
                         'handle':'icon-qishihorseman1',
+			'handlebar':'icon-qishihorseman1',
+			'handlebars':'icon-qishihorseman1',
                         'node.js':'icon-nodejs1',
                         'node':'icon-nodejs1',
                         'angular.js':'icon-angularjs',
