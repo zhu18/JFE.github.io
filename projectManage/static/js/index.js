@@ -146,9 +146,12 @@ function renderData (res,index)  {
                       if(res.resources.affiliate.length > 3){
                         html+='<span class="l-title">参与人：</span>'
                               +'<span class="r-con tooltip-show" data-toggle="tooltip" data-placement="bottom" title="'+res.resources.affiliate+'">'+res.resources.affiliate.slice(0,2)+'...'+'</span>'
+                      }else if(res.resources.affiliate.length == 0 || !res.resources.affiliate[0]){
+                        html+='<span class="l-title">参与人：</span>'
+                              +'<span class="r-con">无</span>'
                       }else {
                         html+='<span class="l-title">参与人：</span>'
-                              +'<span class="r-con">'+res.resources.affiliate+'</span>'
+                          +'<span class="r-con">'+res.resources.affiliate+'</span>'
                       }
                       html +='</li>'
                             +'<li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">'
