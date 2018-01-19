@@ -227,7 +227,12 @@ function renderData (res,index)  {
                       };
                         if(res.schedule.technology) {
                           res.schedule.technology.forEach(function (item) {
-                            html +='<a class="tech-icon iconfont '+icons[item.toLowerCase()]+'" title="'+item+'"></a>';
+				if(icons[item.toLowerCase()]){
+					html +='<a class="tech-icon iconfont '+icons[item.toLowerCase()]+'" title="'+item+'"></a>';
+				}else {
+					html +='<a class="tech-icon iconfont" title="'+item+'">'+item.toLowerCase()+'</a>';
+				}	  
+                            
                           })
                         }
                         html+='</span>'
