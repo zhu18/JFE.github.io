@@ -8,11 +8,11 @@
     "scene":true
   },
   "schedule": {
-    "status": "开发中",    
+    "status": "暂停开发",    
     "actualStartTime": "2018-01-02", 
-    "actualEndTime": "未知",
+    "actualEndTime": "未定",
     "estimatedStartTime": "2018-01-02", 
-    "estimatedEndTime": "未知", 
+    "estimatedEndTime": "未定", 
     "process":50,                      
     "delay": false,                     
     "technology":["vue","echarts"], 
@@ -32,7 +32,7 @@
     "unsolved": 0           
   },
   "others": {
-    "remark": ""     
+    "remark": "产品原型还得修改"     
   }
 }
 
