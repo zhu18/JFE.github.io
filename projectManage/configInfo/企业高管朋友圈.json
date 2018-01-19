@@ -20,9 +20,9 @@
   "resources": {
     "demander": "九次方大数据",   
     "type":"独立纵队",				       
-    "manager":"",            
+    "manager":"樊利安",            
     "charge": "冯彦文",        
-    "affiliate": [""],
+    "affiliate": ["冯彦文"],
     "average":1
   },
   "bug": {
