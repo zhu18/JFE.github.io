@@ -9,9 +9,9 @@
   "schedule": {
     "status": "暂停开发",
     "actualStartTime": "2017-09-18",
-    "actualEndTime": "",
+    "actualEndTime": "未定",
     "estimatedStartTime": "2017-09-18",
-    "estimatedEndTime": "",
+    "estimatedEndTime": "未定",
     "process":90, 
     "delay": false,
      "pages":8,
@@ -22,7 +22,7 @@
   "resources": {
     "demander": "九次方大数据",
     "type":"独立纵队",
-    "manager":"",
+    "manager":"徐争楠",
     "charge": "张涛",
     "affiliate": [""],
     "average":1
