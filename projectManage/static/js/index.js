@@ -10,7 +10,7 @@ $(function () {
   getInitData();
 });
 function getInitData(){
-  $.getJSON('static/output.json',function(res){
+  $.getJSON('static/output.json?t='+(new Date()).valueOf(),function(res){
     dataArr = res;
     getEchartData(dataArr);
     statusClick(dataArr);
