@@ -221,6 +221,7 @@ function renderData (res,index)  {
                         'react':'icon-react',
                         'cms':'icon-cms',
                         'CMS':'icon-cms',
+			'JEECMS':'icon-cms',
                         'svg':'icon-svg1160608easyiconnet',
                         'apicloud':'icon-cloud',
                         'webgl':'icon-WebGL'
