@@ -2,7 +2,7 @@
   "base": {
     "name": "泸州市绩效考核系统",
     "url": "http://192.168.1.6:8124/luzhoujixiaokaohe/index.html",
-    "desc": "",
+    "desc": "绩效工作分析、绩效任务、结果、报表查询",
     "mobile":false,
     "scene":true
   },
@@ -31,6 +31,6 @@
     "unsolved": 0           
   },
   "others": {
-    "remark": ""     
+    "remark": "测试地址:http://117.174.153.175:8699/jxkh/index.html#/home/home1"     
   }
 }
