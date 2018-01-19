@@ -22,7 +22,7 @@
     "type":"合资公司",
     "manager":"苏伟杰",
     "charge": "王杰",
-    "affiliate": [],
+    "affiliate": ['王杰'],
     "average":1
   },
   "bug": {
@@ -31,6 +31,6 @@
     "unsolved": 0
   },
   "others": {
-    "remark": ""
+    "remark": "帐号（jiasen82@163.com）密码（qqs123）"
   }
 }
