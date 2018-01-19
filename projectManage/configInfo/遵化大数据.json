@@ -10,7 +10,7 @@
     "actualStartTime": "2017-05-12",    
     "actualEndTime": "未定",      
     "estimatedStartTime": "2017-05-02", 
-    "estimatedEndTime": "2018-01-15",   
+    "estimatedEndTime": "2018-04-08",   
     "process": 98,                      
     "delay": false,                     
     "technology":["layui","gulp"],
@@ -21,8 +21,8 @@
     "demander": "河北溯源大数据信息技术有限公司",                    
     "type":"合资公司",				           
     "manager":"姚文龙",                 
-    "charge": "杨杰",                  
-    "affiliate": ["任传真","王帅"],
+    "charge": "任传真",                  
+    "affiliate": [],
     "average": 3
   },
   "bug": {
@@ -31,6 +31,6 @@
     "unsolved": 0                     
   },
   "others": {
-    "remark": "项目新需求调整，需求量不大。bug修改"   
+    "remark": "项目新增需求"   
   }
 }
