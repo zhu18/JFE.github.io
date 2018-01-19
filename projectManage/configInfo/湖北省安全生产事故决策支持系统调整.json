@@ -19,8 +19,8 @@
     "scoreUrl":""
   },
   "resources": {
-    "demander": "",
-    "type":"",
+    "demander": "安监",
+    "type":"独立纵队",
     "manager":"胡曙",
     "charge": "徐媛媛",
     "affiliate": ["邹非凡"],
