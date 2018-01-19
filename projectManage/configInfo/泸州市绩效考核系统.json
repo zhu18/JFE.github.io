@@ -4,7 +4,7 @@
     "url": "http://192.168.1.6:8124/luzhoujixiaokaohe/index.html",
     "desc": "绩效工作分析、绩效任务、结果、报表查询",
     "mobile":false,
-    "scene":true
+    "scene":false
   },
   "schedule": {
     "status": "已提测",    
