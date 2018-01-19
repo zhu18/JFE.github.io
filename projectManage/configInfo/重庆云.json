@@ -15,15 +15,15 @@
     "delay": false,                      
     "technology":["vue"],
     "pages":4,                           
-    "score":"暂无",                      
-    "average":2            
+    "score":"暂无"          
   },
   "resources": {
     "demander": "",                    
     "type":"合资公司",				         
     "manager":"许峰",                
     "charge": "韩凯波",              
-    "affiliate": ["徐媛媛"]      
+    "affiliate": ["徐媛媛"],
+    "average": 2
   },
   "bug": {
     "total": 135,                    
