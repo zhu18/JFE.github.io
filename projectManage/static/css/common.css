@@ -351,6 +351,9 @@ body {
     font-size: 20px;
     margin-top: 3px;
 }
+.icon-WebGL {
+    font-size: 32px;
+}
 .tech-icon:hover {
     text-decoration: none;
 }
