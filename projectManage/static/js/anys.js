@@ -115,12 +115,15 @@ function getInitData(res){
      res.forEach(function(v,i,a){
         if(v.base.name !== '部门内部研发' && 
           
-           v.schedule.pages && v.schedule.pages!=="" && 
-           v.schedule.actualStartTime && v.schedule.actualStartTime!=='未定' && v.schedule.actualStartTime!=='' && v.schedule.actualStartTime!=='未知'
+           v.schedule.pages && 
+           v.schedule.pages!=="" && 
+           v.schedule.actualStartTime && 
+           !isChn(v.schedule.actualStartTime) && 
+           v.schedule.actualStartTime!==''
            &&
-           v.schedule.actualEndTime && v.schedule.actualEndTime!==''&&
-           v.schedule.actualEndTime!=='未定' &&
-           v.schedule.actualEndTime!=='未知' &&
+           v.schedule.actualEndTime && 
+           v.schedule.actualEndTime!==''&&
+           !isChn(v.schedule.actualEndTime) &&
            v.resources.average){
              projectName.push(v.base.name)
 
@@ -141,8 +144,10 @@ function getInitData(res){
 
              html = html + '<li><a href='+proUrl+' target="_blank">' + v.base.name + '</a></li>'
 
-
-             pageNum.push(v.schedule.pages)
+             if(v.schedule.pages && !isChn(v.schedule.pages)){
+                pageNum.push(v.schedule.pages)
+             }
+             
             
              timeRange.push(getDays(v.schedule.actualStartTime,v.schedule.actualEndTime))
             
@@ -151,7 +156,10 @@ function getInitData(res){
              // else{
              //    peopleNum.push(v.resources.affiliate.length+1)
              // }
-             peopleNum.push(v.resources.average)
+             if(v.resources.average){
+              peopleNum.push(v.resources.average)
+             }
+             
              urlArr.push(proUrl)
         }
         
@@ -473,6 +481,15 @@ function echartsResize(obj) {
   });
 }
 
+//判断字符是否全是中文
+function isChn(str){ 
+  var reg = /^[\u4E00-\u9FA5]+$/; 
+  if(!reg.test(str)){ 
+    return false; 
+  } else{
+     return true
+   } 
+}
 
 (function($) {
     $.fn.extend({
