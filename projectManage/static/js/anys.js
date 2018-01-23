@@ -206,18 +206,26 @@ function getInitData(res){
 
 //求两端时间之间的天数
 function getDays(strDateStart,strDateEnd){
-   var strSeparator = "-"; //日期分隔符
-   var oDate1;
-   var oDate2;
-   var iDays;
-   oDate1= strDateStart.split(strSeparator);
-   oDate2= strDateEnd.split(strSeparator);
-   var strDateS = new Date(oDate1[0], oDate1[1]-1, oDate1[2]);
-   var strDateE = new Date(oDate2[0], oDate2[1]-1, oDate2[2]);
-   //把相差的毫秒数转换为天数 
-   iDays = parseInt(Math.abs(strDateS - strDateE ) / 1000 / 60 / 60 /24)
-   return iDays ;
-}
+       var strSeparator = "-"; //日期分隔符
+       var oDate1;
+       var oDate2;
+       var iDays,dayStart,dayEnd;
+       oDate1= strDateStart.split(strSeparator);
+       oDate2= strDateEnd.split(strSeparator);
+
+       // dayStart = (oDate1[2] == 'undefined') ?  '1' : oDate1[2]
+       // dayEnd = (oDate2[2] == 'undefined') ? '1' : oDate2[2]
+
+       dayStart = oDate1[2]?oDate1[2]:'1'
+       dayEnd = oDate2[2]?oDate2[2]:'1'
+
+       console.log(dayStart)
+       var strDateS = new Date(oDate1[0], oDate1[1]-1, dayStart);
+       var strDateE = new Date(oDate2[0], oDate2[1]-1, dayEnd);
+       //把相差的毫秒数转换为天数 
+       iDays = parseInt(Math.abs(strDateS - strDateE ) / 1000 / 60 / 60 /24)
+       return iDays ;
+    }
 
 //计算人天
 function calcRT(timeRange,peopleNum){
