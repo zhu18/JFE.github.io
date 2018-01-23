@@ -148,7 +148,6 @@ function getInitData(res){
                 pageNum.push(v.schedule.pages)
              }
              
-            
              timeRange.push(getDays(v.schedule.actualStartTime,v.schedule.actualEndTime))
             
              // if(v.resources.affiliate[0]=="")
@@ -227,7 +226,6 @@ function getDays(strDateStart,strDateEnd){
        dayStart = oDate1[2]?oDate1[2]:'1'
        dayEnd = oDate2[2]?oDate2[2]:'1'
 
-       console.log(dayStart)
        var strDateS = new Date(oDate1[0], oDate1[1]-1, dayStart);
        var strDateE = new Date(oDate2[0], oDate2[1]-1, dayEnd);
        //把相差的毫秒数转换为天数 
@@ -386,6 +384,12 @@ function getX(pageArr,timeArr,peopleArr){
   })
 
   var x = (sum/xArr.length).toFixed(2);
+  //如果出错了 写死一个系数 保证页面可以运行
+  if(isNaN(x)){
+    console.warn('页面有错误，用的默认系数')
+    x = 0.53
+  }
+
 
   var xArr100 = xArr.map(function(v,i){
      return (v*100).toFixed(2)
