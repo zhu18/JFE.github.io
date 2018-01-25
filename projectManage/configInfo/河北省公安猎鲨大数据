@@ -1,0 +1,37 @@
+{
+  "base": {
+    "name": "河北省公安猎鲨大数据",
+    "url": "#",
+    "desc": "河北省公安猎鲨大数据demo",
+    "mobile":false,
+    "scene":false
+  },
+  "schedule": {
+    "status": "开发中",
+    "actualStartTime": "2018-01-23",
+    "actualEndTime": "未定",
+    "estimatedStartTime": "2018-01-23",
+    "estimatedEndTime": "2018-01-30",
+    "process": 60,
+    "delay": false,
+    "technology":["vuejs","element-ui"],
+    "pages":8,
+    "score":"暂无"
+  },
+  "resources": {
+    "demander": "河北省公安",
+    "type":"独立纵队",
+    "manager":"路元杰",
+    "charge": "彭庆凯",
+    "affiliate": ["郭志敏","徐媛媛","吕颖萍","冯彦⽂","王斌彦","郑梦丽","胡杰","冯红阳"],
+    "average":7
+  },
+  "bug": {
+    "total": 0,
+    "resolved": 0,
+    "unsolved": 0
+  },
+  "others": {
+    "remark": ""
+  }
+}
