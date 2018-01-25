@@ -1,0 +1,36 @@
+{
+  "base": {
+    "name": "猎鹰大数据",
+    "url": "https://jusfoun-fe.github.io/lieying/#/login",
+    "desc": "",                          
+    "mobile":false                      
+  },
+  "schedule": {
+    "status": "80%",                  
+    "actualStartTime": "2018-01-17",    
+    "actualEndTime": "",      
+    "estimatedStartTime": "2018-01-17", 
+    "estimatedEndTime": " ",   
+    "process": 100,
+    "delay": false,                      
+    "technology":["vue", "echarts"],
+    "pages":5,
+    "score": 
+  },
+  "resources": {
+    "demander": "",                     
+    "type":"",				            
+    "manager":"路元杰",                 
+    "charge": "王帅",                  
+    "affiliate": ["陈胜", "魏彬", "朱润亚", "王杰"],
+    "average": 5
+  },
+  "bug": {
+    "total": 0,
+    "resolved": 0,
+    "unsolved": 0                     
+  },
+  "others": {
+    "remark": ""
+  }
+}
