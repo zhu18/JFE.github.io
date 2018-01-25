@@ -18,8 +18,8 @@
     "score":"暂无" 
   },
   "resources": {
-    "demander": "",                     
-    "type":"",				            
+    "demander": "河北省公安",
+    "type":"独立纵队",			            
     "manager":"路元杰",                 
     "charge": "王帅",                  
     "affiliate": ["陈胜", "魏彬", "朱润亚", "王杰"],
