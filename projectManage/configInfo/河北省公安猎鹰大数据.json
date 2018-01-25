@@ -1,21 +1,21 @@
 {
   "base": {
-    "name": "猎鹰大数据",
+    "name": "河北省公安猎鹰大数据",
     "url": "https://jusfoun-fe.github.io/lieying/#/login",
     "desc": "",                          
     "mobile":false                      
   },
   "schedule": {
-    "status": "80%",                  
+    "status": "开发中",                  
     "actualStartTime": "2018-01-17",    
-    "actualEndTime": "",      
+    "actualEndTime": "未定",      
     "estimatedStartTime": "2018-01-17", 
-    "estimatedEndTime": " ",   
+    "estimatedEndTime": "未定",   
     "process": 100,
     "delay": false,                      
     "technology":["vue", "echarts"],
     "pages":5,
-    "score": 
+    "score":"暂无" 
   },
   "resources": {
     "demander": "",                     
