@@ -11,7 +11,7 @@
     "actualEndTime": "未定",      
     "estimatedStartTime": "2017-12-11", 
     "estimatedEndTime": "2018-12-30",   
-    "process":5,                      
+    "process":6,                      
     "delay": false,                     
     "technology":["gulp","vue","layui"],
     "pages":420,                           
