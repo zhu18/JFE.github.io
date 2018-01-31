@@ -6,12 +6,12 @@
     "mobile":false
   },
   "schedule": {
-    "status": "开发中",
+    "status": "已提测",
     "actualStartTime": "2017-11-09",
     "actualEndTime": "",
     "estimatedStartTime": "2017-11-08",
     "estimatedEndTime": "2018-3-15",
-    "process": 30,
+    "process": 40,
     "delay": false,
     "technology":["jQuery","handlebars"],
     "pages":25,                           
@@ -32,6 +32,6 @@
     "unsolved": 0
   },
   "others": {
-    "remark": "春节前团购模块暂不开发"
+    "remark": "春节前团购模块暂不开发（竞价和电子反拍新需求修改未提测预计下周提测）"
   }
 }
