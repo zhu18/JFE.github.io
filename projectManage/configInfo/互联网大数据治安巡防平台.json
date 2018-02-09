@@ -1,0 +1,36 @@
+{
+  "base": {
+    "name": "互联网大数据治安巡防平台", 
+    "url": "https://weibsgz.github.io/gongan/index.html#/login",         
+    "desc": "",                          
+    "mobile":false                    
+  },
+  "schedule": {
+    "status": "开发中",                 
+    "actualStartTime": "2018-02-1",
+    "actualEndTime": "",    
+    "estimatedStartTime": "2018-02-1", 
+    "estimatedEndTime": "2018-03-20",   
+    "process": 80,                     
+    "delay": false,                      
+    "technology":["vue"],
+    "pages":20,                           
+    "score":""   
+  },
+  "resources": {
+    "demander": "",                    
+    "type":"独立纵队",				         
+    "manager":"",                
+    "charge": "魏彬",              
+    "affiliate": ["胡杰","李耀","柳杨","褚甜甜"],
+    "average":3
+  },
+  "bug": {
+    "total": 0,                    
+    "resolved": 0,                  
+    "unsolved": 0                  
+  },
+  "others": {
+    "remark": ""                  
+  }
+}
