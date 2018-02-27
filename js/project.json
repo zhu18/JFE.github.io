@@ -1,5 +1,32 @@
 [
   {
+    "name":"公安巡防大数据平台",
+    "url":"https://weibsgz.github.io/gongan/#/login",
+    "img":"./img/Project/twoTeam/gonganxunfang.jpg",
+    "technology":"css3,echarts,elementUi,vue",
+    "time":"2018年2月",
+    "type":"PC",
+    "txt":"公安巡防大数据平台DEMO"
+  },
+  {
+    "name":"猎鹰大数据",
+    "url":"https://jusfoun-fe.github.io/lieying/?#/login",
+    "img":"./img/Project/twoTeam/lieying.jpg",
+    "technology":"css3,echarts,elementUi,vue",
+    "time":"2018年1月",
+    "type":"PC",
+    "txt":"猎鹰大数据DEMO"
+  },
+  {
+    "name":"宝鸡招商通",
+    "url":"https://jusfoun-fe.github.io/zs/#/accurateInvestment/home",
+    "img":"./img/Project/threeTeam/zhaoshangpingtai.jpg",
+    "technology":"vue,echarts",
+    "time":"2018年1月",
+    "type":"PC",
+    "txt":"依托丰富的数据与先进的数据分析能力，提供强大精准的行业管理预测服务。"
+  },
+  {
     "name":"苹果大数据大屏展示项目(二期)",
     "url":"https://leimite.github.io/appleBigscreen/#/index",
     "img":"./img/Project/twoTeam/apple.jpg",
