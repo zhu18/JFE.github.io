@@ -1,5 +1,50 @@
 [
   {
+    "name":"鹰潭⻔户APP",
+    "url":" ./phone.html?url=https://wuyax.github.io/menhuapp",
+    "img":"./img/Project/publicTeam/yingtanApp.jpg",
+    "technology":"vue,webpack,sass,echarts",
+    "time":"2018年2月",
+    "type":"H5",
+    "txt":"移动端app提供实时的新闻资讯和天⽓气信息，还能在线和农业专家交流咨询科学的农业技术。"
+  },
+  {
+    "name":"猎鹰⼤数据",
+    "url":" https://jusfoun-fe.github.io/lieying/?#/login",
+    "img":"./img/Project/publicTeam/lieying.jpg",
+    "technology":"vue,webpack,sass,echarts",
+    "time":"2018年1月",
+    "type":"PC",
+    "txt":"收集上访⼈人员的基本信息，跟踪分析上访⾏行行为，获取实时上访⼈人员数据，对上访态势作出可靠的评估。"
+  },
+  {
+    "name":"猎鲨⼤数据",
+    "url":" https://wuyax.github.io/liesha/#/login",
+    "img":"./img/Project/publicTeam/liesha.jpg",
+    "technology":"vue,webpack,sass,echarts",
+    "time":"2018年1月",
+    "type":"PC",
+    "txt":"以图表的形式展现犯罪大数据，通过详尽的分类和多个维度展现犯罪⼤数据。"
+  },
+  {
+    "name":"猎狐⼤数据",
+    "url":" https://wuyax.github.io/liehu/#/login",
+    "img":"./img/Project/publicTeam/liehu.jpg",
+    "technology":"vue,webpack,sass,echarts",
+    "time":"2018年1月",
+    "type":"PC",
+    "txt":"收集犯罪嫌疑人的信息，跟踪嫌疑⼈行行为，对犯罪行为进行预警。"
+  },
+  {
+    "name":"耕地利⽤⼤数据",
+    "url":" https://wuyax.github.io/gengdi/#/home/quality/general",
+    "img":"./img/Project/publicTeam/gengdi.jpg",
+    "technology":"vue,webpack,sass,echarts",
+    "time":"2018年2⽉",
+    "type":"PC",
+    "txt":"以GIS地图和图表的形式展现耕地分析的大数据，展示耕地的质量量及土地的流转信息。"
+  },
+  {
     "name":"遵化农产品追溯（决策分析平台）",
     "url":" https://grapetree.github.io/decisionAnalysis/code/html/tracingPicture/industryLayout.html",
     "img":"./img/Project/oneTeam/zunhua.jpg",
@@ -19,7 +64,7 @@
   },
   {
     "name":"天津河蟹App",
-    "url":"https://zhengmengli.github.io/RiverCrab/#/",
+    "url":"./phone.html?url=https://zhengmengli.github.io/RiverCrab/#/",
     "img":"./img/Project/threeTeam/hexie.jpg",
     "technology":"vue,echarts",
     "time":"2017年9月",
