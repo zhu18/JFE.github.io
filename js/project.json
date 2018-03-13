@@ -173,7 +173,7 @@
   {
     "name":"苹果大数据大屏展示项目(二期)",
     "url":"https://leimite.github.io/appleBigscreen/#/index",
-    "img":"./img/Project/twoTeam/apple.jpg",
+    "img":"./img/Project/twoTeam/pingguo2.jpg",
     "technology":"css3,echarts,elementUi,vue",
     "time":"2017年11月",
     "type":"PC",
@@ -275,7 +275,7 @@
 },{
   "name":"苹果大数据",
   "url":"https://leimite.github.io/apple/html/index.html",
-  "img":"./img/Project/twoTeam/pingguo.jpg",
+  "img":"./img/Project/twoTeam/pingguo1.jpg",
   "technology":"jquery,echarts",
   "time":"2017年4月",
   "type":"可视化",
