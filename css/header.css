@@ -174,7 +174,7 @@
     padding: 5px 20px;
     width: 150px;
     font-size: 15px;
-    background: rgba(48, 52, 65, .9);
+    background: rgba(48, 52, 65, 1);
     text-decoration: none;
     color: #A3A7B9;
     -webkit-transition: color .2s ease;
