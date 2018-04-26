@@ -230,7 +230,7 @@
         width: 100%;
         display: none;
         float: none;
-		background: rgba(48, 52, 65, .9)
+		background: rgba(48, 52, 65, 1)
     }
     #cssmenu.align-center > ul,
     #cssmenu.align-right ul ul {
