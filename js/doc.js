@@ -9,7 +9,9 @@ $(document).ready(function () {
     var urlParam = getHrefDate() ;
     //初始化加载 入职注意事项，
     getContentData(urlParam);
-    $(".dropdown-menu li a").click(function(){
+    $(".doc-menu li a").click(function(){
+
+        console.log('aa');
         var hrefUrl = $(this).attr("href");
         urlParam = hrefUrl.substring(hrefUrl.indexOf("#")+1,hrefUrl.length);
         getContentData(urlParam);

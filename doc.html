@@ -103,7 +103,7 @@
         <div class="col-lg-3 col-md-3 clearfix markdown-list-warp">
             <div class="fixed-warp">
                 <p class="title">内部资料</p>
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav doc-menu">
                     <li class="active"><a href="#rules">入职注意事项</a></li>
                     <li><a href="#dailySpecification">日常规范</a></li>
                     <li><a href="#bugSuperviseScheme">bug监管方案</a></li>
@@ -144,7 +144,9 @@
 <script src="js/doc.js?v=1.0.6"></script>
 <script src="./js/header.js"></script>
 <script>
-
+$(function(){
+    console.log($(".markdown-content-body").html());
+});
 </script>
 </body>
 </html>
