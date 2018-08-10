@@ -1,6 +1,6 @@
 ## 前端培训计划
 
-### [React进阶]()
+### [React进阶](https://github.com/menggege/react-demo)
 时间：2018年08月09日(星期四) 18:00
 
 培训人：李猛
